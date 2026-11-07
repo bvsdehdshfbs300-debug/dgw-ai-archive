@@ -1,0 +1,32 @@
+{
+  "name": "地瓜丸",
+  "display_name": "dgw",
+  "updated_at": "2026-11-07",
+  "language": "zh-CN",
+  "description": "FPGA 教学内容创作者，持续维护个人在线教学产品，并记录 AI 协作实践。",
+  "projects": [
+    {
+      "name": "地瓜丸的 FPGA 教学平台",
+      "url": "https://dgwfpga.cn/",
+      "public_lessons": 31,
+      "chapters": 8,
+      "version": "4.1"
+    }
+  ],
+  "practice_areas": [
+    "FPGA 与数字逻辑教学",
+    "网页交互与可视化",
+    "Remotion 功能演示",
+    "个人网站维护",
+    "AI 协作与项目记录"
+  ],
+  "links": {
+    "archive": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/",
+    "graph": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/graph/",
+    "bilibili": "https://space.bilibili.com/660494383",
+    "douyin_teaching_video": "https://v.douyin.com/U6EWdiSy7AA/",
+    "qq_group": "1125010630"
+  },
+  "evidence_policy": "只记录实际作品与已确认结果；关注方向不等于已经完成的功能。",
+  "scope": "Public project and creator profile; no private project source or operational records."
+}

@@ -1,0 +1,297 @@
+{
+  "center": {
+    "id": "dgw",
+    "label": "地瓜丸",
+    "summary": "用 AI 把想法做成作品，留下可核对的过程。",
+    "href": "../about.html"
+  },
+  "groups": {
+    "profile": {
+      "name": "关于我",
+      "color": "#5d74cf",
+      "x": 780,
+      "y": 540
+    },
+    "projects": {
+      "name": "代表作品",
+      "color": "#128476",
+      "x": 1120,
+      "y": 290
+    },
+    "skills": {
+      "name": "实践能力",
+      "color": "#327db1",
+      "x": 1120,
+      "y": 790
+    },
+    "creation": {
+      "name": "内容创作",
+      "color": "#9160a6",
+      "x": 780,
+      "y": 970
+    },
+    "methods": {
+      "name": "AI协作",
+      "color": "#b07920",
+      "x": 440,
+      "y": 790
+    },
+    "experience": {
+      "name": "问题与迭代",
+      "color": "#c36d62",
+      "x": 440,
+      "y": 290
+    }
+  },
+  "notes": [
+    {
+      "id": "about",
+      "title": "关于地瓜丸",
+      "group": "profile",
+      "summary": "从 FPGA 教学出发，用 AI 把想法做成能用的作品。",
+      "href": "../about.html",
+      "related": [
+        "platform",
+        "skills",
+        "ai-collaboration",
+        "contact"
+      ]
+    },
+    {
+      "id": "platform",
+      "title": "我的 FPGA 教学平台",
+      "group": "projects",
+      "summary": "31 个关卡、8 个章节，让代码与电路现象在浏览器里对上。",
+      "href": "../platform.html",
+      "related": [
+        "waveform",
+        "hardware",
+        "streaming",
+        "interaction",
+        "timeline"
+      ]
+    },
+    {
+      "id": "waveform",
+      "title": "把波形真正看清",
+      "group": "projects",
+      "summary": "缩放、测量、跳变定位与局部精细波形，服务于具体分析。",
+      "href": "../waveform.html",
+      "related": [
+        "platform",
+        "debugging",
+        "fpga",
+        "decisions"
+      ]
+    },
+    {
+      "id": "hardware",
+      "title": "把硬件与手册放在一起",
+      "group": "projects",
+      "summary": "点元件查资料，接线落到具体针脚，避免漂亮却无用的装饰。",
+      "href": "../hardware.html",
+      "related": [
+        "platform",
+        "interaction",
+        "debugging",
+        "fpga"
+      ]
+    },
+    {
+      "id": "streaming",
+      "title": "高速数据流与外设实验",
+      "group": "projects",
+      "summary": "从 Ready/Valid 开始，逐步理解停顿、跨时钟与接口事务。",
+      "href": "../streaming.html",
+      "related": [
+        "fpga",
+        "hardware",
+        "waveform",
+        "decisions"
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "我的实践方向",
+      "group": "skills",
+      "summary": "把能力连接到作品，不用一排技术名词代替经历。",
+      "href": "../skills.html",
+      "related": [
+        "fpga",
+        "web",
+        "remotion",
+        "ai-collaboration",
+        "now"
+      ]
+    },
+    {
+      "id": "fpga",
+      "title": "FPGA 与数字逻辑",
+      "group": "skills",
+      "summary": "从点亮一颗灯，到理解波形、接口和逐拍行为。",
+      "href": "../fpga.html",
+      "related": [
+        "platform",
+        "waveform",
+        "streaming",
+        "skills"
+      ]
+    },
+    {
+      "id": "web",
+      "title": "把功能做成可用的网页",
+      "group": "skills",
+      "summary": "编辑、查阅和观察都需要顺手，技术实现最终要服务使用过程。",
+      "href": "../web.html",
+      "related": [
+        "interaction",
+        "debugging",
+        "platform",
+        "workflow"
+      ]
+    },
+    {
+      "id": "content-creation",
+      "title": "教学视频与功能演示",
+      "group": "creation",
+      "summary": "用真实操作讲清楚功能，让观众看到过程和结果。",
+      "href": "../content-creation.html",
+      "related": [
+        "remotion",
+        "platform",
+        "decisions",
+        "contact"
+      ]
+    },
+    {
+      "id": "remotion",
+      "title": "用 Remotion 做产品演示",
+      "group": "creation",
+      "summary": "运镜、节奏与真实素材一起，让功能更容易被看懂。",
+      "href": "../remotion.html",
+      "related": [
+        "content-creation",
+        "workflow",
+        "ai-collaboration",
+        "skills"
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "个人网站的维护实践",
+      "group": "experience",
+      "summary": "让作品能持续使用，需要监控、排查和可以回退的更新。",
+      "href": "../maintenance.html",
+      "related": [
+        "debugging",
+        "workflow",
+        "platform",
+        "decisions"
+      ]
+    },
+    {
+      "id": "debugging",
+      "title": "从反馈里找到真正的问题",
+      "group": "experience",
+      "summary": "把“打不开”“看不清”“不对劲”变成可以核对的具体问题。",
+      "href": "../debugging.html",
+      "related": [
+        "waveform",
+        "hardware",
+        "interaction",
+        "workflow"
+      ]
+    },
+    {
+      "id": "interaction",
+      "title": "让信息看得清、找得到",
+      "group": "experience",
+      "summary": "空间、对比度、合并规则和反馈，直接影响功能能否被理解。",
+      "href": "../interaction.html",
+      "related": [
+        "platform",
+        "web",
+        "hardware",
+        "debugging"
+      ]
+    },
+    {
+      "id": "ai-collaboration",
+      "title": "我怎样与 AI 一起做项目",
+      "group": "methods",
+      "summary": "由我决定目标和取舍，让 AI 协助实现、整理与验证。",
+      "href": "../ai-collaboration.html",
+      "related": [
+        "about",
+        "workflow",
+        "decisions",
+        "skills"
+      ]
+    },
+    {
+      "id": "workflow",
+      "title": "从想法到上线的工作流",
+      "group": "methods",
+      "summary": "把需求、实现、验证与留痕连成一条可以复查的过程。",
+      "href": "../workflow.html",
+      "related": [
+        "ai-collaboration",
+        "maintenance",
+        "debugging",
+        "timeline"
+      ]
+    },
+    {
+      "id": "decisions",
+      "title": "做取舍的几个原则",
+      "group": "methods",
+      "summary": "围绕学习效果、个人维护成本和真实证据做决定。",
+      "href": "../decisions.html",
+      "related": [
+        "streaming",
+        "content-creation",
+        "interaction",
+        "now"
+      ]
+    },
+    {
+      "id": "timeline",
+      "title": "项目更新与成长记录",
+      "group": "profile",
+      "summary": "从波形、社区与高速数据流，到 4.1 外设和交互细节。",
+      "href": "../timeline.html",
+      "related": [
+        "platform",
+        "waveform",
+        "hardware",
+        "interaction",
+        "now"
+      ]
+    },
+    {
+      "id": "now",
+      "title": "我最近在做什么",
+      "group": "profile",
+      "summary": "截至 2026-11-07 的当前进展与继续关注的方向。",
+      "href": "../now.html",
+      "related": [
+        "timeline",
+        "decisions",
+        "content-creation",
+        "contact"
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "找到我与体验作品",
+      "group": "profile",
+      "summary": "网站、B站、抖音教学视频与 FPGA 学习交流群。",
+      "href": "../contact.html",
+      "related": [
+        "about",
+        "platform",
+        "content-creation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+node_modules/
+public/
+.quartz/
+.quartz-cache/
+.obsidian/
+tsconfig.tsbuildinfo
+*.log
+.env
+.env.*
+*.pem
+*.key
