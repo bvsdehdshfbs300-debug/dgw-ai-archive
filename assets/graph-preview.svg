@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" rx="24" fill="#f4f7f1"/>
+<g font-family="Microsoft YaHei,Segoe UI,sans-serif">
+<text x="50" y="55" font-size="15" letter-spacing="3" fill="#648273">地瓜丸 · AI 共创档案</text>
+<text x="50" y="94" font-size="26" font-weight="700" fill="#254438">沿着作品，认识我做过的事。</text>
+<line x1="640" y1="410" x2="640.0" y2="210.0" stroke="#5d74cf" stroke-width="1.6" opacity=".45"/>
+<circle cx="640.0" cy="210.0" r="9" fill="#5d74cf"/>
+<text x="640.0" y="190.0" text-anchor="middle" font-size="17" font-weight="700" fill="#5d74cf">关于我</text>
+<line x1="640.0" y1="210.0" x2="445.0" y2="262.0" stroke="#5d74cf" opacity=".22"/>
+<circle cx="445.0" cy="262.0" r="4" fill="#5d74cf"/>
+<text x="435.0" y="267.0" text-anchor="end" font-size="12" fill="#697f70">关于地瓜丸</text>
+<line x1="640.0" y1="210.0" x2="640.0" y2="262.0" stroke="#5d74cf" opacity=".22"/>
+<circle cx="640.0" cy="262.0" r="4" fill="#5d74cf"/>
+<text x="650.0" y="267.0" text-anchor="start" font-size="12" fill="#697f70">项目更新与成长记录</text>
+<line x1="640.0" y1="210.0" x2="835.0" y2="262.0" stroke="#5d74cf" opacity=".22"/>
+<circle cx="835.0" cy="262.0" r="4" fill="#5d74cf"/>
+<text x="845.0" y="267.0" text-anchor="start" font-size="12" fill="#697f70">我最近在做什么</text>
+<line x1="640" y1="410" x2="873.8" y2="310.0" stroke="#128476" stroke-width="1.6" opacity=".45"/>
+<circle cx="873.8" cy="310.0" r="9" fill="#128476"/>
+<text x="873.8" y="290.0" text-anchor="middle" font-size="17" font-weight="700" fill="#128476">代表作品</text>
+<line x1="873.8" y1="310.0" x2="973.8" y2="273.0" stroke="#128476" opacity=".22"/>
+<circle cx="973.8" cy="273.0" r="4" fill="#128476"/>
+<text x="983.8" y="278.0" text-anchor="start" font-size="12" fill="#697f70">我的 FPGA 教学平台</text>
+<line x1="873.8" y1="310.0" x2="973.8" y2="310.0" stroke="#128476" opacity=".22"/>
+<circle cx="973.8" cy="310.0" r="4" fill="#128476"/>
+<text x="983.8" y="315.0" text-anchor="start" font-size="12" fill="#697f70">把波形真正看清</text>
+<line x1="873.8" y1="310.0" x2="973.8" y2="347.0" stroke="#128476" opacity=".22"/>
+<circle cx="973.8" cy="347.0" r="4" fill="#128476"/>
+<text x="983.8" y="352.0" text-anchor="start" font-size="12" fill="#697f70">硬件与手册</text>
+<line x1="640" y1="410" x2="873.8" y2="510.0" stroke="#327db1" stroke-width="1.6" opacity=".45"/>
+<circle cx="873.8" cy="510.0" r="9" fill="#327db1"/>
+<text x="873.8" y="490.0" text-anchor="middle" font-size="17" font-weight="700" fill="#327db1">实践能力</text>
+<line x1="873.8" y1="510.0" x2="973.8" y2="473.0" stroke="#327db1" opacity=".22"/>
+<circle cx="973.8" cy="473.0" r="4" fill="#327db1"/>
+<text x="983.8" y="478.0" text-anchor="start" font-size="12" fill="#697f70">我的实践方向</text>
+<line x1="873.8" y1="510.0" x2="973.8" y2="510.0" stroke="#327db1" opacity=".22"/>
+<circle cx="973.8" cy="510.0" r="4" fill="#327db1"/>
+<text x="983.8" y="515.0" text-anchor="start" font-size="12" fill="#697f70">FPGA 与数字逻辑</text>
+<line x1="873.8" y1="510.0" x2="973.8" y2="547.0" stroke="#327db1" opacity=".22"/>
+<circle cx="973.8" cy="547.0" r="4" fill="#327db1"/>
+<text x="983.8" y="552.0" text-anchor="start" font-size="12" fill="#697f70">把功能做成可用的网页</text>
+<line x1="640" y1="410" x2="640.0" y2="610.0" stroke="#9160a6" stroke-width="1.6" opacity=".45"/>
+<circle cx="640.0" cy="610.0" r="9" fill="#9160a6"/>
+<text x="640.0" y="590.0" text-anchor="middle" font-size="17" font-weight="700" fill="#9160a6">内容创作</text>
+<line x1="640.0" y1="610.0" x2="445.0" y2="662.0" stroke="#9160a6" opacity=".22"/>
+<circle cx="445.0" cy="662.0" r="4" fill="#9160a6"/>
+<text x="435.0" y="667.0" text-anchor="end" font-size="12" fill="#697f70">教学视频与功能演示</text>
+<line x1="640.0" y1="610.0" x2="640.0" y2="662.0" stroke="#9160a6" opacity=".22"/>
+<circle cx="640.0" cy="662.0" r="4" fill="#9160a6"/>
+<text x="650.0" y="667.0" text-anchor="start" font-size="12" fill="#697f70">用 Remotion 做产品演示</text>
+<line x1="640" y1="410" x2="406.2" y2="510.0" stroke="#b07920" stroke-width="1.6" opacity=".45"/>
+<circle cx="406.2" cy="510.0" r="9" fill="#b07920"/>
+<text x="406.2" y="490.0" text-anchor="middle" font-size="17" font-weight="700" fill="#b07920">AI协作</text>
+<line x1="406.2" y1="510.0" x2="306.2" y2="473.0" stroke="#b07920" opacity=".22"/>
+<circle cx="306.2" cy="473.0" r="4" fill="#b07920"/>
+<text x="296.2" y="478.0" text-anchor="end" font-size="12" fill="#697f70">与 AI 一起做项目</text>
+<line x1="406.2" y1="510.0" x2="306.2" y2="510.0" stroke="#b07920" opacity=".22"/>
+<circle cx="306.2" cy="510.0" r="4" fill="#b07920"/>
+<text x="296.2" y="515.0" text-anchor="end" font-size="12" fill="#697f70">从想法到上线的工作流</text>
+<line x1="406.2" y1="510.0" x2="306.2" y2="547.0" stroke="#b07920" opacity=".22"/>
+<circle cx="306.2" cy="547.0" r="4" fill="#b07920"/>
+<text x="296.2" y="552.0" text-anchor="end" font-size="12" fill="#697f70">做取舍的几个原则</text>
+<line x1="640" y1="410" x2="406.2" y2="310.0" stroke="#c36d62" stroke-width="1.6" opacity=".45"/>
+<circle cx="406.2" cy="310.0" r="9" fill="#c36d62"/>
+<text x="406.2" y="290.0" text-anchor="middle" font-size="17" font-weight="700" fill="#c36d62">问题与迭代</text>
+<line x1="406.2" y1="310.0" x2="306.2" y2="273.0" stroke="#c36d62" opacity=".22"/>
+<circle cx="306.2" cy="273.0" r="4" fill="#c36d62"/>
+<text x="296.2" y="278.0" text-anchor="end" font-size="12" fill="#697f70">个人网站的维护实践</text>
+<line x1="406.2" y1="310.0" x2="306.2" y2="310.0" stroke="#c36d62" opacity=".22"/>
+<circle cx="306.2" cy="310.0" r="4" fill="#c36d62"/>
+<text x="296.2" y="315.0" text-anchor="end" font-size="12" fill="#697f70">从反馈里找到真正的问题</text>
+<line x1="406.2" y1="310.0" x2="306.2" y2="347.0" stroke="#c36d62" opacity=".22"/>
+<circle cx="306.2" cy="347.0" r="4" fill="#c36d62"/>
+<text x="296.2" y="352.0" text-anchor="end" font-size="12" fill="#697f70">让信息看得清、找得到</text>
+<circle cx="640" cy="410" r="69" fill="#e1ebdf" stroke="#bfd1bf"/>
+<text x="640" y="408" text-anchor="middle" font-size="30" font-weight="700" fill="#28543f">地瓜丸</text>
+<text x="640" y="433" text-anchor="middle" font-size="12" fill="#728b76">作品 · 实践 · 过程</text>
+<text x="50" y="681" font-size="12" fill="#7c9280">点击图片进入可交互关系图 · 20 篇公开笔记 · 更新于 2026.11.07</text>
+</g></svg>
