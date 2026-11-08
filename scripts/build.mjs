@@ -27,3 +27,10 @@ for(const slug of ['platform','tide-composer','maintenance','tide-technology']){
 const home=fs.readFileSync(path.join(root,'public/index.html'),'utf8');
 if((home.match(/class="work-card"/g)||[]).length!==3)throw new Error('Expected three intact project cards');
 console.log('Verified case navigation, capability panels, image viewer and three project cards.');
+// A content page should never silently regress to an unillustrated text-only page.
+for(const slug of ['index', ...expected.notes.map(note=>note.id)]){
+ const html=fs.readFileSync(path.join(root,'public',slug+'.html'),'utf8');
+ const article=html.match(/<article\b[\s\S]*?<\/article>/)?.[0] ?? '';
+ if(!/<img\b/.test(article))throw new Error('Missing article image on '+slug);
+}
+console.log('Verified an article image on every public content page.');

@@ -12,6 +12,12 @@ publish: true
 
 我关心的是初学者能不能把代码、波形和电路现象对应起来。为此，我把编辑、约束、运行、观察和练习反馈放在同一个网页里，再根据学习者的实际反馈一点点修改。
 
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual "><a class="case-image-link" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="地瓜丸参与制作的潮汐作曲家音画实物" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>从网页到板端：潮汐作曲家的实物运行照片。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure note-visual "><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="地瓜丸 FPGA 教学平台外设桌面" width="1440" height="900" loading="lazy" decoding="async"></a><figcaption>另一个创作方向：把电路学习做成可以操作的网页。<span>点击查看大图 ↗</span></figcaption></figure>
+
 ## 我在这里记录什么
 
 作品做到了哪一步，遇到了什么问题，为什么选择某个方案，以及 AI 怎样参与这些过程。每一项能力尽量关联具体作品和结果，仍在学习的内容也会注明。

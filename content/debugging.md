@@ -2,12 +2,17 @@
 title: 从反馈里找到真正的问题
 description: 把“打不开”“看不清”“不对劲”变成可以核对的具体问题。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - 问题与迭代
 publish: true
 ---
 
 学习者说“卡”或“进不去”，通常还不能直接决定该改哪段代码。设备、网络、资源加载与界面反馈都可能影响体验。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/debugging.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/debugging-mobile.svg" width="460" height="776"><img src="assets/notes/debugging.svg" alt="从描述现象到缩小范围再到修改复查的排查路径" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>排查路径示意：先明确发生了什么，再针对原因处理。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 几个真实例子
 

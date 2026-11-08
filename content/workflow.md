@@ -2,12 +2,17 @@
 title: 从想法到上线的工作流
 description: 把需求、实现、验证与留痕连成一条可以复查的过程。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - AI协作
 publish: true
 ---
 
 这个流程来自持续修改个人作品的需要，目标是减少“改完不知道改了哪里”的情况。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/workflow.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/workflow-mobile.svg" width="460" height="946"><img src="assets/notes/workflow.svg" alt="明确问题、做出结果、验证审查和发布留痕四个工作阶段" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>交付流程示意：每个阶段留下可以继续查看或核对的结果。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 四个阶段
 

@@ -2,12 +2,17 @@
 title: 我怎样与 AI 一起做项目
 description: 由我决定目标和取舍，让 AI 协助实现、整理与验证。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - AI协作
 publish: true
 ---
 
 AI 参与了这个项目的实现、排查、文案与素材制作。我希望保留的是有依据的协作过程，而不是把一整段聊天直接当成成果。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/collaboration.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/collaboration-mobile.svg" width="460" height="776"><img src="assets/notes/collaboration.svg" alt="我、AI 和共同验证之间的协作分工" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>协作分工图：判断、实现与验收分别有明确职责。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 分工要清楚
 

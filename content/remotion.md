@@ -2,12 +2,19 @@
 title: 用 Remotion 做产品演示
 description: 运镜、节奏与真实素材一起，让功能更容易被看懂。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - 内容创作
 publish: true
 ---
 
 Remotion 是我制作平台宣传、波形更新介绍与维护教程的工具之一。重点是把功能变化组织成能跟随的演示。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual "><a class="case-image-link" href="assets/notes/promo-cover.png"><img src="assets/notes/promo-cover.png" alt="Remotion 平台宣传片的实际横屏封面" width="1920" height="1080" loading="lazy" decoding="async"></a><figcaption>实际交付封面存档；横竖屏构图与导出分别处理。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/filmmaking.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/filmmaking-mobile.svg" width="460" height="776"><img src="assets/notes/filmmaking.svg" alt="真实素材如何经过聚焦、节奏和构图成为演示成片" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>从素材到成片的内容组织示意。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 画面需要有证据
 

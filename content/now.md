@@ -8,6 +8,10 @@ tags:
 publish: true
 ---
 
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/now.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/now-mobile.svg" width="460" height="776"><img src="assets/notes/now.svg" alt="教学产品、FPGA 实物与公开档案三条当前创作主线" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>截至 2026-11-08 的作品整理快照；具体情况见各项目页。<span>点击查看大图 ↗</span></figcaption></figure>
+
 ## 已完成的近期工作
 
 FPGA 教学平台已更新到 31 关、8 章，外设与逐针手册纳入同一套三维桌面；课程空位增加吉祥物漫画，社区动态支持连续同关运行合并。
@@ -17,6 +21,8 @@ FPGA 教学平台已更新到 31 关、8 章，外设与逐针手册纳入同一
 ## 新整理的案例
 
 2026-11-08，为[[platform|教学平台]]、[[tide-composer|潮汐作曲家]]和[[maintenance|网站维护]]补入真实图片、具体工作与验证过程；[[skills|能力页]]可以沿作品继续阅读。
+
+档案的 22 个内容页现均配有对应图片：功能页展示真实操作，协作与方法页用图解说明；手机使用独立排版的竖向示意图。
 
 ## 继续关注的方向
 

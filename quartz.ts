@@ -2,6 +2,7 @@ import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/conf
 import ArchiveNavigation from "./quartz/components/ArchiveNavigation"
 import CaseCapabilities from "./quartz/components/CaseCapabilities"
 import ArchiveMedia from "./quartz/components/ArchiveMedia"
+import ArchiveTopicVisual from "./quartz/components/ArchiveTopicVisual"
 import { PageTypeDispatcher } from "./quartz/plugins/pageTypes/dispatcher"
 
 const config = await loadQuartzConfig()
@@ -9,6 +10,7 @@ export default config
 export const layout = await loadQuartzLayout()
 for (const [type, slots] of [["default", layout.defaults], ...Object.entries(layout.byPageType)] as const) {
   if (type === "404") continue
+  slots.beforeBody = [...(slots.beforeBody ?? []), ArchiveTopicVisual()]
   slots.left = [...(slots.left ?? []), ArchiveNavigation()]
   slots.right = [CaseCapabilities(), ...(slots.right ?? [])]
   slots.afterBody = [...(slots.afterBody ?? []), ArchiveMedia()]

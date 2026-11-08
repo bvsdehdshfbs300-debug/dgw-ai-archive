@@ -88,6 +88,15 @@ article a { text-underline-offset: .22em; }
 .home-paths > a { padding: .8rem 0; display: flex; justify-content: space-between; align-items: center; gap: 1rem; border-bottom: 1px solid var(--lightgray); text-decoration: none; }
 .home-paths span { font-weight: 400; font-size: .8rem; color: var(--darkgray); text-align: right; }
 .section-anchor { scroll-margin-top: 2rem; }
+.note-visual { margin: 1.6rem 0 2.1rem; }
+.note-visual.group-qr { max-width: 340px; margin-inline: auto; }
+.note-visual.portrait { max-width: 340px; margin-inline: auto; }
+.note-visual.portrait img { max-height: none; }
+.note-diagram picture, .topic-visual picture { display: block; }
+.topic-visual { margin-top: 1rem; max-width: 780px; }
+.topic-visual img[src$=".jpg"], .topic-visual img[src$=".png"] { max-height: 480px; object-fit: contain; }
+.archive-lost-visual { text-align: center; margin: 1.4rem auto; }
+.archive-lost-visual img { object-fit: contain; }
 
 /* The directory is deliberately short at first glance; native details remain usable without JS. */
 .archive-navigation { width: 100%; min-height: 0; overflow-y: auto; overscroll-behavior: contain; font-size: .86rem; padding-bottom: 1rem; }

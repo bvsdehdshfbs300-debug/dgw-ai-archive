@@ -2,12 +2,19 @@
 title: 把功能做成可用的网页
 description: 编辑、查阅和观察都需要顺手，技术实现最终要服务使用过程。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - 实践能力
 publish: true
 ---
 
 网页开发在这个项目里的任务，是把复杂的练习过程组织成一个可以操作的界面。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual "><a class="case-image-link" href="assets/cases/platform-workspace.png"><img src="assets/cases/platform-workspace.png" alt="编辑器、虚拟板卡和波形共同组成的真实练习界面" width="1600" height="1000" loading="lazy" decoding="async"></a><figcaption>真实练习布局存档；代码为学员待填写模板。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/web.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/web-mobile.svg" width="460" height="776"><img src="assets/notes/web.svg" alt="操作输入、共享练习状态和观察解释之间的数据关系" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>练习界面关系示意：代码、约束与结果需要互相对应。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 具体实践
 

@@ -7,6 +7,7 @@ const NotFound: QuartzComponent = ({ cfg, ctx }: QuartzComponentProps) => {
 
   return (
     <article class="popover-hint">
+      <div class="archive-lost-visual"><img src={baseDir.replace(/\/$/, "") + "/assets/mascot.png"} alt="地瓜丸吉祥物" width="140" height="140" /></div>
       <h1>404</h1>
       <p>{i18n(cfg.locale).pages.error.notFound}</p>
       <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>

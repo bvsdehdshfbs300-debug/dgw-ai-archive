@@ -2,6 +2,7 @@
 title: 找到我与体验作品
 description: 网站、B站、抖音教学视频与 FPGA 学习交流群。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - 关于我
 publish: true
@@ -12,6 +13,10 @@ publish: true
 - [地瓜丸的 FPGA 教学平台](https://dgwfpga.cn/)
 - [直接开始在线练习](https://dgwfpga.cn/practice/)
 - [平台介绍与功能演示](https://github.com/bvsdehdshfbs300-debug/fpga-teaching-showcase)
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual group-qr"><a class="case-image-link" href="assets/notes/qq-group.jpg"><img src="assets/notes/qq-group.jpg" alt="FPGA 学习交流群二维码，群号 1125010630" width="1070" height="1600" loading="lazy" decoding="async"></a><figcaption>保存或识别二维码加入 FPGA 学习交流群；群号 1125010630。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 内容与交流
 

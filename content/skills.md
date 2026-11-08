@@ -10,6 +10,10 @@ publish: true
 
 <div class="case-intro"><span class="case-kicker">能力 × 作品 × 过程</span><p class="case-lead">从做过的事，<br>认识我的实践能力。</p><p>每个方向都连接到具体案例：我推进什么、怎样与 AI 和工程基础协作，以及结果能由什么材料说明。</p></div>
 
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/capabilities.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/capabilities-mobile.svg" width="460" height="840"><img src="assets/notes/capabilities.svg" alt="从产品、FPGA、交互、维护、创作与 AI 协作认识地瓜丸" width="1100" height="710" loading="lazy" decoding="async"></picture></a><figcaption>能力地图：不以星级打分，用下方的具体案例继续核对。<span>点击查看大图 ↗</span></figcaption></figure>
+
 <a id="product" class="section-anchor"></a>
 
 ## 教学与产品设计
@@ -18,6 +22,8 @@ publish: true
 
 **对应案例：** [[platform|FPGA 教学平台]]。可以看练习流程、手册截图和三次设计取舍。
 
+<figure class="case-figure note-visual"><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="FPGA 教学平台的完整硬件与手册界面" loading="lazy" decoding="async"></a><figcaption>产品与教学：用真实界面查看练习工具怎样放在一起。<span>点击查看大图 ↗</span></figcaption></figure>
+
 <a id="fpga" class="section-anchor"></a>
 
 ## FPGA 图像与音频实践
@@ -25,6 +31,8 @@ publish: true
 围绕图像缓存、读地址、转场状态和 HDMI 输出，推进音画作品的功能实现与效果迭代。实时缩放涉及的不只是一个视觉开关，还需要状态和地址映射配合。
 
 **对应案例：** [[tide-composer|潮汐作曲家]]。有实物照片、处理链路和缩放方案对照。[[tide-technology|技术介绍页]]进一步展示系统架构、创新点和技术栈。
+
+<figure class="case-figure note-visual"><a class="case-image-link" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="潮汐作曲家显示器与板卡同框的实物运行照片" loading="lazy" decoding="async"></a><figcaption>FPGA 实践：显示器与板卡同框，具体功能继续查看项目与技术页。<span>点击查看大图 ↗</span></figcaption></figure>
 
 <a id="hardware" class="section-anchor"></a>
 
@@ -65,6 +73,8 @@ publish: true
 使用真实录屏、截图聚焦、动态演示和横竖屏构图，帮助观众理解功能如何操作以及结果是什么。
 
 **对应记录：** [[remotion|Remotion 产品演示]]、[[content-creation|教学与功能演示]]。
+
+<figure class="case-figure note-visual"><a class="case-image-link" href="assets/notes/promo-cover.png"><img src="assets/notes/promo-cover.png" alt="我的 FPGA 教学平台功能演示成片封面" width="1920" height="1080" loading="lazy" decoding="async"></a><figcaption>教学表达：以真实操作为主的功能演示成片封面存档。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 我的判断与 AI 协作
 

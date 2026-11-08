@@ -20,6 +20,11 @@ publish: true
 | 2026-11-07 | 合并连续重复运行动态；建立公开 AI 共创档案 |
 | 2026-11-08 | 补充三篇图文案例、能力证据入口、分类导航和图片大图查看 |
 | 2026-11-08 · 技术档案 | 新增潮汐作曲家技术介绍，四组响应式架构图与实现验证数据 |
+| 2026-11-08 · 图文档案 | 22 个内容页全部配图，补入真实操作动图、作品照片和独立手机图解 |
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/evolution.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/evolution-mobile.svg" width="460" height="840"><img src="assets/notes/evolution.svg" alt="波形台、社区、高速数据流和外设实验的功能演进" width="1100" height="610" loading="lazy" decoding="async"></picture></a><figcaption>按已完成的功能阶段整理；确切版本与日期见上方记录。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 怎样阅读这些记录
 

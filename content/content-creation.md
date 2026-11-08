@@ -2,12 +2,19 @@
 title: 教学视频与功能演示
 description: 用真实操作讲清楚功能，让观众看到过程和结果。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - 内容创作
 publish: true
 ---
 
 我制作 FPGA 教学视频，也为自己的平台制作功能展示和更新介绍。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual "><a class="case-image-link" href="assets/notes/promo-cover.png"><img src="assets/notes/promo-cover.png" alt="我的 FPGA 教学平台功能实操宣传片横屏封面" width="1920" height="1080" loading="lazy" decoding="async"></a><figcaption>已制作宣传片的横屏封面存档：这一版以真实功能操作为主。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/filmmaking.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/filmmaking-mobile.svg" width="460" height="776"><img src="assets/notes/filmmaking.svg" alt="真实素材、焦点节奏与横竖版交付的演示制作流程" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>制作方法示意：每次操作后，继续展示变化与结果。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 一次关键的调整
 

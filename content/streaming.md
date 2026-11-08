@@ -2,12 +2,17 @@
 title: 高速数据流与外设实验
 description: 从 Ready/Valid 开始，逐步理解停顿、跨时钟与接口事务。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - 代表作品
 publish: true
 ---
 
 进阶课程需要有可观察的目标。仅把协议名字放进关卡标题，学习者很难知道自己到底要实现什么。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/handshake.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/handshake-mobile.svg" width="460" height="710"><img src="assets/notes/handshake.svg" alt="由明确 valid 和 ready 位序列推导的握手时序" width="1100" height="590" loading="lazy" decoding="async"></picture></a><figcaption>教学时序示例：第 4、6 个采样沿同时满足 valid 与 ready；不是实测抓取。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 已加入的方向
 

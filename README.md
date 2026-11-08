@@ -45,7 +45,7 @@
 
 框架许可见 [LICENSE.txt](LICENSE.txt)，文字、截图与品牌素材的使用说明见 [CONTENT-LICENSE.md](CONTENT-LICENSE.md)。
 
-更新于 **2026-11-07**。
+更新于 **2026-11-08**。
 
 
 ## 图文案例（2026-11-08）
@@ -56,3 +56,5 @@
 - [能力与作品证据](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html)：从具体作品理解个人参与与协作。
 
 - [潮汐技术介绍](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-technology.html)：技术栈、四组示意图、硬件实时缩放与音画联动。
+
+22 个内容页均有对应配图：真实作品照片、波形／LED／显示屏操作动图，以及协作、排查、握手时序与工作流等原创图解。图解提供独立手机排版，图片支持点击放大。

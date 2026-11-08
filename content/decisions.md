@@ -2,12 +2,17 @@
 title: 做取舍的几个原则
 description: 围绕学习效果、个人维护成本和真实证据做决定。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - AI协作
 publish: true
 ---
 
 个人工作室有时间与成本限制。每次加功能前，都需要判断它是否值得持续维护。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/decisions.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/decisions-mobile.svg" width="460" height="776"><img src="assets/notes/decisions.svg" alt="学习帮助、维护投入和结果证据三个选择维度" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>选择标准示意，没有虚构的评分或成本数字。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 让问题决定实现
 

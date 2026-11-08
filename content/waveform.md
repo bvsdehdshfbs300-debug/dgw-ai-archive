@@ -2,12 +2,17 @@
 title: 把波形真正看清
 description: 缩放、测量、跳变定位与局部精细波形，服务于具体分析。
 date: 2026-11-07
+modified: 2026-11-08
 tags:
   - 代表作品
 publish: true
 ---
 
 波形是学习者判断代码行为的重要证据。“显示了一张图”还不够，关键是能否找到需要观察的那一拍。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual "><a class="case-image-link" href="assets/notes/waveform.gif"><img src="assets/notes/waveform.gif" alt="波形台真实操作录屏：时间窗口与信号观察" width="900" height="498" loading="lazy" decoding="async"></a><figcaption>真实界面演示：在波形中切换时间位置并观察信号；操作过程来自公开功能素材。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 从全局到细节
 
