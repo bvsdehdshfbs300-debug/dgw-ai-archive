@@ -72,6 +72,19 @@
       ]
     },
     {
+      "id": "tide-composer",
+      "title": "潮汐作曲家：FPGA 海洋音画系统",
+      "group": "projects",
+      "summary": "实物音画展示、实时缩放与板端验证，从照片与处理过程认识这个项目。",
+      "href": "../tide-composer.html",
+      "related": [
+        "fpga",
+        "skills",
+        "workflow",
+        "platform"
+      ]
+    },
+    {
       "id": "waveform",
       "title": "把波形真正看清",
       "group": "projects",
@@ -112,16 +125,17 @@
     },
     {
       "id": "skills",
-      "title": "我的实践方向",
+      "title": "我的能力与作品证据",
       "group": "skills",
-      "summary": "把能力连接到作品，不用一排技术名词代替经历。",
+      "summary": "从产品、FPGA、联调、维护与表达，沿具体案例理解个人实践。",
       "href": "../skills.html",
       "related": [
         "fpga",
         "web",
         "remotion",
         "ai-collaboration",
-        "now"
+        "now",
+        "tide-composer"
       ]
     },
     {

@@ -23,16 +23,16 @@
 <text x="983.8" y="278.0" text-anchor="start" font-size="12" fill="#697f70">我的 FPGA 教学平台</text>
 <line x1="873.8" y1="310.0" x2="973.8" y2="310.0" stroke="#128476" opacity=".22"/>
 <circle cx="973.8" cy="310.0" r="4" fill="#128476"/>
-<text x="983.8" y="315.0" text-anchor="start" font-size="12" fill="#697f70">把波形真正看清</text>
+<text x="983.8" y="315.0" text-anchor="start" font-size="12" fill="#697f70">潮汐作曲家</text>
 <line x1="873.8" y1="310.0" x2="973.8" y2="347.0" stroke="#128476" opacity=".22"/>
 <circle cx="973.8" cy="347.0" r="4" fill="#128476"/>
-<text x="983.8" y="352.0" text-anchor="start" font-size="12" fill="#697f70">硬件与手册</text>
+<text x="983.8" y="352.0" text-anchor="start" font-size="12" fill="#697f70">网站维护实践</text>
 <line x1="640" y1="410" x2="873.8" y2="510.0" stroke="#327db1" stroke-width="1.6" opacity=".45"/>
 <circle cx="873.8" cy="510.0" r="9" fill="#327db1"/>
 <text x="873.8" y="490.0" text-anchor="middle" font-size="17" font-weight="700" fill="#327db1">实践能力</text>
 <line x1="873.8" y1="510.0" x2="973.8" y2="473.0" stroke="#327db1" opacity=".22"/>
 <circle cx="973.8" cy="473.0" r="4" fill="#327db1"/>
-<text x="983.8" y="478.0" text-anchor="start" font-size="12" fill="#697f70">我的实践方向</text>
+<text x="983.8" y="478.0" text-anchor="start" font-size="12" fill="#697f70">能力与作品证据</text>
 <line x1="873.8" y1="510.0" x2="973.8" y2="510.0" stroke="#327db1" opacity=".22"/>
 <circle cx="973.8" cy="510.0" r="4" fill="#327db1"/>
 <text x="983.8" y="515.0" text-anchor="start" font-size="12" fill="#697f70">FPGA 与数字逻辑</text>
@@ -75,5 +75,5 @@
 <circle cx="640" cy="410" r="69" fill="#e1ebdf" stroke="#bfd1bf"/>
 <text x="640" y="408" text-anchor="middle" font-size="30" font-weight="700" fill="#28543f">地瓜丸</text>
 <text x="640" y="433" text-anchor="middle" font-size="12" fill="#728b76">作品 · 实践 · 过程</text>
-<text x="50" y="681" font-size="12" fill="#7c9280">点击图片进入可交互关系图 · 20 篇公开笔记 · 更新于 2026.11.07</text>
+<text x="50" y="681" font-size="12" fill="#7c9280">点击图片进入可交互关系图 · 21 篇公开笔记 · 更新于 2026.11.08</text>
 </g></svg>

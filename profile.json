@@ -1,7 +1,7 @@
 {
   "name": "地瓜丸",
   "display_name": "dgw",
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08",
   "language": "zh-CN",
   "description": "FPGA 教学内容创作者，持续维护个人在线教学产品，并记录 AI 协作实践。",
   "projects": [
@@ -11,6 +11,12 @@
       "public_lessons": 31,
       "chapters": 8,
       "version": "4.1"
+    },
+    {
+      "name": "潮汐作曲家",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-composer.html",
+      "stage": "有实物演示、固化及回读记录",
+      "collaboration": "奶蛙大队；基于官方例程，使用 AI 辅助迭代"
     }
   ],
   "practice_areas": [
@@ -28,5 +34,20 @@
     "qq_group": "1125010630"
   },
   "evidence_policy": "只记录实际作品与已确认结果；关注方向不等于已经完成的功能。",
-  "scope": "Public project and creator profile; no private project source or operational records."
+  "scope": "Public project and creator profile; no private project source or operational records.",
+  "case_studies": [
+    {
+      "name": "FPGA 教学平台",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/platform.html"
+    },
+    {
+      "name": "潮汐作曲家",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-composer.html"
+    },
+    {
+      "name": "个人网站维护",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/maintenance.html"
+    }
+  ],
+  "capability_evidence_url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html"
 }
