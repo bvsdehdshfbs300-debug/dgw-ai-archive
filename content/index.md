@@ -1,35 +1,26 @@
 ---
-title: 地瓜丸的 AI 共创档案
-description: 从 FPGA 教学平台出发，记录作品、能力、问题与 AI 协作过程。
+title: 地瓜丸的作品与 AI 共创档案
+description: 从在线教学、FPGA 实物到网站维护，沿着真实作品认识地瓜丸。
 date: 2026-11-07
+modified: 2026-11-08
+tags:
 publish: true
-cssclasses:
-  - archive-home
 ---
 
-<div class="archive-hero"><img src="./assets/mascot.png" alt="地瓜丸的吉祥物" width="120" height="120"><p class="archive-kicker">地瓜丸 · 个人创作记录</p><p class="archive-lead">把想法做成作品，<br>让过程有迹可循。</p><p>我是地瓜丸。这里连接我的 FPGA 教学平台、内容创作、解决过的问题，以及与 AI 一起做项目的方法。</p><div class="archive-actions"><a href="https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/graph/">探索我的关系图 ↗</a><a href="https://dgwfpga.cn/">体验 FPGA 教学平台 ↗</a></div></div>
+<div class="archive-hero"><img src="./assets/mascot.png" alt="地瓜丸的吉祥物" width="120" height="120"><p class="archive-kicker">地瓜丸 · 个人工作室</p><p class="archive-lead">做电路，也做能用的作品。</p><p>我是地瓜丸。从 FPGA 教学、板端音画到网页产品，我记录想法怎样落地，以及与 AI 一起调试和迭代的过程。</p><div class="archive-actions"><a href="./skills.html">从作品了解我的能力 ↗</a><a href="./graph/">探索关系图 ↗</a></div></div>
 
-## 先从一件作品认识我
+## 先看三件具体的事
 
-### [[platform|我的 FPGA 教学平台]]
+<div class="work-grid"><div class="work-card"><a class="work-image-link" href="platform.html"><img src="assets/hardware.png" alt="FPGA 教学平台外设和手册截图" loading="lazy"></a><div><span class="work-category">在线产品 · 持续维护</span><h3><a href="platform.html">我的 FPGA 教学平台</a></h3><p>31 个关卡、8 个章节，让代码、波形、约束与硬件现象在一次练习里连接起来。</p><a class="work-more" href="platform.html">看练习流程与设计取舍 →</a></div></div><div class="work-card"><a class="work-image-link" href="tide-composer.html"><img src="assets/cases/tide-system.png" alt="潮汐作曲家实物运行照片" loading="lazy"></a><div><span class="work-category">FPGA 实物 · 已固化</span><h3><a href="tide-composer.html">潮汐作曲家</a></h3><p>从 TF 卡到 HDMI，完成海洋音画展示、实时缩放、转场与板端交互。</p><a class="work-more" href="tide-composer.html">看实物与验证过程 →</a></div></div><div class="work-card"><a class="work-image-link" href="maintenance.html"><img src="assets/cases/maintenance-launcher.png" alt="网站早期启动过程的历史截图" loading="lazy"></a><div><span class="work-category">产品维护 · 持续迭代</span><h3><a href="maintenance.html">网站怎样持续运行</a></h3><p>从本机服务到云部署，把“打不开”和“总弹窗”拆成可以检查的问题。</p><a class="work-more" href="maintenance.html">看问题与处理方法 →</a></div></div></div>
 
-**31 关 · 8 章 · 免费在线练习。** 从代码和约束出发，结合波形、检查结果、三维硬件与逐针手册，观察电路行为。[[waveform|把波形看清]]、[[hardware|把接线落到针脚]]和[[streaming|高速数据流实验]]，都是同一条学习路径上的具体工作。
+## 每件作品，都有过程可以看
 
-![平台 4.1 中的外设与逐针手册](assets/hardware.png)
+<div class="home-paths"><a href="skills.html"><strong>能力与作品证据</strong><span>产品、FPGA、联调、交互、维护与表达</span></a><a href="ai-collaboration.html"><strong>我怎样与 AI 做项目</strong><span>目标、判断、实现与验收分别做什么</span></a><a href="timeline.html"><strong>更新与成长记录</strong><span>从反馈到改动，持续保留已完成结果</span></a></div>
 
-## 这份档案怎样读
+## 继续认识我
 
-| 入口 | 你会看到什么 |
-| --- | --- |
-| [关于地瓜丸](about.md) | 创作方向、作品与近况 |
-| [实践能力](skills.md) | 每项能力对应的具体工作 |
-| [内容创作](content-creation.md) | 真实演示、教学视频与动画 |
-| [问题与迭代](debugging.md) | 反馈怎样变成可以验证的改动 |
-| [AI协作方法](ai-collaboration.md) | 需求、取舍、验证与留痕 |
-| [更新记录](timeline.md) | 做过什么，什么仍在计划中 |
+[[about|关于地瓜丸]] · [[now|最近在做什么]] · [[content-creation|教学与功能演示]] · [[contact|账号与联系入口]]
 
-## 给下一次交流留个入口
+[体验 FPGA 教学平台](https://dgwfpga.cn/) · [直接开始练习](https://dgwfpga.cn/practice/) · [AI 可读档案](profile.json)
 
-[[now|我最近在做什么]] · [[contact|找到我与体验作品]] · [AI 可读的档案摘要](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/profile.json)
-
-档案更新于 **2026-11-07**。公开笔记记录实际作品与经过确认的过程，持续补充新的结果。
+最近整理：**2026-11-08**。公开案例按当前材料记录具体工作、协作方式和验证范围。

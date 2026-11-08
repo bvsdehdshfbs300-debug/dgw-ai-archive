@@ -18,3 +18,12 @@ for(const note of expected.notes){
  if(!fs.existsSync(path.join(root,'public',note.id+'.html')))throw new Error('Missing public note '+note.id);
 }
 console.log('Verified all public note pages and copied the interactive graph.');
+for(const slug of ['platform','tide-composer','maintenance']){
+ const html=fs.readFileSync(path.join(root,'public',slug+'.html'),'utf8');
+ for(const marker of ['archive-navigation','case-capabilities','archive-lightbox','case-figure']){
+  if(!html.includes(marker))throw new Error('Missing '+marker+' on '+slug);
+ }
+}
+const home=fs.readFileSync(path.join(root,'public/index.html'),'utf8');
+if((home.match(/class="work-card"/g)||[]).length!==3)throw new Error('Expected three intact project cards');
+console.log('Verified case navigation, capability panels, image viewer and three project cards.');
