@@ -81,7 +81,21 @@
         "fpga",
         "skills",
         "workflow",
-        "platform"
+        "platform",
+        "tide-technology"
+      ]
+    },
+    {
+      "id": "tide-technology",
+      "title": "潮汐作曲家：技术架构与创新设计",
+      "group": "projects",
+      "summary": "四帧缓存、实时缩放、转场提交和 PCM 音画联动，用四组示意图拆解硬件设计。",
+      "href": "../tide-technology.html",
+      "related": [
+        "tide-composer",
+        "fpga",
+        "hardware",
+        "skills"
       ]
     },
     {
