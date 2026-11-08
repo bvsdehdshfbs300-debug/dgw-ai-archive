@@ -21,6 +21,7 @@
 - [我的能力与作品证据](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html): 沿着具体作品，看我推进目标、做取舍、调试与验证的过程。
 - [高速数据流与外设实验](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/streaming.html): 从 Ready/Valid 开始，逐步理解停顿、跨时钟与接口事务。
 - [潮汐作曲家：FPGA 海洋音画系统](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-composer.html): 从实物音画展示到实时缩放、固化和回读验证。
+- [潮汐作曲家：技术架构与创新设计](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-technology.html): 四帧缓存、板端实时缩放、转场状态提交与 PCM 音画联动的技术拆解。
 - [项目更新与成长记录](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/timeline.html): 从波形、社区与高速数据流，到 4.1 外设和交互细节。
 - [把波形真正看清](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/waveform.html): 缩放、测量、跳变定位与局部精细波形，服务于具体分析。
 - [把功能做成可用的网页](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/web.html): 编辑、查阅和观察都需要顺手，技术实现最终要服务使用过程。

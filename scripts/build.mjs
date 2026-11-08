@@ -18,7 +18,7 @@ for(const note of expected.notes){
  if(!fs.existsSync(path.join(root,'public',note.id+'.html')))throw new Error('Missing public note '+note.id);
 }
 console.log('Verified all public note pages and copied the interactive graph.');
-for(const slug of ['platform','tide-composer','maintenance']){
+for(const slug of ['platform','tide-composer','maintenance','tide-technology']){
  const html=fs.readFileSync(path.join(root,'public',slug+'.html'),'utf8');
  for(const marker of ['archive-navigation','case-capabilities','archive-lightbox','case-figure']){
   if(!html.includes(marker))throw new Error('Missing '+marker+' on '+slug);

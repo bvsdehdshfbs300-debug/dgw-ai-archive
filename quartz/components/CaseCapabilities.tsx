@@ -3,6 +3,7 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 const cases: Record<string, {title: string, status: string, skills: [string, string][], next: [string, string]}> = {
   platform: {title: "把练习做成产品", status: "4.1 · 持续维护", skills: [["product", "教学与产品设计"], ["web", "网页交互"], ["debug", "反馈与验证"]], next: ["maintenance", "网站如何持续运行"]},
   "tide-composer": {title: "让想法在板上运行", status: "有实物演示 · 已固化", skills: [["fpga", "FPGA 图像与音频"], ["hardware", "板端调试"], ["debug", "构建与验证"]], next: ["platform", "把硬件知识做成练习"]},
+  "tide-technology": {title: "让数据通路协同工作", status: "技术架构 · 当前固化版", skills: [["fpga", "FPGA 图像与音频"], ["hardware", "多时钟与硬件联调"], ["debug", "实现与验证"]], next: ["tide-composer", "查看实物与项目过程"]},
   maintenance: {title: "把问题追到具体环节", status: "本机阶段 → 云端部署", skills: [["operations", "部署与运维"], ["debug", "故障定位"], ["product", "使用体验"]], next: ["tide-composer", "另一个硬件项目案例"]},
 }
 

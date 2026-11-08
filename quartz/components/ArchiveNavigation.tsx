@@ -1,7 +1,7 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const groups = [
-  {title: "作品案例", items: [["platform", "FPGA 教学平台"], ["tide-composer", "潮汐作曲家"], ["maintenance", "网站维护实践"]]},
+  {title: "作品案例", items: [["platform", "FPGA 教学平台"], ["tide-composer", "潮汐作曲家"], ["tide-technology", "潮汐 · 技术架构"], ["maintenance", "网站维护实践"]]},
   {title: "能力与个人介绍", items: [["skills", "能力与作品证据"], ["about", "关于地瓜丸"], ["now", "最近在做什么"], ["timeline", "更新与成长记录"]]},
   {title: "平台设计与实验", items: [["waveform", "把波形真正看清"], ["hardware", "硬件与逐针手册"], ["streaming", "高速数据流与外设"], ["interaction", "交互与信息呈现"], ["fpga", "FPGA 与数字逻辑"], ["web", "把功能做成网页"]]},
   {title: "调试与 AI 协作", items: [["debugging", "从反馈定位问题"], ["workflow", "从想法到上线"], ["ai-collaboration", "怎样与 AI 做项目"], ["decisions", "做取舍的原则"]]},

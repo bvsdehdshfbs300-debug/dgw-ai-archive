@@ -118,6 +118,33 @@ article a { text-underline-offset: .22em; }
 .archive-lightbox img { display: block; max-width: 100%; max-height: 74vh; object-fit: contain; margin: 0 auto; }
 .lightbox-close { position: absolute; right: 1rem; top: .65rem; border: 1px solid var(--lightgray); border-radius: 20px; padding: .35rem .8rem; background: var(--light); color: var(--dark); cursor: pointer; }
 .lightbox-caption { font-size: .8rem; color: var(--darkgray); margin: .8rem 0 0; line-height: 1.6; }
+.tech-hero { background: linear-gradient(135deg, #102f3b, #164e50); color: #eaf5ef; border-radius: 18px; padding: 1.8rem; margin: 1.2rem 0 2rem; }
+.tech-hero .tech-eyebrow { color: #96d7c8; font-size: .69rem; font-weight: 650; letter-spacing: .09em; }
+.tech-hero .tech-headline { color: #f5fbf7; font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 750; line-height: 1.4; letter-spacing: -.045em; margin: 1.1rem 0; }
+.tech-hero > p { color: #cfdfdd; font-size: .9rem; line-height: 1.9; }
+.tech-hero > a { display: inline-block; color: #c0f0d7; font-size: .8rem; margin-top: 1.2rem; }
+.tech-hero > a.internal { background: transparent; color: #c0f0d7; padding: .2rem 0; text-decoration: underline; text-underline-offset: .25em; }
+.tech-hero-tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.1rem; }
+.tech-hero-tags span { color: #d8eee7; font-size: .71rem; border: 1px solid #568d87; border-radius: 20px; padding: .15rem .6rem; }
+.tech-highlights { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .9rem; margin: 1.4rem 0; }
+.tech-highlights > section { border: 1px solid var(--lightgray); border-radius: 14px; padding: 1.1rem; }
+.tech-highlights section > span { color: var(--secondary); font-size: .72rem; font-weight: 650; }
+.tech-highlights h3 { font-size: 1.05rem; margin: .65rem 0; line-height: 1.7; }
+.tech-highlights p { font-size: .85rem; line-height: 1.9; margin: .6rem 0 0; }
+.tech-diagram .case-image-link { background: #f1f7f5; }
+.tech-diagram picture { display: block; }
+.tech-clock-grid, .tech-results { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border-block: 1px solid var(--lightgray); margin: 1.6rem 0; }
+.tech-clock-grid > div, .tech-results > div { padding: .9rem .6rem .9rem 0; }
+.tech-clock-grid strong, .tech-results strong { display: block; color: var(--secondary); font-size: 1.02rem; }
+.tech-clock-grid span, .tech-results span { display: block; color: var(--darkgray); font-size: .71rem; line-height: 1.8; }
+.tech-detail { border: 1px solid var(--lightgray); border-radius: 12px; padding: .85rem 1rem; margin: 1.5rem 0; }
+.tech-detail summary { cursor: pointer; font-size: .86rem; font-weight: 650; color: var(--secondary); }
+.tech-detail p { font-size: .85rem; }
+.tech-detail code { white-space: normal; }
+.tech-conclusion { background: var(--highlight); border-left: 3px solid var(--secondary); border-radius: 0 12px 12px 0; padding: 1rem 1.2rem; margin: 1.8rem 0; }
+.tech-conclusion strong { color: var(--secondary); font-size: .8rem; }
+.tech-conclusion p { color: var(--dark); font-size: 1.1rem; font-weight: 650; line-height: 1.85; margin: .6rem 0 0; }
+article .tech-source-note { font-size: .76rem; color: var(--darkgray); line-height: 1.8; border-top: 1px solid var(--lightgray); padding-top: 1rem; }
 @media (max-width: 1200px) and (min-width: 801px) {
   .role-grid, .decision-grid, .evidence-grid { grid-template-columns: 1fr; }
   .case-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -138,6 +165,10 @@ article a { text-underline-offset: .22em; }
   .case-capabilities { margin-top: 1.3rem; }
 }
 @media (max-width: 540px) {
+  .tech-hero { padding: 1.2rem; }
+  .tech-hero .tech-headline { font-size: 1.9rem; }
+  .tech-highlights { grid-template-columns: 1fr; }
+  .tech-clock-grid, .tech-results { grid-template-columns: repeat(2,minmax(0,1fr)); }
   article > h2 { font-size: 1.4rem; margin-top: 2.3rem; }
   .case-facts { grid-template-columns: 1fr; }
   .case-facts > div { padding: .6rem 0; display: flex; align-items: baseline; justify-content: space-between; gap: .6rem; }

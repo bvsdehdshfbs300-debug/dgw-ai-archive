@@ -54,3 +54,5 @@
 - [潮汐作曲家](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-composer.html)：实物照片、板端缩放与验证。
 - [网站维护实践](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/maintenance.html)：历史通知与启动截图、故障处理、当前部署阶段。
 - [能力与作品证据](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html)：从具体作品理解个人参与与协作。
+
+- [潮汐技术介绍](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-technology.html)：技术栈、四组示意图、硬件实时缩放与音画联动。

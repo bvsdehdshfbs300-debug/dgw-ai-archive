@@ -13,6 +13,8 @@ publish: true
 
 <figure class="case-figure "><a class="case-image-link" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="潮汐作曲家在显示器与 FPGA 开发板上运行的实物照片" loading="lazy" decoding="async"></a><figcaption>真实拍摄的“暮港”场景：显示器、开发板与连接线同框，可看到板端输出的画面。<span>点击查看大图 ↗</span></figcaption></figure>
 
+<div class="archive-actions"><a href="tide-technology.html">技术架构与创新设计 ↗</a><a href="tide-technology.html#技术栈从-rtl-到可复现的部署">查看技术栈 ↗</a></div>
+
 ## 从素材到屏幕
 
 <ol class="case-flow"><li><span>01</span><strong>TF 卡素材</strong><p>读取四幅场景与五首音乐。</p></li><li><span>02</span><strong>图像缓存</strong><p>图像预载至 SDRAM，显示侧读取。</p></li><li><span>03</span><strong>板端处理</strong><p>缩放读地址、转场遮罩、OSD 与画面调节。</p></li><li><span>04</span><strong>HDMI 输出</strong><p>画面、音乐、潮汐动效与 LED 反馈。</p></li></ol>

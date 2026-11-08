@@ -20,7 +20,7 @@ export default (() => {
         const image = target.querySelector('img');
         if (!image) return;
         event.preventDefault(); trigger = target;
-        dialog.querySelector('img').src = target.href;
+        dialog.querySelector('img').src = image.currentSrc || target.href;
         dialog.querySelector('img').alt = image.alt;
         dialog.querySelector('.lightbox-caption').textContent = target.closest('figure')?.querySelector('figcaption')?.textContent || image.alt;
         dialog.showModal();
