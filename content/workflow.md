@@ -2,38 +2,20 @@
 title: 从想法到上线的工作流
 description: 把需求、实现、验证与留痕连成一条可以复查的过程。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
   - AI协作
 publish: true
 ---
 
-这个流程来自持续修改个人作品的需要，目标是减少“改完不知道改了哪里”的情况。
+<div class="field-intro"><span class="field-kicker">地瓜丸 · 项目工作流</span><p class="field-lead">每次修改，<br>留一个下次能接上的起点。</p><p>用这次介绍站的修复举例：用户指出拉伸和 404，随后核对素材、修改页面、检查公网，再保存版本和回退资料。</p></div><figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/feature-tour/02-xdc-auto-fill.webp"><img src="assets/feature-tour/02-xdc-auto-fill.webp" alt="实录素材整理后成为功能截图。原始素材、网页用图和发布版本分别留档。" width="1600" height="900" loading="lazy" decoding="async"></a><figcaption>实录素材整理后成为功能截图。原始素材、网页用图和发布版本分别留档。<span>点击看原图 ↗</span></figcaption></figure>
 
-<!-- note-visuals-20261108 -->
+## 一次修改会留下这些东西
 
-<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/workflow.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/workflow-mobile.svg" width="460" height="946"><img src="assets/notes/workflow.svg" alt="明确问题、做出结果、验证审查和发布留痕四个工作阶段" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>交付流程示意：每个阶段留下可以继续查看或核对的结果。<span>点击查看大图 ↗</span></figcaption></figure>
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>阶段</th><th>这次具体做什么</th><th>留下什么</th></tr></thead><tbody><tr><td>明确问题</td><td>核对用户截图中的拉伸、404 和配图不足。</td><td>原始反馈与修改范围。</td></tr><tr><td>准备可查看结果</td><td>替换首图，整理不同功能截图，做主题筛选。</td><td>页面预览、审查后的素材和来源索引。</td></tr><tr><td>检查原操作</td><td>窄屏比例、点击大图、筛选、真实公网链接。</td><td>浏览器截图与检查报告。</td></tr><tr><td>发布与留档</td><td>同步国内镜像与公开分支，检查上线内容。</td><td>发布提交、交付说明及前后备份。</td></tr></tbody></table></div>
 
-## 四个阶段
+## 检查范围跟着改动走
 
-1. 明确问题：现在发生什么，希望变成什么。
-2. 做出具体结果：代码、页面、镜头或文案应能直接查看。
-3. 验证和审查：核对功能、边界、布局与关键数据。
-4. 发布并留痕：记录版本、验证证据和回退范围。
+<ul class="field-review-list"><li><b>文案与图片：</b>看来源、链接、比例和手机阅读。</li><li><b>界面交互：</b>重复实际点击、展开、关闭和滚动。</li><li><b>判题与关卡：</b>检查参考实现、错误实现和相关运行链路。</li><li><b>部署：</b>检查真实入口与关键接口，保留可回退的配置和版本。</li></ul>
 
-## 小改动与大改动
-
-检查范围跟着风险走。文字调整和内核变化需要的验证不同；已经通过且内容没有变化的检查，不必为了显得认真反复执行。
-
-## 长期积累
-
-一份持续更新的项目记录，能让下一次修改有明确起点。备份、文档与版本记录各有用途，彼此配合。
-
-## 继续探索
-
-- [[ai-collaboration|我怎样与 AI 一起做项目]]
-- [[maintenance|个人网站的维护实践]]
-- [[debugging|从反馈里找到真正的问题]]
-- [[timeline|项目更新与成长记录]]
-
-[[index|回到档案首页]]
+<nav class="field-read-next" aria-label="继续阅读"><a href="ai-collaboration.html">查看人和 AI 的分工 →</a><a href="maintenance.html">查看维护实践 →</a><a href="timeline.html">查看版本记录 →</a></nav>

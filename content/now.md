@@ -8,39 +8,10 @@ tags:
 publish: true
 ---
 
-<!-- note-visuals-20261108 -->
+<div class="field-intro"><span class="field-kicker">地瓜丸 · 2026.11.09</span><p class="field-lead">最近在补的，<br>是让作品自己说话的材料。</p><p>教学平台继续作为主线。介绍站新增功能实景，也把车载滚球与 MaixCAM 的原始演示放进了项目页。</p></div><figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/project-field/ball-system.webp"><img src="assets/project-field/ball-system.webp" alt="新整理的车载滚球整机照片。" width="1600" height="1200" loading="lazy" decoding="async"></a><figcaption>新整理的车载滚球整机照片。<span>点击看原图 ↗</span></figcaption></figure><div class="field-table-wrap"><table class="field-table"><thead><tr><th>目前可查看</th><th>具体内容</th><th>入口</th></tr></thead><tbody><tr><td>教学平台</td><td>31 关、8 章、4.1 外设与逐针手册。</td><td><a href="platform.html">平台介绍 →</a></td></tr><tr><td>功能实景</td><td>29 张不同功能截图，可分类和查看原图。</td><td><a href="feature-tour.html">打开图鉴 →</a></td></tr><tr><td>滚球系统</td><td>整机照片与 3 段实拍。</td><td><a href="ball-balance.html">看现场 →</a></td></tr><tr><td>自动识别瞄准</td><td>4 分 52 秒原片与章节跳转。</td><td><a href="maixcam-tracking.html">看演示 →</a></td></tr><tr><td>其他项目</td><td>感知、控制、桌面工具和交互原型。</td><td><a href="projects.html">项目总览 →</a></td></tr></tbody></table></div>
 
-<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/now.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/now-mobile.svg" width="460" height="776"><img src="assets/notes/now.svg" alt="教学产品、FPGA 实物与公开档案三条当前创作主线" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>截至 2026-11-08 的作品整理快照；具体情况见各项目页。<span>点击查看大图 ↗</span></figcaption></figure>
+## 接下来继续从使用反馈里找问题
 
-## 已完成的近期工作
+课程里哪里难理解，界面哪里难操作，视频哪里没把功能演示完整，都继续作为改进线索。具体完成的改动再进入项目记录。
 
-FPGA 教学平台已更新到 31 关、8 章，外设与逐针手册纳入同一套三维桌面；课程空位增加吉祥物漫画，社区动态支持连续同关运行合并。
-
-这个公开档案把作品、能力、问题记录与协作方法连起来，方便从不同入口了解同一个项目。
-
-## 新整理的案例
-
-2026-11-08，为[[platform|教学平台]]、[[tide-composer|潮汐作曲家]]和[[maintenance|网站维护]]补入真实图片、具体工作与验证过程；[[skills|能力页]]可以沿作品继续阅读。
-
-档案的 22 个内容页现均配有对应图片：功能页展示真实操作，协作与方法页用图解说明；手机使用独立排版的竖向示意图。
-
-2026-11-09，以 FPGA 教学平台重构介绍站，新增交互板卡、完整演示、吉祥物专区与[[projects|其他项目总览]]；图片与视频使用国内服务器地址。
-
-## 继续关注的方向
-
-提升课程的教学价值，让复杂概念有更明确的观察方式；制作更完整的功能演示；继续改善电脑和手机上的使用体验；根据真实反馈确定下一项值得做的改动。
-
-以上是关注方向，不代表具体功能已经排期或完成。后续确定的结果会进入更新记录。
-
-## 资料日期
-
-最近整理日期：2026-11-09。这里是持续维护的公开记录，不是实时运行状态页。
-
-## 继续探索
-
-- [[timeline|项目更新与成长记录]]
-- [[decisions|做取舍的几个原则]]
-- [[content-creation|教学视频与功能演示]]
-- [[contact|去找地瓜丸→]]
-
-[[index|回到档案首页]]
+<nav class="field-read-next" aria-label="继续阅读"><a href="timeline.html">更新记录 →</a><a href="contact.html">去找地瓜丸 →</a></nav>

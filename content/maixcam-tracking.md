@@ -1,6 +1,6 @@
 ---
-title: MaixCAM｜模型训练与二维追踪
-description: 从自己的训练图片，到目标坐标与云台动作的完整应用路径。
+title: MaixCAM｜自动识别瞄准与二维追踪
+description: 4分52秒实拍演示，按章节查看目标识别、坐标反馈、PID控制界面和双轴云台动作。
 date: 2026-11-09
 modified: 2026-11-09
 tags:
@@ -9,33 +9,23 @@ tags:
 publish: true
 ---
 
-<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">从自己的训练图片，到目标坐标与云台动作的完整应用路径。</p><div class="case-tags"><span>MaixCAM Pro</span><span>MaixHub</span><span>YOLOv5</span><span>MaixPy</span><span>UDP</span><span>Python PID</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>模型示例、识别端与 PC GUI、部署文档已整理；性能未在本轮重测</aside>
+<div class="field-intro"><span class="field-kicker">地瓜丸 · MaixCAM 自动识别瞄准</span><p class="field-lead">它认出了目标，<br>云台接下来怎么转？</p><p>我用玩偶作为示例目标，把相机识别、坐标传输、电脑控制界面和双轴机构接起来。下方视频保留了从检测画面到实机动作的过程。</p></div><dl class="field-facts"><div><dt>演示时长</dt><dd>04:52 / 完整原片</dd></div><div><dt>识别工具</dt><dd>MaixCAM Pro / YOLOv5</dd></div><div><dt>控制路径</dt><dd>UDP → PC PID → ESP32-S3</dd></div></dl><figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/project-field/maixcam-demo.webp"><img src="assets/project-field/maixcam-demo.webp" alt="MaixCAM 显示屏与双轴云台实机" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>视频里的实机近景：相机屏幕显示目标，双轴结构负责调整朝向。<span>点击看原图 ↗</span></figcaption></figure>
 
+## 直接看演示，也可以按章节跳转
 
+<section class="field-video-section">
+<figure class="field-media"><video id="maix-walkthrough" controls playsinline preload="none" poster="assets/project-field/maixcam-demo.webp" width="1280" height="720"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maixcam-demo.mp4" type="video/mp4">当前浏览器无法播放，可<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maixcam-demo.mp4">直接打开视频</a>。</video><figcaption><span>04:52 / 实拍原片</span><strong>MaixCAM 自动识别与云台演示</strong>保留完整 4 分 52 秒原片。既能看实机，也能看识别框、坐标日志和 PID 控制界面。</figcaption></figure><div class="field-chapters" role="group" aria-label="视频章节"><button type="button" data-video-seek="0" data-video-target="maix-walkthrough"><span>00:00</span>实机与目标</button><button type="button" data-video-seek="40" data-video-target="maix-walkthrough"><span>00:40</span>连接相机</button><button type="button" data-video-seek="90" data-video-target="maix-walkthrough"><span>01:30</span>识别框与偏差</button><button type="button" data-video-seek="155" data-video-target="maix-walkthrough"><span>02:35</span>坐标与串口指令</button><button type="button" data-video-seek="210" data-video-target="maix-walkthrough"><span>03:30</span>PID 控制界面</button><button type="button" data-video-seek="270" data-video-target="maix-walkthrough"><span>04:30</span>回到实机</button></div><p class="field-chapter-status" aria-live="polite">点击章节，从对应位置播放。</p></section>
 
-<figure class="case-figure"><a class="case-image-link" href="assets/projects/maixcam-tracking.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/maixcam-tracking-mobile.svg" width="460" height="1000"><img src="assets/projects/maixcam-tracking.svg" alt="MaixCAM｜模型训练与二维追踪的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+## 先看见，再把偏差送出去
 
-## 训练模型之后，继续让它参与控制
+<ol class="field-path"><li><b>训练自己的目标</b>采图、标注，在 MaixHub 训练后部署模型。</li><li><b>相机计算偏差</b>MaixPy 加载 YOLOv5，计算目标中心相对画面中心的 dx / dy。</li><li><b>电脑判断动作</b>UDP 接收坐标，GUI 显示状态，PID 生成控制命令。</li><li><b>双轴机构响应</b>经 ESP32-S3 输出电机控制，调整相机朝向。</li></ol>
 
-这个项目把自定义目标识别与二维云台连接起来。当前示例使用玩偶作为目标：MaixCAM Pro 检测目标，电脑接收偏离画面中心的坐标，计算控制动作，再通过 ESP32-S3 驱动双轴机构。目标是让识别结果真正进入反馈链路，而非只在屏幕上显示一个框。
+<div class="field-split">
+<figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/project-field/maix-recognition.webp"><img src="assets/project-field/maix-recognition.webp" alt="识别程序和实时目标画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原片截帧：识别代码、画面中心与目标检测画面。<span>点击看原图 ↗</span></figcaption></figure><div><h3>这个框，只回答“找到了谁”</h3><p>检测结果还要转换为目标中心和画面中心的偏差。接着核对坐标符号、置信度与目标选择，才知道该把哪个方向的命令交给云台。</p><p>画面里的 <code>target lost</code> 表示当前没有满足条件的目标；重新找到目标后再更新状态。</p></div></div>
 
-## 训练链与运行链分别准备
+<div class="field-split">
+<figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/project-field/maix-control.webp"><img src="assets/project-field/maix-control.webp" alt="视觉 PID 自动锁定控制界面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原片截帧：目标状态、二维偏差点、PID 参数和安全限制。<span>点击看原图 ↗</span></figcaption></figure><div><h3>在动作前，先把命令看明白</h3><p>控制界面把 dx / dy 画成偏差点，同时显示锁定状态、串口和最近命令。可以先开 dry-run，只看命令；方向和幅度确认后，再启用自动锁定。</p><p>死区、最大步数、最低置信度和发送间隔是联调参数。画面显示的是这次调试的配置，不代表通用最优值。</p></div></div>
 
-训练流程包括相机采图、建立数据集、目标框标注、MaixHub 训练及模型部署。运行时由 MaixPy 加载 YOLOv5 模型，计算目标中心与画面中心的偏差，经 UDP 发送到电脑。电脑 GUI 呈现坐标与控制状态，PID 将误差转为运动命令，再由主控输出电机脉冲。
+## 我怎么区分问题出在哪一段
 
-## 数据与控制需要共同调试
-
-数据集不能只有同一背景和单一距离，否则演示时很容易丢失目标。运行链也需要统一坐标方向、目标选择、死区和速度参数。看到框不代表命令已执行，电机能转也不代表追踪稳定；各环节应先独立确认，再组合成闭环，避免同时更改模型阈值与控制增益后无法解释结果。
-
-## 先观察命令，再启用动作
-
-现有部署文档保留 dry-run 流程：先只接收坐标、查看命令和轨迹，确认目标与符号正确后再启用执行。开源整理包以 MaixCAM 端和 PC GUI 为主，ESP32-S3 必须使用匹配协议的固件。训练模型文件、识别程序、GUI 与固件版本之间需要明确对应。
-
-## 当前作品能展示的能力
-
-已有模型示例与中文资料贯穿采图、训练、识别和追踪，可以展示视觉应用的完整工程顺序。本页不把示例模型推广成所有物体都能可靠识别，也不虚构检测率、帧率或跟踪误差。下一步改进应从实际丢失场景、控制振荡和部署条件出发。
-
-## 继续阅读
-
-[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
-
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>看到的现象</th><th>先检查</th><th>对应工具</th></tr></thead><tbody><tr><td>目标在画面里，但没有框</td><td>模型文件、目标类别、检测阈值。</td><td>相机识别画面。</td></tr><tr><td>有框，电脑没有坐标</td><td>UDP 接收端是否启动、地址与端口是否一致。</td><td>坐标日志与 GUI 目标状态。</td></tr><tr><td>有坐标，云台方向相反</td><td>dx / dy 的符号和轴方向是否匹配。</td><td>dry-run、X / Y 反向设置。</td></tr><tr><td>云台能跟，靠近中心来回摆</td><td>死区、增益、单次步数和发送间隔。</td><td>偏差轨迹、最近命令与实机动作。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看模型训练与部署</summary><div>数据准备要包含不同背景和距离。训练后核对模型文件、识别程序、PC GUI 与主控固件的对应关系，再把识别与动作逐段接起来。</div></details><details class="field-detail"><summary>展开看这个演示的范围</summary><div>原片以玩偶目标展示识别、坐标反馈与双轴控制。它能说明这套系统如何联调；其他目标或不同光照需要重新准备数据与测试。</div></details><nav class="field-read-next" aria-label="继续阅读"><a href="ball-balance.html">看车载滚球实拍 →</a><a href="mouse-gimbal.html">看两版鼠标云台 →</a><a href="projects.html">其他作品 →</a></nav>

@@ -2,82 +2,32 @@
 title: 我的能力与作品证据
 description: 沿着具体作品，看我推进目标、做取舍、调试与验证的过程。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
   - 实践能力
 publish: true
 ---
 
-<div class="case-intro"><span class="case-kicker">能力 × 作品 × 过程</span><p class="case-lead">从做过的事，<br>认识我的实践能力。</p><p>每个方向都连接到具体案例：我推进什么、怎样与 AI 和工程基础协作，以及结果能由什么材料说明。</p></div>
-
-<!-- note-visuals-20261108 -->
-
-<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/capabilities.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/capabilities-mobile.svg" width="460" height="840"><img src="assets/notes/capabilities.svg" alt="从产品、FPGA、交互、维护、创作与 AI 协作认识地瓜丸" width="1100" height="710" loading="lazy" decoding="async"></picture></a><figcaption>能力地图：不以星级打分，用下方的具体案例继续核对。<span>点击查看大图 ↗</span></figcaption></figure>
+<div class="field-intro"><span class="field-kicker">地瓜丸 · 能力与作品</span><p class="field-lead">我做过什么，<br>直接去作品里看。</p><p>主要作品是免费在线 FPGA 教学平台。另外也做图像音频、视觉控制和桌面工具。这里把具体工作与可查看的材料放在一起。</p></div><figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/feature-tour/13-code-led.webp"><img src="assets/feature-tour/13-code-led.webp" alt="FPGA 教学平台：代码、硬件反馈和波形放在同一张工作台。" width="1600" height="900" loading="lazy" decoding="async"></a><figcaption>FPGA 教学平台：代码、硬件反馈和波形放在同一张工作台。<span>点击看原图 ↗</span></figcaption></figure>
 
 <a id="product" class="section-anchor"></a>
 
-## 教学与产品设计
+## 从教学平台认识我
 
-把学习目标拆成任务、操作、观察和反馈，让一次练习能连续完成。持续收集“看不清、找不到、用起来挤”的反馈，决定功能优先级。
-
-**对应案例：** [[platform|FPGA 教学平台]]。可以看练习流程、手册截图和三次设计取舍。
-
-<figure class="case-figure note-visual"><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="FPGA 教学平台的完整硬件与手册界面" loading="lazy" decoding="async"></a><figcaption>产品与教学：用真实界面查看练习工具怎样放在一起。<span>点击查看大图 ↗</span></figcaption></figure>
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>工作</th><th>落在哪个功能里</th><th>可以查看的材料</th></tr></thead><tbody><tr><td>教学任务设计</td><td>从 LED、时序和通信走到数据流与外设。</td><td><a href="fpga.html">8 章课程路线与观察例子 →</a></td></tr><tr><td><span id="web"></span>交互与资料组织</td><td>图形连线生成 XDC，点元件查逐针手册。</td><td><a href="hardware.html">手册和 3D 桌面 →</a></td></tr><tr><td><span id="debug"></span>排查与迭代</td><td>波形细节、文字对比度、动态合并和页面链接修复。</td><td><a href="debugging.html">具体问题与处理 →</a></td></tr><tr><td><span id="operations"></span>部署与维护</td><td>云端服务、通知、备份和更新验收。</td><td><a href="maintenance.html">维护过程记录 →</a></td></tr></tbody></table></div>
 
 <a id="fpga" class="section-anchor"></a>
 
-## FPGA 图像与音频实践
+## FPGA 实物作品
 
-围绕图像缓存、读地址、转场状态和 HDMI 输出，推进音画作品的功能实现与效果迭代。实时缩放涉及的不只是一个视觉开关，还需要状态和地址映射配合。
-
-**对应案例：** [[tide-composer|潮汐作曲家]]。有实物照片、处理链路和缩放方案对照。[[tide-technology|技术介绍页]]进一步展示系统架构、创新点和技术栈。
-
-<figure class="case-figure note-visual"><a class="case-image-link" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="潮汐作曲家显示器与板卡同框的实物运行照片" loading="lazy" decoding="async"></a><figcaption>FPGA 实践：显示器与板卡同框，具体功能继续查看项目与技术页。<span>点击查看大图 ↗</span></figcaption></figure>
+<figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="潮汐作曲家：板卡与显示器同框的实物运行画面。" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>潮汐作曲家：板卡与显示器同框的实物运行画面。<span>点击看原图 ↗</span></figcaption></figure><div class="field-table-wrap"><table class="field-table"><thead><tr><th>作品里的工作</th><th>技术内容</th><th>展开查看</th></tr></thead><tbody><tr><td>把素材送到屏幕</td><td>SD 卡、SDRAM 帧缓存、HDMI 输出。</td><td><a href="tide-technology.html">系统架构 →</a></td></tr><tr><td>让画面实时改变</td><td>缩放地址映射，转场期间提交状态。</td><td><a href="tide-technology.html">缩放与转场设计 →</a></td></tr><tr><td>核对写入与实物现象</td><td>构建报告、Flash 回读和 TF 镜像检查。</td><td><a href="tide-composer.html">作品与验证过程 →</a></td></tr></tbody></table></div>
 
 <a id="hardware" class="section-anchor"></a>
 
-## 板端调试与系统联调
+## 视觉与运动控制
 
-把文件、接口、板卡和显示结果连成完整路径，区分行为仿真、构建报告、写入校验与实物现象各自说明什么。
+<figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/project-field/maix-control.webp"><img src="assets/project-field/maix-control.webp" alt="MaixCAM 项目的控制界面实录：目标状态、偏差点与 PID 参数。" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>MaixCAM 项目的控制界面实录：目标状态、偏差点与 PID 参数。<span>点击看原图 ↗</span></figcaption></figure><div class="field-table-wrap"><table class="field-table"><thead><tr><th>作品</th><th>我推进的内容</th><th>实拍入口</th></tr></thead><tbody><tr><td>车载平衡滚球</td><td>视觉位置、速度估计、摩擦补偿与步进控制。</td><td><a href="ball-balance.html">照片和 3 段实拍 →</a></td></tr><tr><td>MaixCAM 自动识别瞄准</td><td>模型部署、坐标反馈、GUI 与双轴机构联调。</td><td><a href="maixcam-tracking.html">4 分 52 秒演示 →</a></td></tr><tr><td>鼠标双轴云台</td><td>ESP32-S3 与 FPGA 两条主控路线。</td><td><a href="mouse-gimbal.html">两版实现介绍 →</a></td></tr></tbody></table></div>
 
-**对应案例：** [[tide-composer|潮汐作曲家]] 的板端照片、Flash 回读与 TF 镜像校验记录；[[hardware|教学平台逐针手册]]展示了对接口资料一致性的关注。
+## 软件工具、表达与协作
 
-<a id="web" class="section-anchor"></a>
-
-## 网页交互与信息呈现
-
-把复杂界面整理为需要时能找到、看得清的工具。关注目录、弹层、文字对比度和手机阅读，验证界面改动是否帮助使用者完成任务。
-
-**对应案例：** [[platform|教学平台案例]]与[[interaction|交互与信息呈现]]。
-
-<a id="operations" class="section-anchor"></a>
-
-## 部署与网站维护
-
-从个人电脑提供服务到云部署，逐步建立监测、通知、服务恢复、数据备份与更新验收。根据成本和使用条件选择合适方式。
-
-**对应案例：** [[maintenance|个人网站的维护实践]]。包含历史启动截图、通知记录与当前部署阶段。
-
-<a id="debug" class="section-anchor"></a>
-
-## 故障定位与验证
-
-先把问题缩小到可以检查的环节，再针对原因修改。保留之前的状态，分别验证功能、交互和部署结果，记录仍然没有证明的部分。
-
-**对应案例：** [[maintenance|黑窗闪现与启动就绪检查]]、[[tide-composer|缩放和写入验证]]、[[debugging|反馈处理方法]]。
-
-<a id="creation" class="section-anchor"></a>
-
-## 教学表达与视频创作
-
-使用真实录屏、截图聚焦、动态演示和横竖屏构图，帮助观众理解功能如何操作以及结果是什么。
-
-**对应记录：** [[remotion|Remotion 产品演示]]、[[content-creation|教学与功能演示]]。
-
-<figure class="case-figure note-visual"><a class="case-image-link" href="assets/notes/promo-cover.png"><img src="assets/notes/promo-cover.png" alt="我的 FPGA 教学平台功能演示成片封面" width="1920" height="1080" loading="lazy" decoding="async"></a><figcaption>教学表达：以真实操作为主的功能演示成片封面存档。<span>点击查看大图 ↗</span></figcaption></figure>
-
-## 我的判断与 AI 协作
-
-我确定目标、反馈现象、检查预览并决定取舍；AI 辅助实现、分析、测试与整理。案例中分别说明这些工作，以过程和结果作为阅读依据。
-
-[[ai-collaboration|了解协作方式]] · [[workflow|查看工作流]] · [[contact|找到我]]
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>方向</th><th>具体作品或工作</th><th>入口</th></tr></thead><tbody><tr><td>桌面工具</td><td>AI 用量监控台、Everyday 像素任务与启动中控。</td><td><a href="projects.html">其他项目 →</a></td></tr><tr><td><span id="creation"></span>视频制作</td><td>功能实录、截图聚焦、横竖屏分别构图。</td><td><a href="content-creation.html">演示与镜头安排 →</a></td></tr><tr><td>与 AI 合作</td><td>我提出目标、检查预览和决定取舍，AI 协助实现与验证。</td><td><a href="ai-collaboration.html">按一次改动看分工 →</a></td></tr></tbody></table></div><nav class="field-read-next" aria-label="继续阅读"><a href="projects.html">全部作品 →</a><a href="contact.html">去找地瓜丸 →</a></nav>

@@ -8,6 +8,8 @@ export default (()=>{
   if(window.__dgwExhibitReady)return;
   window.__dgwExhibitReady=true;
   document.addEventListener('click',event=>{
+   const chapter=event.target.closest?.('[data-video-seek]');
+   if(chapter){const video=document.getElementById(chapter.dataset.videoTarget);if(!(video instanceof HTMLVideoElement))return;const seconds=Number(chapter.dataset.videoSeek);if(!Number.isFinite(seconds)||seconds<0)return;const seek=()=>{video.currentTime=Math.min(seconds,Number.isFinite(video.duration)?video.duration:seconds);const status=chapter.closest('.field-video-section')?.querySelector('.field-chapter-status');if(status)status.textContent='已定位到 '+chapter.textContent.trim()+'，可继续播放';};if(video.readyState>=1)seek();else{video.addEventListener('loadedmetadata',seek,{once:true});video.preload='metadata';video.load();}video.play().catch(()=>{});return;}
    const filter=event.target.closest?.('[data-gallery-group]');
    if(filter){const gallery=filter.closest('.feature-gallery');const group=filter.dataset.galleryGroup;let count=0;gallery.querySelectorAll('.gallery-card').forEach(card=>{const show=group==='all'||card.dataset.group===group;card.hidden=!show;if(show)count++});gallery.querySelectorAll('[data-gallery-group]').forEach(button=>button.setAttribute('aria-pressed',String(button===filter)));const output=gallery.querySelector('[data-gallery-count]');if(output)output.textContent='正在展示 '+count+' 张真实功能截图';return;}
    const button=event.target.closest?.('[data-load-board]');if(!button)return;
