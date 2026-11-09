@@ -419,9 +419,9 @@
     },
     {
       "id": "maixcam-tracking",
-      "title": "MaixCAM｜模型训练与二维追踪",
+      "title": "MaixCAM 自动识别与云台",
       "group": "projects",
-      "summary": "从自己的训练图片，到目标坐标与云台动作的完整应用路径。",
+      "summary": "完整实拍、识别框、坐标反馈与 PID 控制界面。",
       "href": "../maixcam-tracking.html",
       "related": [
         "projects",
