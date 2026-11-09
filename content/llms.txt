@@ -1,31 +1,44 @@
-# 地瓜丸的 AI 共创档案
+# 地瓜丸的 FPGA 教学平台与工作室
 
-公开作品与实践。最近更新：2026-11-08。
+免费在线教学平台为主线，其他项目次之。更新于 2026-11-09。
 
-## 案例与阅读入口
+## 页面索引
 
-- [关于地瓜丸](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/about.html): 从 FPGA 教学出发，用 AI 把想法做成能用的作品。
-- [我怎样与 AI 一起做项目](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ai-collaboration.html): 由我决定目标和取舍，让 AI 协助实现、整理与验证。
-- [找到我与体验作品](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/contact.html): 网站、B站、抖音教学视频与 FPGA 学习交流群。
-- [教学视频与功能演示](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/content-creation.html): 用真实操作讲清楚功能，让观众看到过程和结果。
-- [从反馈里找到真正的问题](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/debugging.html): 把“打不开”“看不清”“不对劲”变成可以核对的具体问题。
-- [做取舍的几个原则](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/decisions.html): 围绕学习效果、个人维护成本和真实证据做决定。
-- [FPGA 与数字逻辑](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/fpga.html): 从点亮一颗灯，到理解波形、接口和逐拍行为。
-- [把硬件与手册放在一起](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/hardware.html): 点元件查资料，接线落到具体针脚，避免漂亮却无用的装饰。
-- [地瓜丸的作品与 AI 共创档案](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/index.html): 从在线教学、FPGA 实物到网站维护，沿着真实作品认识地瓜丸。
-- [让信息看得清、找得到](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/interaction.html): 空间、对比度、合并规则和反馈，直接影响功能能否被理解。
-- [个人网站的维护实践](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/maintenance.html): 从本机服务、微信通知到云部署，记录具体问题与处理过程。
-- [我最近在做什么](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/now.html): 截至 2026-11-07 的当前进展与继续关注的方向。
-- [我的 FPGA 教学平台](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/platform.html): 把代码、约束、波形与硬件观察放进一次完整练习。
-- [用 Remotion 做产品演示](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/remotion.html): 运镜、节奏与真实素材一起，让功能更容易被看懂。
-- [我的能力与作品证据](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html): 沿着具体作品，看我推进目标、做取舍、调试与验证的过程。
-- [高速数据流与外设实验](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/streaming.html): 从 Ready/Valid 开始，逐步理解停顿、跨时钟与接口事务。
-- [潮汐作曲家：FPGA 海洋音画系统](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-composer.html): 从实物音画展示到实时缩放、固化和回读验证。
-- [潮汐作曲家：技术架构与创新设计](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-technology.html): 四帧缓存、板端实时缩放、转场状态提交与 PCM 音画联动的技术拆解。
-- [项目更新与成长记录](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/timeline.html): 从波形、社区与高速数据流，到 4.1 外设和交互细节。
-- [把波形真正看清](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/waveform.html): 缩放、测量、跳变定位与局部精细波形，服务于具体分析。
-- [把功能做成可用的网页](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/web.html): 编辑、查阅和观察都需要顺手，技术实现最终要服务使用过程。
-- [从想法到上线的工作流](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/workflow.html): 把需求、实现、验证与留痕连成一条可以复查的过程。
-
-- [结构化摘要](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/profile.json)
-- [完整公开文本](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/llms-full.txt)
+- [地瓜丸的 FPGA 教学平台](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/index.html)
+- [我的 FPGA 教学平台](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/platform.html)
+- [认识地瓜丸的吉祥物](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/mascot.html)
+- [地瓜丸工作室 · 其他项目](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/projects.html)
+- [地瓜丸为什么做 FPGA 教学平台](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/about.html)
+- [双麦声学感知／声学取证终端](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/acoustic-terminal.html)
+- [我怎样与 AI 一起做项目](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ai-collaboration.html)
+- [AI 监控台｜从悬浮窗到用量仪表](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ai-monitor.html)
+- [电赛实践｜简易自行瞄准装置](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/auto-aim.html)
+- [车载平衡滚球｜视觉与运动控制](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ball-balance.html)
+- [去找地瓜丸→](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/contact.html)
+- [教学视频与功能演示](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/content-creation.html)
+- [从反馈里找到真正的问题](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/debugging.html)
+- [做取舍的几个原则](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/decisions.html)
+- [Everyday｜像素任务清单与启动中控台](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/everyday.html)
+- [FlexStep｜人体步态柔性感知系统](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/flexstep.html)
+- [FPGA 与数字逻辑](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/fpga.html)
+- [FUMA／UNIT｜多模态脑电固件](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/fuma-unit.html)
+- [游戏安全 AI｜初赛分类实践](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/game-security-ai.html)
+- [把硬件与手册放在一起](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/hardware.html)
+- [让信息看得清、找得到](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/interaction.html)
+- [个人网站的维护实践](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/maintenance.html)
+- [MaixCAM｜模型训练与二维追踪](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/maixcam-tracking.html)
+- [鼠标双轴云台｜ESP32-S3 与 FPGA 两版](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/mouse-gimbal.html)
+- [我最近在做什么](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/now.html)
+- [脑电固件与蓝牙 OTA｜方法笔记](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ota-method.html)
+- [用 Remotion 做产品演示](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/remotion.html)
+- [我的能力与作品证据](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html)
+- [高速数据流与外设实验](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/streaming.html)
+- [不归砚／Sword Duel｜动作交互原型](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/sword-duel.html)
+- [潮汐作曲家：FPGA 海洋音画系统](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-composer.html)
+- [潮汐作曲家：技术架构与创新设计](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-technology.html)
+- [项目更新与成长记录](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/timeline.html)
+- [乌拉尔回响｜交互叙事实验](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ural-echo.html)
+- [把波形真正看清](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/waveform.html)
+- [WeariFi｜柔域智感](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/wearifi.html)
+- [把功能做成可用的网页](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/web.html)
+- [从想法到上线的工作流](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/workflow.html)

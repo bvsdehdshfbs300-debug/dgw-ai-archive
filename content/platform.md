@@ -2,7 +2,7 @@
 title: 我的 FPGA 教学平台
 description: 把代码、约束、波形与硬件观察放进一次完整练习。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
   - 代表作品
   - 产品与教学
@@ -20,6 +20,23 @@ publish: true
 <ol class="case-flow"><li><span>01</span><strong>理解任务</strong><p>先知道目标现象和接口要求。</p></li><li><span>02</span><strong>编写与接线</strong><p>修改 Verilog，填写 XDC 或图形连线。</p></li><li><span>03</span><strong>运行与观察</strong><p>查看检查结果、波形和板卡反馈。</p></li><li><span>04</span><strong>定位与重试</strong><p>根据现象修改，再运行验证。</p></li></ol>
 
 <figure class="case-figure "><a class="case-image-link" href="assets/cases/platform-workspace.png"><img src="assets/cases/platform-workspace.png" alt="练习编辑器、板卡和运行入口的真实界面" loading="lazy" decoding="async"></a><figcaption>练习界面存档：编辑器中的 TODO 是学员待填写模板；这张截图展示布局，未展示已通过的运行结果。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 功能逐项展开看
+
+<details class="feature-story" open><summary><span>01 / 动手写</span><strong>代码、约束与一次运行</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>先读任务，再写 Verilog；编辑器、约束、运行反馈和观察窗口连在一起。每次修改后都可以重新运行，沿着信号与检查结果继续定位，而不是只猜语法有没有写对。</p><figure class="case-figure "><a class="case-image-link" href="assets/cases/platform-workspace.png"><img src="assets/cases/platform-workspace.png" alt="代码、约束与一次运行" width="1600" height="1000" loading="lazy" decoding="async"></a><figcaption>一个学习目标，放在同一张工作台上。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>02 / 接得上</span><strong>点选连线，约束跟着落下</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>代码里的端口不是凭空存在的。图形连线将端口、板上针脚和 XDC 联系起来；接线后还要查看自动填写的约束。手写和图形方式都留在练习里，方便理解二者对应关系。</p><figure class="case-figure "><a class="case-image-link" href="assets/showcase/constraint-wiring.gif"><img src="assets/showcase/constraint-wiring.gif" alt="点选连线，约束跟着落下" width="850" height="766" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：端口连接到针脚，约束随之填写。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>03 / 看得清</span><strong>沿波形找到问题发生的那一拍</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>从长时间窗口定位密集活动，再进入局部细节。平移、缩放、跳变定位、双游标测量与进制切换各有用途：先确认要观察的问题，再选择能解释它的工具。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/waveform.gif"><img src="assets/notes/waveform.gif" alt="沿波形找到问题发生的那一拍" width="900" height="498" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：时间窗口、信号和游标位置。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>04 / 有现象</span><strong>LED 与屏幕，让结果看得见</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>灯为什么亮、什么时候翻转，需要和代码里的计数、状态及输出电平一起看。教学桌面让波形中的变化有直观反馈；显示关卡还可以把行场时序还原成一帧画面。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/led-feedback.gif"><img src="assets/notes/led-feedback.gif" alt="LED 与屏幕，让结果看得见" width="750" height="758" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：波形时间位置与虚拟 LED 对应。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>05 / 查得到</span><strong>元件不是摆设，手册紧挨着器件</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>从器件名称到接口，再到针号、方向和对端，资料应能顺着问题找到。完整硬件桌面覆盖所有关卡，逐针手册帮助学习者核对连线，而不是在好几个文档之间来回找。</p><figure class="case-figure "><a class="case-image-link" href="assets/showcase/board-manual.gif"><img src="assets/showcase/board-manual.gif" alt="元件不是摆设，手册紧挨着器件" width="900" height="574" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：点击板上元件，继续查资料。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>06 / 往深处走</span><strong>从一颗灯，走到数据流与外设</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>31 个公开关卡分成 8 章，从组合逻辑、时钟计数和状态机，延伸到 UART、I²C、显示、FIFO、网络、高速流及独立外设实验。每关先抓住一个能观察、能判断的关键行为。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/screen-display.gif"><img src="assets/notes/screen-display.gif" alt="从一颗灯，走到数据流与外设" width="900" height="524" loading="lazy" decoding="async"></a><figcaption>真实显示关卡录屏：彩条、像素位置与时序说明。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+
+## 3D 硬件桌面，直接动手试
+
+<div class="board-exhibit"><img src="assets/hardware.png" alt="地瓜丸 FPGA 教学平台的完整 3D 外设桌面" loading="lazy"><div><span>浏览器里的硬件桌面</span><h3>亲手转一圈，点开每个器件。</h3><p>主板、AD/DA、SPI、GPIO、PCIe 与接口，在同一张桌面上。</p><button type="button" data-load-board="https://dgwfpga.cn/portfolio-media/20261109/board-viewer/">打开交互式 3D 板卡 →</button><small>按需加载 · 拖动旋转 · 元件可点击</small></div></div>
+
+## 完整操作演示
+
+<figure class="video-feature"><video controls playsinline preload="none" poster="assets/notes/promo-cover.png" aria-label="平台功能实操宣传片"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4" type="video/mp4"><a href="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4">打开演示视频</a></video><figcaption>平台功能实操宣传片 · 点击播放，支持全屏。<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4" target="_blank" rel="noopener">单独打开 ↗</a></figcaption></figure>
 
 ## 我怎样推进这个产品
 

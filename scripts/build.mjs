@@ -25,8 +25,8 @@ for(const slug of ['platform','tide-composer','maintenance','tide-technology']){
  }
 }
 const home=fs.readFileSync(path.join(root,'public/index.html'),'utf8');
-if((home.match(/class="work-card"/g)||[]).length!==3)throw new Error('Expected three intact project cards');
-console.log('Verified case navigation, capability panels, image viewer and three project cards.');
+if(!home.includes('product-hero') || (home.match(/class="feature-story"/g)||[]).length!==6)throw new Error('Expected platform-led home and six feature demonstrations');
+console.log('Verified the platform-led home and six complete feature demonstrations.');
 // A content page should never silently regress to an unillustrated text-only page.
 for(const slug of ['index', ...expected.notes.map(note=>note.id)]){
  const html=fs.readFileSync(path.join(root,'public',slug+'.html'),'utf8');
@@ -34,3 +34,19 @@ for(const slug of ['index', ...expected.notes.map(note=>note.id)]){
  if(!/<img\b/.test(article))throw new Error('Missing article image on '+slug);
 }
 console.log('Verified an article image on every public content page.');
+// Media are served from the owner's existing China server; retain local image fallbacks.
+const media='https://dgwfpga.cn/portfolio-media/20261109/';
+for(const file of fs.readdirSync(path.join(root,'public'),{recursive:true}).filter(name=>name.endsWith('.html'))){
+ const output=path.join(root,'public',file);
+ let html=fs.readFileSync(output,'utf8');
+ html=html.replace(/\b(src|href|srcset|poster)="([^"]+)"/g,(all,attribute,url)=>{
+  if(/^(?:https?:|data:|blob:|#)/.test(url))return all;
+  let local=url.replace(/^\/dgw-ai-archive\//,'/');
+  const resolved=local.startsWith('/')?path.join(root,'public',local):path.resolve(path.dirname(output),local);
+  const relative=path.relative(path.join(root,'public'),resolved).replaceAll('\\','/');
+  if(!relative.startsWith('assets/') || !fs.existsSync(resolved))return all;
+  return attribute+'="'+media+relative+'"'+(attribute==='src'?' data-local-fallback="'+url+'"':'');
+ });
+ fs.writeFileSync(output,html);
+}
+console.log('Applied China-hosted media links with local image fallbacks.');

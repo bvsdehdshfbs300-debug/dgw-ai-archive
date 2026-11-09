@@ -1,9 +1,9 @@
 {
   "name": "地瓜丸",
   "display_name": "dgw",
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "language": "zh-CN",
-  "description": "FPGA 教学内容创作者，持续维护个人在线教学产品，并记录 AI 协作实践。",
+  "description": "以免费在线 FPGA 教学平台为主线，展示硬件、控制、感知与个人工具作品。",
   "projects": [
     {
       "name": "地瓜丸的 FPGA 教学平台",
@@ -31,7 +31,9 @@
     "graph": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/graph/",
     "bilibili": "https://space.bilibili.com/660494383",
     "douyin_teaching_video": "https://v.douyin.com/U6EWdiSy7AA/",
-    "qq_group": "1125010630"
+    "qq_group": "1125010630",
+    "douyin_account": "55753961013",
+    "contact": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/contact.html"
   },
   "evidence_policy": "只记录实际作品与已确认结果；关注方向不等于已经完成的功能。",
   "scope": "Public project and creator profile; no private project source or operational records.",
@@ -53,5 +55,78 @@
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-technology.html"
     }
   ],
-  "capability_evidence_url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html"
+  "capability_evidence_url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html",
+  "primary_project": "地瓜丸的 FPGA 教学平台",
+  "other_projects": [
+    {
+      "name": "FlexStep｜人体步态柔性感知系统",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/flexstep.html",
+      "stage": "方案与立项材料；采集整机及动态指标仍需实测验证"
+    },
+    {
+      "name": "双麦声学感知／声学取证终端",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/acoustic-terminal.html",
+      "stage": "完整 v6 交付版：综合、布局布线及位流生成通过；本版位流尚未上板"
+    },
+    {
+      "name": "WeariFi｜柔域智感",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/wearifi.html",
+      "stage": "参赛方案、前后端工程与演示材料齐备；识别率和长期监护指标未独立复测"
+    },
+    {
+      "name": "FUMA／UNIT｜多模态脑电固件",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/fuma-unit.html",
+      "stage": "FUMA 原版 OTA 有实机记录；UNIT Float V9 为编译与离线仿真阶段"
+    },
+    {
+      "name": "脑电固件与蓝牙 OTA｜方法笔记",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ota-method.html",
+      "stage": "只展示工程方法；不公开密钥、设备配置、固件包或签名材料"
+    },
+    {
+      "name": "电赛实践｜简易自行瞄准装置",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/auto-aim.html",
+      "stage": "2025 电赛 E 题相关工程与迭代材料；本页未重新复验整机指标"
+    },
+    {
+      "name": "车载平衡滚球｜视觉与运动控制",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ball-balance.html",
+      "stage": "有最终工程、控制说明与位置记录；未在本轮重测动态指标"
+    },
+    {
+      "name": "鼠标双轴云台｜ESP32-S3 与 FPGA 两版",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/mouse-gimbal.html",
+      "stage": "两版均有主控实现、PC 程序及接线资料；具体整机表现需按各版验证"
+    },
+    {
+      "name": "MaixCAM｜模型训练与二维追踪",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/maixcam-tracking.html",
+      "stage": "模型示例、识别端与 PC GUI、部署文档已整理；性能未在本轮重测"
+    },
+    {
+      "name": "AI 监控台｜从悬浮窗到用量仪表",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ai-monitor.html",
+      "stage": "有早期悬浮窗、后续监控台与发布包；用量和花费各自保留口径"
+    },
+    {
+      "name": "Everyday｜像素任务清单与启动中控台",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/everyday.html",
+      "stage": "有完整页面、Electron 主进程与安装包配置；本轮未运行验证"
+    },
+    {
+      "name": "游戏安全 AI｜初赛分类实践",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/game-security-ai.html",
+      "stage": "已核对初赛归档文件组成；未加载模型或复算评测成绩"
+    },
+    {
+      "name": "乌拉尔回响｜交互叙事实验",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ural-echo.html",
+      "stage": "有网页交互、故事节点与 Android 工程；未核验最终发行版本"
+    },
+    {
+      "name": "不归砚／Sword Duel｜动作交互原型",
+      "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/sword-duel.html",
+      "stage": "有网页动作原型与 Electron 配置；本轮未运行或复验最新平衡"
+    }
+  ]
 }

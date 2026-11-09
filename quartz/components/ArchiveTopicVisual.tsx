@@ -11,6 +11,10 @@ const topics: Record<string, [string, string, string, number, number]> = {
   "问题与迭代": ["notes/debugging.svg", "从现象走到可复查的修改", "排查路径示意", 1100, 450],
   "ai协作": ["notes/collaboration.svg", "目标、实现与共同验证", "协作职责示意", 1100, 450],
   "fpga实践": ["cases/tide-board.jpg", "让逻辑在板端运行", "潮汐作曲家开发板实物照片", 1279, 1706],
+  "品牌角色": ["mascot/mascot-celebrating.png", "认识地瓜丸的吉祥物", "同一个角色，贯穿平台与教程", 512, 512],
+  "更多作品": ["cases/tide-system.png", "工作室的其他项目", "从 FPGA 实物延伸到感知、控制与交互", 1280, 720],
+  "交互与游戏": ["projects/sword-duel-interface.png", "不归砚的标题界面", "现有网页游戏原型的界面存档", 1440, 1000],
+  "软件工具": ["projects/everyday-interface.png", "Everyday 像素任务界面", "本机现有界面截图", 1440, 1000],
 }
 
 export default (() => {

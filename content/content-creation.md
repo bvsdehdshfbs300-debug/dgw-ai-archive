@@ -35,6 +35,6 @@ B站横屏与抖音竖屏采用独立构图，重要文字和操作区域放在�
 - [[remotion|用 Remotion 做产品演示]]
 - [[platform|我的 FPGA 教学平台]]
 - [[decisions|做取舍的几个原则]]
-- [[contact|找到我与体验作品]]
+- [[contact|去找地瓜丸→]]
 
 [[index|回到档案首页]]

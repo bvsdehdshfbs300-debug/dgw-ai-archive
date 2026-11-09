@@ -1,5 +1,5 @@
 configuration:
-  pageTitle: 地瓜丸 · 共创档案
+  pageTitle: 地瓜丸 · FPGA 教学平台
   pageTitleSuffix: " · 地瓜丸"
   enableSPA: false
   enablePopovers: true

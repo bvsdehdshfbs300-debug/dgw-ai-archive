@@ -1,45 +1,75 @@
 ---
-title: 关于地瓜丸
-description: 从 FPGA 教学出发，用 AI 把想法做成能用的作品。
+title: 地瓜丸为什么做 FPGA 教学平台
+description: 从学习中的阻力出发，把代码、波形和硬件现象放到一起。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
   - 关于我
 publish: true
 ---
 
-我是地瓜丸，正在持续制作 FPGA 教学内容，也在维护自己的免费在线 FPGA 教学平台。
+<div class="case-intro"><span class="case-kicker">从一个人的想法，做到持续维护的产品</span><p class="case-lead">我想让“学会写代码”，<br>再往“解释电路现象”走一步。</p><p>我是地瓜丸，制作 FPGA 教学内容，也维护这座免费在线 FPGA 教学平台。这里的主角是平台：其他硬件项目、控制系统与工具，记录我怎样继续积累和把经验带回教学。</p></div>
 
-我关心的是初学者能不能把代码、波形和电路现象对应起来。为此，我把编辑、约束、运行、观察和练习反馈放在同一个网页里，再根据学习者的实际反馈一点点修改。
-
-<!-- note-visuals-20261108 -->
-
-<figure class="case-figure note-visual "><a class="case-image-link" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="地瓜丸参与制作的潮汐作曲家音画实物" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>从网页到板端：潮汐作曲家的实物运行照片。<span>点击查看大图 ↗</span></figcaption></figure>
-
-<figure class="case-figure note-visual "><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="地瓜丸 FPGA 教学平台外设桌面" width="1440" height="900" loading="lazy" decoding="async"></a><figcaption>另一个创作方向：把电路学习做成可以操作的网页。<span>点击查看大图 ↗</span></figcaption></figure>
+<figure class="case-figure "><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="教学平台的真实硬件桌面" width="1440" height="900" loading="lazy" decoding="async"></a><figcaption>点开器件、看到引脚、查到资料，是同一个学习过程的不同入口。<span>点击看大图 ↗</span></figcaption></figure>
 
 ## 我在这里记录什么
 
-作品做到了哪一步，遇到了什么问题，为什么选择某个方案，以及 AI 怎样参与这些过程。每一项能力尽量关联具体作品和结果，仍在学习的内容也会注明。
+<div class="editorial-grid"><section><span>问题</span><h3>学习者到底卡在哪里？</h3><p>“运行不对”“波形太密”“手册找不到”，需要变成具体操作和现象。截图、实际步骤和反馈，决定下一轮改动优先处理什么。</p></section><section><span>选择</span><h3>为什么采用这个方案？</h3><p>功能先服务一个明确学习目标，再考虑个人工作室的维护投入。把取舍讲清楚，后续才知道哪些地方应该坚持、哪些地方可以继续调整。</p></section><section><span>结果</span><h3>怎样确认它真的有用？</h3><p>预览里核对点击、文字、滚动和手机布局，发布后检查入口和资源；FPGA 实物则分开看仿真、工具报告、回读与板端现象。</p></section></div>
 
-## 一个人的工作室
+## 从平台，连接到其他实践
 
-这个档案以个人创作为主线。教学平台、视频、吉祥物和维护工具是同一段持续积累的不同部分。欢迎体验作品，也欢迎指出问题。
+教学平台训练的是把抽象逻辑变成可观察现象的能力。潮汐作曲家把这个过程放到了实体 FPGA、存储器、音频与显示器之间；柔性感知、视觉云台、运动控制和桌面工具，则继续探索如何把数据变成可用反馈。
 
-## 三个作品入口
+<figure class="case-figure "><a class="case-image-link" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="潮汐作曲家的实物运行" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>工作室的另一个方向：在实体板卡上整合音画与交互。<span>点击看大图 ↗</span></figcaption></figure>
 
-- [[platform|在线教学产品]]：练习流程、交互设计与学习者反馈。
-- [[tide-composer|潮汐作曲家]]：FPGA 音画实物、实时缩放与板端验证。
-- [[maintenance|网站维护实践]]：部署方式、故障定位和可回退的更新。
+## AI 如何参与，我又负责什么
 
-## 继续探索
+我确定目标、审查预览、反馈实际问题，并决定功能与视觉取舍；AI 协助实现、整理、方案比较和验证。项目介绍会写清工程基础、个人推进的工作与当前材料能证明的范围。团队项目也保留团队背景，不把协作写成一个人包办。
 
-- [[platform|我的 FPGA 教学平台]]
-- [[skills|我的实践方向]]
-- [[ai-collaboration|我怎样与 AI 一起做项目]]
-- [[contact|找到我与体验作品]]
+## 继续从具体内容了解我
 
-[[index|回到档案首页]]
+[[platform|先看 FPGA 教学平台]] · [[projects|其他项目总览]] · [[mascot|认识吉祥物]] · [[ai-collaboration|AI 协作方法]] · [[contact|去找地瓜丸→]]
+
+---
+title: 双麦声学感知／声学取证终端
+description: 从两路麦克风采样，到方向、频带、波形与录音的完整观察链。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - FPGA实践
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">从两路麦克风采样，到方向、频带、波形与录音的完整观察链。</p><div class="case-tags"><span>EG4S20 FPGA</span><span>INMP441 ×2</span><span>I2S</span><span>ILI9341</span><span>Goertzel</span><span>Python</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>完整 v6 交付版：综合、布局布线及位流生成通过；本版位流尚未上板</aside>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/acoustic-wiring.png"><img src="assets/projects/acoustic-wiring.png" alt="双麦声学终端工程接线图" width="2000" height="1290" loading="lazy"></a><figcaption>完整交付版的工程接线图；板端验证阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/acoustic-terminal.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/acoustic-terminal-mobile.svg" width="460" height="1000"><img src="assets/projects/acoustic-terminal.svg" alt="双麦声学感知／声学取证终端的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 让声音拥有多个观察入口
+
+这件作品把声学输入拆成能相互核对的几个结果：两路波形、声源方向、电平、频带强弱和电脑端录音。完整交付版使用 DMZ-EG4S20 开发板、两只 INMP441 数字麦克风、一块 ILI9341 小屏、板载串口和八颗 LED，没有为演示额外接入喇叭或音频播放链路。
+
+## FPGA 与电脑分别做什么
+
+板端以 I2S 组织双麦采样，形成双通道 PCM；互相关逻辑估计方向，并用定点平滑控制读数变化。八频带 Goertzel 响应采用单乘法器时分复用，LED 以 PWM 呈现各频段强弱。另一条通路将 PCM 经串口送入电脑，由 Python 仪表盘显示双路波形、FFT 瀑布图、频带图与 GCC-PHAT 方向估计，并支持双声道 WAV 记录。
+
+## 技术取舍是让每层都能解释
+
+FPGA 侧承担持续采样、固定节拍计算与硬件显示，电脑端承担更灵活的频谱观察和记录。两侧可以围绕同一段声音对照，帮助区分采样、传输和算法现象。声事件名称来自阈值规则，没有包装成已训练的 AI 分类器；方向角度也需要依据实际麦距、安装朝向与声学环境进行标定。
+
+## 完整交付与验证边界
+
+v6 已完成 TD 6.2.1 综合、布局布线和位流生成，记录中有资源与时序结果。早期版本曾做双麦链路实践，但这份完整 v6 位流明确尚未在实物下载验证，不能用旧版现象替代新版验收。后续应依次核对小屏初始化、频带响应、串口完整性和方向标定。
+
+## 为什么保留“取证”视角
+
+重点是让原始声音、处理结果和录音记录能对应，为分析留下可复查材料。板端采样、串口传输与电脑分析分别保留验证入口。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
 
 ---
 title: 我怎样与 AI 一起做项目
@@ -79,42 +109,151 @@ AI 参与了这个项目的实现、排查、文案与素材制作。我希望�
 [[index|回到档案首页]]
 
 ---
-title: 找到我与体验作品
-description: 网站、B站、抖音教学视频与 FPGA 学习交流群。
+title: AI 监控台｜从悬浮窗到用量仪表
+description: 把分散在不同客户端的用量，整理成桌面上随时能看懂的状态。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 软件工具
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把分散在不同客户端的用量，整理成桌面上随时能看懂的状态。</p><div class="case-tags"><span>PowerShell</span><span>WPF</span><span>增量日志解析</span><span>多客户端适配</span><span>DPAPI</span><span>Windows</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>有早期悬浮窗、后续监控台与发布包；用量和花费各自保留口径</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/ai-monitor.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/ai-monitor-mobile.svg" width="460" height="1000"><img src="assets/projects/ai-monitor.svg" alt="AI 监控台｜从悬浮窗到用量仪表的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 把看不见的消耗放到桌面上
+
+AI 监控台起初是一块监视 API 余额与请求参数的悬浮窗，随后扩展为多客户端用量观察工具。它关注输入、输出、缓存命中、费用估算及本机进程状态，让使用者在继续工作时能够判断请求是否发生、消耗来自哪里以及余额是否需要关注。
+
+## 从单条日志走向多源适配
+
+早期版本围绕请求日志联动、余额卡片与最近请求展开；后续版本加入不同 AI 客户端的会话解析，将各自记录中的有效字段整理到统一指标。增量读取减少重复扫描，趋势图呈现最近请求的变化。不同客户端是否提供缓存、模型或费用信息并不一致，不能把缺失字段直接补成准确数字。
+
+## 原生桌面形态服务使用过程
+
+界面使用 PowerShell 与 WPF，支持拖动、置顶、收起和照片小卡片等交互。悬浮窗的作用是随时可见，同时不挡住主要工作；较高频率的本机状态更新与较慢的用量扫描分别处理。启动器与首次配置向导也属于产品体验，不能让一个监控工具不断打断使用者。
+
+## 数据与安全的边界
+
+后续版本采用 Windows DPAPI 保存敏感配置，不在公开介绍里展示账户密钥、余额或私人提问。客户端记录得到的 tokens 与根据价格表计算的花费需要区分，最终账单以服务商为准；监控台没有获得所有软件的后台权威账单，也不将估算包装成精确扣费。
+
+## 留下版本之间的差异
+
+已有早期悬浮窗、监控台及发布包，可以沿着功能变化理解产品怎样长成。这里展示从单一观察到多源适配、从数据堆叠到信息呈现的实践，不把旧版中直接请求等能力默认为每个后续版本都保留。真实界面截图在公开前仍需剔除账户与会话内容。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: 电赛实践｜简易自行瞄准装置
+description: 从识别目标，到把视觉误差变成云台动作。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 视觉与运动控制
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">从识别目标，到把视觉误差变成云台动作。</p><div class="case-tags"><span>嵌入式视觉</span><span>Python</span><span>矩形识别</span><span>透视映射</span><span>PID</span><span>脉冲控制</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>2025 电赛 E 题相关工程与迭代材料；本页未重新复验整机指标</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/auto-aim.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/auto-aim-mobile.svg" width="460" height="1000"><img src="assets/projects/auto-aim.svg" alt="电赛实践｜简易自行瞄准装置的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 识别到目标之后，还要让机构跟得上
+
+简易自行瞄准装置围绕视觉识别、目标位置与双轴机构控制展开。真正的问题并不止于画出识别框：图像中计算出的中心，需要转换成机构能执行的动作；目标丢失、识别抖动和机械响应也会影响下一次观察。
+
+## 一条可以逐段检查的闭环
+
+本地工程围绕矩形检测、角点排序、中心定位、透视映射和 PID 调整进行了多轮迭代，包含目标遍历、回中与参数界面。视觉侧先从画面提取目标几何关系，再计算相对参考位置的偏差，控制侧将偏差转成两轴运动。云台动作改变相机或指向位置，新的图像继续进入下一轮处理。
+
+## 对“识别更准”的具体理解
+
+矩形边缘不完整、角点顺序颠倒、视角变化和噪声都可能让中心跳变。因此，工程把角点、有效矩形判断和坐标映射作为独立环节处理；控制端还要考虑死区、限速和增益，避免把图像中的小抖动放大成机构持续摆动。识别与控制需要共同调试，不能只优化其中一个数字。
+
+## 调试材料留下了什么
+
+已有正式题目、多个识别与遍历版本以及界面程序，可用于追踪方案怎样从基础检测走向更完整的控制流程。当前公开页介绍这些技术关系与工程取舍，不把文件名中的“最终”“高精度”当成独立性能证明，也不据目录推断具体奖项或比赛结果。
+
+## 与后续云台项目的联系
+
+这段实践把我关注的对象从单段算法推进到完整链路：输入能不能稳定解释、命令是否正确执行、动作之后是否回到目标。后来鼠标云台与 MaixCAM 追踪项目继续沿用这种分段联调方式；具体精度与速度仍应由对应装置的实测记录说明。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: 车载平衡滚球｜视觉与运动控制
+description: 看见球的位置，还要处理速度、摩擦、平衡点和失联。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 视觉与运动控制
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">看见球的位置，还要处理速度、摩擦、平衡点和失联。</p><div class="case-tags"><span>MaixCAM2</span><span>YOLOv5</span><span>UDP</span><span>ESP32-S3</span><span>ESP-IDF</span><span>闭环步进电机</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>有最终工程、控制说明与位置记录；未在本轮重测动态指标</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/ball-balance.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/ball-balance-mobile.svg" width="460" height="1000"><img src="assets/projects/ball-balance.svg" alt="车载平衡滚球｜视觉与运动控制的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 控制的对象，是一颗一直在动的球
+
+平衡滚球系统用视觉观察钢球，再通过步进机构调整摆杆倾角。目标并非一次把球推向指定位置，而是在球的位置和速度持续变化时，控制它靠近目标并保持稳定。摩擦、杆的水平偏置和通信延迟，都会改变看似简单的控制问题。
+
+## 视觉与控制分开承担节拍
+
+MaixCAM2 运行目标检测，将像素位置映射到位置坐标，再通过 UDP 向 ESP32-S3 发送球与目标信息。控制端以独立任务更新控制量，经 UART 驱动闭环步进电机。视觉端处理目标有效性与位置平滑，速度估计保留在控制端，避免多处重复滤波让反馈越来越迟。
+
+## 从单一 PD 到分状态处理
+
+现有控制说明记录了增益调度 PD、静摩擦补偿、积分助推与平衡偏置 trim。远离目标、接近目标但球未动、进入保持区和通信失效采用不同处理。特别是 trim 的学习曾混入瞬态控制量，导致补偿不断累积，后续改为围绕误差更新，让持衡补偿与快速动作分开。
+
+## 保护与可观察性一起设计
+
+输出侧包含倾角与变化率限制，命令去重减少重复通信；丢球或超时进入回平策略。调试不只看最终是否到达目标，也记录球位置、目标、输出角度及当前控制模式，借此区分识别、网络、控制和机械响应带来的现象。
+
+## 当前记录能说明什么
+
+已有最终与后续工程、算法说明、模型相关材料和位置 CSV，能够展示一条具体的视觉运动闭环及调参过程。此处的控制节拍与保护值属于工程配置，不能直接当成实测精度、稳定时间或比赛成绩。公开页以方法和迭代为主，动态能力需要在同一机械装置和测试条件下重新核对。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: 去找地瓜丸→
+description: 抖音号 55753961013、B站 UID 660494383，与 FPGA 学习交流群。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
   - 关于我
 publish: true
 ---
 
-## 体验作品
+<section class="mascot-intro"><img src="assets/mascot/mascot-celebrating.png" alt="挥手欢迎你的地瓜丸吉祥物" width="160" height="160"><div><span class="product-kicker">SEE YOU THERE</span><h2>看作品，也聊电路。</h2><p>教学视频、功能更新和做项目的过程，会在下面的账号持续分享。想直接体验作品，可以先进入免费练习平台。</p><a href="https://dgwfpga.cn/practice/">去练习平台 ↗</a></div></section>
 
-- [地瓜丸的 FPGA 教学平台](https://dgwfpga.cn/)
-- [直接开始在线练习](https://dgwfpga.cn/practice/)
-- [平台介绍与功能演示](https://github.com/bvsdehdshfbs300-debug/fpga-teaching-showcase)
+## 抖音与 B站，都能找到地瓜丸
 
-<!-- note-visuals-20261108 -->
+<div class="social-grid"><section><span>DOUYIN</span><h3>地瓜丸 · 抖音</h3><strong>抖音号：55753961013</strong><img src="assets/social/douyin.png" alt="地瓜丸抖音账号二维码" width="260" height="260" loading="lazy"><p>短视频教学、功能演示与更新速报。可识别二维码，或搜索上面的抖音号。</p><a href="https://v.douyin.com/U6EWdiSy7AA/">看一条 FPGA 教学视频 ↗</a></section><section><span>BILIBILI</span><h3>地瓜丸 · B站</h3><strong>UID：660494383</strong><img src="assets/social/bilibili.png" alt="地瓜丸 B站账号二维码" width="260" height="260" loading="lazy"><p>更完整的操作、项目过程与横屏功能演示。</p><a href="https://space.bilibili.com/660494383">打开 B站主页 ↗</a></section></div>
 
-<figure class="case-figure note-visual group-qr"><a class="case-image-link" href="assets/notes/qq-group.jpg"><img src="assets/notes/qq-group.jpg" alt="FPGA 学习交流群二维码，群号 1125010630" width="1070" height="1600" loading="lazy" decoding="async"></a><figcaption>保存或识别二维码加入 FPGA 学习交流群；群号 1125010630。<span>点击查看大图 ↗</span></figcaption></figure>
+## 一起学 FPGA
 
-## 内容与交流
+<figure class="case-figure group-qr"><a class="case-image-link" href="assets/notes/qq-group.jpg"><img src="assets/notes/qq-group.jpg" alt="FPGA 学习交流群二维码，群号 1125010630" width="1070" height="1600" loading="lazy" decoding="async"></a><figcaption>FPGA 学习交流群：1125010630。<span>点击看大图 ↗</span></figcaption></figure>
 
-- [B站主页](https://space.bilibili.com/660494383)
-- [抖音公开教学：什么是 FPGA？](https://v.douyin.com/U6EWdiSy7AA/)
-- FPGA 学习交流群：**1125010630**
+讨论课程、练习思路、波形或使用问题都欢迎。反馈时带上关卡、操作步骤、设备和截图，会比一句“不能用”更容易定位；不用发送账号密码或其他私人资料。
 
-欢迎讨论课程、波形、练习思路，也欢迎指出使用中遇到的问题。反馈时写清具体操作和现象，会更容易定位。
-
-个人公开信息以本页提供的链接为准。本档案不提供私人联系方式或未公开的账号信息。
-
-## 继续探索
-
-- [[about|关于地瓜丸]]
-- [[platform|我的 FPGA 教学平台]]
-- [[content-creation|教学视频与功能演示]]
-
-[[index|回到档案首页]]
+[[platform|FPGA 教学平台介绍]] · [[projects|其他项目]] · [[mascot|我们的吉祥物]]
 
 ---
 title: 教学视频与功能演示
@@ -153,7 +292,7 @@ B站横屏与抖音竖屏采用独立构图，重要文字和操作区域放在�
 - [[remotion|用 Remotion 做产品演示]]
 - [[platform|我的 FPGA 教学平台]]
 - [[decisions|做取舍的几个原则]]
-- [[contact|找到我与体验作品]]
+- [[contact|去找地瓜丸→]]
 
 [[index|回到档案首页]]
 
@@ -234,6 +373,88 @@ publish: true
 [[index|回到档案首页]]
 
 ---
+title: Everyday｜像素任务清单与启动中控台
+description: 把日常计划、完成反馈与常用应用启动，放进一块像素桌面。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 软件工具
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把日常计划、完成反馈与常用应用启动，放进一块像素桌面。</p><div class="case-tags"><span>Electron</span><span>HTML / CSS</span><span>JavaScript</span><span>本地状态</span><span>像素交互</span><span>Windows 打包</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>有完整页面、Electron 主进程与安装包配置；本轮未运行验证</aside>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/everyday-interface.png"><img src="assets/projects/everyday-interface.png" alt="Everyday｜像素任务清单与启动中控台的现有界面" width="1440" height="1000" loading="lazy"></a><figcaption>现有像素任务界面的本机截图；应用启动由 Electron 桌面版承接。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/everyday.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/everyday-mobile.svg" width="460" height="1000"><img src="assets/projects/everyday.svg" alt="Everyday｜像素任务清单与启动中控台的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 让任务完成有直观的反馈
+
+Everyday 是一个像素风每日任务清单与应用启动中控台。它围绕添加任务、完成勾选、进度查看和日历记录组织界面，再用像素角色、音效和奖励宝箱等反馈，让一组日常事项拥有更明确的开始与结束。
+
+## 任务状态贯穿整个界面
+
+任务列表改变时，完成比例、进度条和日期记录共同更新；完成条件再影响宝箱等反馈状态。与把多个小组件简单拼在一起相比，这里需要先明确哪些数据是一份状态、哪些只是显示方式，避免列表说已完成、日历却没有对应记录，或刷新后奖励重复触发。
+
+## 从网页界面到桌面工具
+
+主体以 HTML、CSS 与 JavaScript 实现，Electron 主进程提供桌面运行与启动能力，并配有 Windows 安装打包配置。常用应用与奖励应用的路径可在设置中维护，支持网址和程序协议等入口。任务与设置分别处理，降低每次打开都需要重新准备的成本。
+
+## 像素表现也要服从操作
+
+点击、勾选和完成反馈用于确认发生了什么，不能让粒子、音效或弹窗拖慢主要流程。应用启动能力尤其需要清楚入口，让使用者主动触发，并能检查所配置的目标。对个人工具来说，少一步重复操作、保留自己的习惯，比增加一堆难维护的功能更有价值。
+
+## 当前材料与继续完善
+
+现有工程包含任务页面、主进程、图标和安装配置，可以展示界面状态、桌面封装与轻量产品设计的组合。本页没有把本地任务存储说成云同步，也不默认它已在不同电脑和长期使用条件下完成测试。后续可围绕误操作恢复、数据导出和实际工作流继续验证。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: FlexStep｜人体步态柔性感知系统
+description: 让足底受力成为可以观察、比较和解释的连续信息。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 感知与嵌入式
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">让足底受力成为可以观察、比较和解释的连续信息。</p><div class="case-tags"><span>柔性压力阵列</span><span>Arduino</span><span>多通道采集</span><span>BLE</span><span>压力热力图</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>方案与立项材料；采集整机及动态指标仍需实测验证</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/flexstep.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/flexstep-mobile.svg" width="460" height="1000"><img src="assets/projects/flexstep.svg" alt="FlexStep｜人体步态柔性感知系统的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 把一次行走拆成可观察的过程
+
+FlexStep 面向足底压力与步态分析。它希望把足跟着地、足弓过渡、前掌离地这些连续变化，转成能够在界面里追踪的压力分布，让使用者看见脚底怎样受力，以及左右脚是否呈现明显差异。项目围绕柔性鞋垫形态组织传感、采集和反馈，将一次行走的连续变化保留下来。
+
+## 从阵列到热力图
+
+技术路线由柔性足底压力阵列、Arduino 多通道扫描、信号调理、数据传输和上位机分析组成。阵列给出不同位置的电信号，采集端按统一节奏读取，经过标定与预处理后形成压力热力图，再继续提取步态周期、支撑与摆动阶段、受力对称性以及压力中心迁移等信息。每一步的输入与输出要能对应，才便于定位误差来源。
+
+## 关键工作是标定与同步
+
+柔性材料会弯曲，也可能出现迟滞、漂移和个体差异。因此，方案把静态线性度、重复性与动态跟随测试放在算法之前；多通道扫描也需要明确时间关系，避免将先后读到的数据误当成严格同时采样。轻量化与低成本是设计方向，不能替代传感器可靠性的检验。
+
+## 技术路径与后续验证
+
+已有资料包括立项依据与阶段汇报，明确了柔性阵列、Arduino 采集、BLE 传输和步态可视化路线。机器学习识别、长期穿戴、康复评估与异常提示属于后续研究方向；本页不把方案里的采样目标或识别率写成已完成的实测指标。作品的价值首先是把材料、电子采集与可解释反馈组织成一条能逐步验证的系统路径。
+
+## 与教学平台的联系
+
+这类项目也反向影响我的教学思路：传感器给了什么、电路采到了什么、程序又显示了什么，需要放在同一条证据链里解释。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
 title: FPGA 与数字逻辑
 description: 从点亮一颗灯，到理解波形、接口和逐拍行为。
 date: 2026-11-07
@@ -273,6 +494,88 @@ publish: true
 [[index|回到档案首页]]
 
 ---
+title: FUMA／UNIT｜多模态脑电固件
+description: 把采样、传感器状态、无线传输与电源管理组织成可维护的固件。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 感知与嵌入式
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把采样、传感器状态、无线传输与电源管理组织成可维护的固件。</p><div class="case-tags"><span>nRF52832</span><span>nRF5 SDK</span><span>C</span><span>SAADC / DMA</span><span>BLE</span><span>EEG / IMU / PPG</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>FUMA 原版 OTA 有实机记录；UNIT Float V9 为编译与离线仿真阶段</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/fuma-unit.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/fuma-unit-mobile.svg" width="460" height="1000"><img src="assets/projects/fuma-unit.svg" alt="FUMA／UNIT｜多模态脑电固件的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 多传感器共同运行，先把职责分清
+
+FUMA／UNIT 围绕脑电、惯性与光电信息采集展开。与只让某个传感器输出数值不同，固件需要同时管理采样节拍、缓存、滤波、接触状态、无线发送和电源提示。一次传感器异常，不应让其他任务失去可解释的运行状态。
+
+## 采样与传输之间有完整路径
+
+现有 UNIT 模块化实现基于 nRF52832、nRF5 SDK 和 S132。脑电侧由定时与硬件触发组织 SAADC 采样，经过双缓冲、环形缓存及可配置数字滤波进入数据打包；IMU、PPG 与电极接触检测由各自模块管理状态。BLE 层处理连接、队列和通知，接收端再依据数据类型还原时间轴与单位。
+
+## 为什么把模块边界做明确
+
+主调度负责初始化与事件处理，传感器驱动只回答“怎样访问芯片”，应用模块决定“何时采集、怎样恢复”。跨模块通过状态快照交换信息，减少共享变量造成的隐式耦合。热插拔、传输失败和电源状态也进入明确的状态机，而不是把错误吞掉后继续显示正常数据。
+
+## 升级能力与采集能力分别验证
+
+原 FUMA 的首刷与蓝牙 Secure DFU 有实机通过记录；后续 UNIT Float V9 虽已完成编译和离线仿真，仍未进行实板验收。这两个版本的结果分别说明，不用原版的升级记录证明新采样分支已经上板，也不把可生成固件文件当成整机验证。
+
+## 从固件到可维护的系统
+
+分层方法、数据链路和逐版本验证共同组成交付：先确定采样条件与信号质量，再核对接收端的数据与时间关系。记录版本和验证条件，让后续调整有明确的起点。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: 游戏安全 AI｜初赛分类实践
+description: 围绕文本特征、分层分类与结果交付，留下可复查的实验材料。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 软件工具
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">围绕文本特征、分层分类与结果交付，留下可复查的实验材料。</p><div class="case-tags"><span>Python</span><span>TF-IDF</span><span>Logistic Regression</span><span>Random Forest</span><span>SGD</span><span>模型与结果归档</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>已核对初赛归档文件组成；未加载模型或复算评测成绩</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/game-security-ai.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/game-security-ai-mobile.svg" width="460" height="1000"><img src="assets/projects/game-security-ai.svg" alt="游戏安全 AI｜初赛分类实践的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 分类结果之前，需要完整的处理路径
+
+这项初赛实践围绕游戏安全方向的文本分类展开。归档中同时保留特征向量器、粗细两级分类模型、训练数据、结果表与调试输出，说明工作不止于生成一个预测标签，还需要将输入、特征、分类层级和最终交付组织成一致的流程。
+
+## 用明确的基线回答具体问题
+
+材料中包含 TF-IDF 向量器，以及 Logistic Regression、Random Forest 和 SGD 等模型文件，按 coarse 与 fine 两个层级保存。这样的结构便于围绕不同粒度的类别开展对照：输入先经过一致的特征处理，再进入分类器，最后将输出映射到任务要求的结果格式。模型名字不能替代实际对照实验，但让实验结构更容易被检查。
+
+## 训练与推理的边界要守住
+
+向量器与标签映射必须跟随对应模型保存，不能在推理阶段重新拟合测试数据。粗细层级的含义、未知输入与异常行也需要明确处理，否则一个格式正确的表格仍可能包含系统性错误。调试输出与正式结果分开，有助于检查样本怎样经过各环节，而不改动最终交付格式。
+
+## 归档中能够确认的内容
+
+已有本人初赛交付归档，包含代码、向量器、多组模型、训练文件及结果和分析材料。本轮仅核对文件清单，没有加载 joblib 模型、运行分类脚本或重新计算指标，因此不公布没有依据的准确率、排名和比赛奖项；正式赛事名称仍应以参赛资料进一步核对。
+
+## 展示的是实验组织能力
+
+公开页只说明特征、分层分类和结果核查的方法，不分发竞赛数据或训练好的模型。对这类实践，我更希望留下可解释的比较对象、可追踪的版本和能复查的输出，而不是只展示一张脱离评测条件的成绩截图。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
 title: 把硬件与手册放在一起
 description: 点元件查资料，接线落到具体针脚，避免漂亮却无用的装饰。
 date: 2026-11-07
@@ -288,6 +591,10 @@ publish: true
 新增 ADC、DAC、SPI、GPIO、PCIe 五项独立实验，并配合外设观察、接口定位和逐针手册。所有关卡共用完整硬件桌面。
 
 ![点击接口查看逐针手册](assets/hardware.png)
+
+## 在介绍页里直接体验硬件
+
+<div class="board-exhibit"><img src="assets/hardware.png" alt="完整的 3D 教学硬件桌面" loading="lazy"><div><span>和练习平台相同的硬件模型</span><h3>从主板，到每一块外设。</h3><p>拖动观察、切换视角，再点开元件。先熟悉这张桌面，再回到关卡里让代码与波形接上。</p><button type="button" data-load-board="https://dgwfpga.cn/portfolio-media/20261109/board-viewer/">打开 3D 硬件桌面 →</button></div></div>
 
 ## 接线要有去向
 
@@ -307,31 +614,49 @@ publish: true
 [[index|回到档案首页]]
 
 ---
-title: 地瓜丸的作品与 AI 共创档案
-description: 从在线教学、FPGA 实物到网站维护，沿着真实作品认识地瓜丸。
+title: 地瓜丸的 FPGA 教学平台
+description: 免费在线 FPGA 教学平台：写代码、接约束、看波形、转动 3D 板卡。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
+  - 产品与教学
 publish: true
 ---
 
-<div class="archive-hero"><img src="./assets/mascot.png" alt="地瓜丸的吉祥物" width="120" height="120"><p class="archive-kicker">地瓜丸 · 个人工作室</p><p class="archive-lead">做电路，也做能用的作品。</p><p>我是地瓜丸。从 FPGA 教学、板端音画到网页产品，我记录想法怎样落地，以及与 AI 一起调试和迭代的过程。</p><div class="archive-actions"><a href="./skills.html">从作品了解我的能力 ↗</a><a href="./graph/">探索关系图 ↗</a></div></div>
+<section class="product-hero"><div><span class="product-kicker">地瓜丸 · 个人工作室 / FREE ONLINE FPGA LAB</span><h2>想象力，<br>遇上能运行的电路。</h2><p class="product-deck">从第一颗 LED，到显示、数据流与外设。<br>在浏览器里写 Verilog，让代码、波形和硬件现象对上。</p><div class="product-actions"><a href="https://dgwfpga.cn/practice/">免费开始练习 ↗</a><a href="platform.html">先看平台能做什么 →</a></div><div class="product-specs"><span><b>31</b> 个公开关卡</span><span><b>8</b> 个学习章节</span><span><b>4.1</b> 外设实验室</span></div></div><a class="hero-image" href="platform.html"><img src="assets/hardware.png" alt="地瓜丸 FPGA 教学平台真实 3D 硬件桌面与逐针手册" width="1440" height="900"><span>真实功能界面 · 完整硬件与逐针手册</span></a><img class="hero-mascot" src="assets/mascot/mascot-explaining.png" alt="拿着波形卡片的地瓜丸吉祥物" width="150" height="150"></section>
 
-## 先看三件具体的事
+## 一次练习，走完从想法到现象
 
-<div class="work-grid"><div class="work-card"><a class="work-image-link" href="platform.html"><img src="assets/hardware.png" alt="FPGA 教学平台外设和手册截图" loading="lazy"></a><div><span class="work-category">在线产品 · 持续维护</span><h3><a href="platform.html">我的 FPGA 教学平台</a></h3><p>31 个关卡、8 个章节，让代码、波形、约束与硬件现象在一次练习里连接起来。</p><a class="work-more" href="platform.html">看练习流程与设计取舍 →</a></div></div><div class="work-card"><a class="work-image-link" href="tide-composer.html"><img src="assets/cases/tide-system.png" alt="潮汐作曲家实物运行照片" loading="lazy"></a><div><span class="work-category">FPGA 实物 · 已固化</span><h3><a href="tide-composer.html">潮汐作曲家</a></h3><p>从 TF 卡到 HDMI，完成海洋音画展示、实时缩放、转场与板端交互。</p><a class="work-more" href="tide-composer.html">看实物与验证过程 →</a></div></div><div class="work-card"><a class="work-image-link" href="maintenance.html"><img src="assets/cases/maintenance-launcher.png" alt="网站早期启动过程的历史截图" loading="lazy"></a><div><span class="work-category">产品维护 · 持续迭代</span><h3><a href="maintenance.html">网站怎样持续运行</a></h3><p>从本机服务到云部署，把“打不开”和“总弹窗”拆成可以检查的问题。</p><a class="work-more" href="maintenance.html">看问题与处理方法 →</a></div></div></div>
+<div class="learning-loop"><div><em>01</em><h3>理解目标</h3><p>先知道这一关要发生什么，哪些信号值得观察。</p></div><div><em>02</em><h3>编写与连接</h3><p>编辑代码，手写 XDC，或者把端口连到具体针脚。</p></div><div><em>03</em><h3>运行并观察</h3><p>将运行反馈、波形与 LED、显示屏一起对照。</p></div><div><em>04</em><h3>定位再重试</h3><p>找到行为不符的时间点，修改后再检验一次。</p></div></div>
 
-## 每件作品，都有过程可以看
+## 功能不是一句话，展开看实际操作
 
-<div class="home-paths"><a href="skills.html"><strong>能力与作品证据</strong><span>产品、FPGA、联调、交互、维护与表达</span></a><a href="ai-collaboration.html"><strong>我怎样与 AI 做项目</strong><span>目标、判断、实现与验收分别做什么</span></a><a href="timeline.html"><strong>更新与成长记录</strong><span>从反馈到改动，持续保留已完成结果</span></a></div>
+<details class="feature-story" open><summary><span>01 / 动手写</span><strong>代码、约束与一次运行</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>先读任务，再写 Verilog；编辑器、约束、运行反馈和观察窗口连在一起。每次修改后都可以重新运行，沿着信号与检查结果继续定位，而不是只猜语法有没有写对。</p><figure class="case-figure "><a class="case-image-link" href="assets/cases/platform-workspace.png"><img src="assets/cases/platform-workspace.png" alt="代码、约束与一次运行" width="1600" height="1000" loading="lazy" decoding="async"></a><figcaption>一个学习目标，放在同一张工作台上。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>02 / 接得上</span><strong>点选连线，约束跟着落下</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>代码里的端口不是凭空存在的。图形连线将端口、板上针脚和 XDC 联系起来；接线后还要查看自动填写的约束。手写和图形方式都留在练习里，方便理解二者对应关系。</p><figure class="case-figure "><a class="case-image-link" href="assets/showcase/constraint-wiring.gif"><img src="assets/showcase/constraint-wiring.gif" alt="点选连线，约束跟着落下" width="850" height="766" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：端口连接到针脚，约束随之填写。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>03 / 看得清</span><strong>沿波形找到问题发生的那一拍</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>从长时间窗口定位密集活动，再进入局部细节。平移、缩放、跳变定位、双游标测量与进制切换各有用途：先确认要观察的问题，再选择能解释它的工具。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/waveform.gif"><img src="assets/notes/waveform.gif" alt="沿波形找到问题发生的那一拍" width="900" height="498" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：时间窗口、信号和游标位置。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>04 / 有现象</span><strong>LED 与屏幕，让结果看得见</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>灯为什么亮、什么时候翻转，需要和代码里的计数、状态及输出电平一起看。教学桌面让波形中的变化有直观反馈；显示关卡还可以把行场时序还原成一帧画面。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/led-feedback.gif"><img src="assets/notes/led-feedback.gif" alt="LED 与屏幕，让结果看得见" width="750" height="758" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：波形时间位置与虚拟 LED 对应。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>05 / 查得到</span><strong>元件不是摆设，手册紧挨着器件</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>从器件名称到接口，再到针号、方向和对端，资料应能顺着问题找到。完整硬件桌面覆盖所有关卡，逐针手册帮助学习者核对连线，而不是在好几个文档之间来回找。</p><figure class="case-figure "><a class="case-image-link" href="assets/showcase/board-manual.gif"><img src="assets/showcase/board-manual.gif" alt="元件不是摆设，手册紧挨着器件" width="900" height="574" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：点击板上元件，继续查资料。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>06 / 往深处走</span><strong>从一颗灯，走到数据流与外设</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>31 个公开关卡分成 8 章，从组合逻辑、时钟计数和状态机，延伸到 UART、I²C、显示、FIFO、网络、高速流及独立外设实验。每关先抓住一个能观察、能判断的关键行为。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/screen-display.gif"><img src="assets/notes/screen-display.gif" alt="从一颗灯，走到数据流与外设" width="900" height="524" loading="lazy" decoding="async"></a><figcaption>真实显示关卡录屏：彩条、像素位置与时序说明。<span>点击看大图 ↗</span></figcaption></figure></div></details>
 
-## 继续认识我
+<div class="product-actions"><a href="platform.html">查看完整平台介绍 →</a><a href="waveform.html">深入波形台 →</a><a href="hardware.html">硬件与逐针手册 →</a></div>
 
-[[about|关于地瓜丸]] · [[now|最近在做什么]] · [[content-creation|教学与功能演示]] · [[contact|账号与联系入口]]
+## 把我们的 3D 板卡，直接放到你面前
 
-[体验 FPGA 教学平台](https://dgwfpga.cn/) · [直接开始练习](https://dgwfpga.cn/practice/) · [AI 可读档案](profile.json)
+<div class="board-exhibit"><img src="assets/hardware.png" alt="地瓜丸 FPGA 教学平台的完整 3D 外设桌面" loading="lazy"><div><span>浏览器里的硬件桌面</span><h3>亲手转一圈，点开每个器件。</h3><p>主板、AD/DA、SPI、GPIO、PCIe 与接口，在同一张桌面上。</p><button type="button" data-load-board="https://dgwfpga.cn/portfolio-media/20261109/board-viewer/">打开交互式 3D 板卡 →</button><small>按需加载 · 拖动旋转 · 元件可点击</small></div></div>
 
-最近整理：**2026-11-08**。公开案例按当前材料记录具体工作、协作方式和验证范围。
+## 用一段完整演示认识它
+
+<figure class="video-feature"><video controls playsinline preload="none" poster="assets/notes/promo-cover.png" aria-label="地瓜丸 FPGA 教学平台 · 实际功能操作演示"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4" type="video/mp4"><a href="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4">打开演示视频</a></video><figcaption>地瓜丸 FPGA 教学平台 · 实际功能操作演示 · 点击播放，支持全屏。<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4" target="_blank" rel="noopener">单独打开 ↗</a></figcaption></figure>
+
+## 这座实验室里，还有一个小伙伴
+
+<section class="mascot-intro"><img src="assets/mascot/mascot-celebrating.png" alt="举手庆祝的地瓜丸吉祥物" width="200" height="200"><div><span class="product-kicker">MEET OUR MASCOT</span><h3>圆眼镜、小显示器，陪你把电路想明白。</h3><p>它会讲解、会思考，也会在排查故障时拿起扳手。贯穿平台、教程和这个介绍站的小角色，让每次练习都有熟悉的陪伴。</p><a href="mascot.html">认识吉祥物与整套表情 →</a></div></section>
+
+## 围绕平台，继续认识地瓜丸
+
+<div class="home-paths"><a href="about.html"><strong>为什么做这个教学平台</strong><span>我的方向、取舍与持续迭代</span></a><a href="skills.html"><strong>从作品看实践能力</strong><span>教学、FPGA、交互与维护</span></a><a href="projects.html"><strong>工作室的其他项目</strong><span>潮汐作曲家、柔性感知、控制、工具与游戏</span></a><a href="contact.html"><strong>去找地瓜丸→</strong><span>抖音、B站与 FPGA 学习交流群</span></a></div>
+
+<p class="editorial-footnote">平台是这里的主线。其他作品与 AI 协作记录，沿着具体项目继续展开。课程状态整理于 2026-11-09。</p>
 
 ---
 title: 让信息看得清、找得到
@@ -443,10 +768,119 @@ publish: true
 [[skills|能力与作品证据]] · [[debugging|从反馈定位问题]] · [[workflow|从想法到上线]] · [[platform|教学平台案例]]
 
 ---
-title: 我最近在做什么
-description: 截至 2026-11-07 的当前进展与继续关注的方向。
+title: MaixCAM｜模型训练与二维追踪
+description: 从自己的训练图片，到目标坐标与云台动作的完整应用路径。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 视觉与运动控制
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">从自己的训练图片，到目标坐标与云台动作的完整应用路径。</p><div class="case-tags"><span>MaixCAM Pro</span><span>MaixHub</span><span>YOLOv5</span><span>MaixPy</span><span>UDP</span><span>Python PID</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>模型示例、识别端与 PC GUI、部署文档已整理；性能未在本轮重测</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/maixcam-tracking.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/maixcam-tracking-mobile.svg" width="460" height="1000"><img src="assets/projects/maixcam-tracking.svg" alt="MaixCAM｜模型训练与二维追踪的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 训练模型之后，继续让它参与控制
+
+这个项目把自定义目标识别与二维云台连接起来。当前示例使用玩偶作为目标：MaixCAM Pro 检测目标，电脑接收偏离画面中心的坐标，计算控制动作，再通过 ESP32-S3 驱动双轴机构。目标是让识别结果真正进入反馈链路，而非只在屏幕上显示一个框。
+
+## 训练链与运行链分别准备
+
+训练流程包括相机采图、建立数据集、目标框标注、MaixHub 训练及模型部署。运行时由 MaixPy 加载 YOLOv5 模型，计算目标中心与画面中心的偏差，经 UDP 发送到电脑。电脑 GUI 呈现坐标与控制状态，PID 将误差转为运动命令，再由主控输出电机脉冲。
+
+## 数据与控制需要共同调试
+
+数据集不能只有同一背景和单一距离，否则演示时很容易丢失目标。运行链也需要统一坐标方向、目标选择、死区和速度参数。看到框不代表命令已执行，电机能转也不代表追踪稳定；各环节应先独立确认，再组合成闭环，避免同时更改模型阈值与控制增益后无法解释结果。
+
+## 先观察命令，再启用动作
+
+现有部署文档保留 dry-run 流程：先只接收坐标、查看命令和轨迹，确认目标与符号正确后再启用执行。开源整理包以 MaixCAM 端和 PC GUI 为主，ESP32-S3 必须使用匹配协议的固件。训练模型文件、识别程序、GUI 与固件版本之间需要明确对应。
+
+## 当前作品能展示的能力
+
+已有模型示例与中文资料贯穿采图、训练、识别和追踪，可以展示视觉应用的完整工程顺序。本页不把示例模型推广成所有物体都能可靠识别，也不虚构检测率、帧率或跟踪误差。下一步改进应从实际丢失场景、控制振荡和部署条件出发。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: 认识地瓜丸的吉祥物
+description: 方形显示器、圆眼镜和青粉配色，贯穿学习、教程与作品。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
+tags:
+  - 关于我
+  - 品牌角色
+publish: true
+---
+
+<section class="mascot-intro"><img src="assets/mascot/mascot-explaining.png" alt="地瓜丸的讲解型显示器吉祥物" width="220" height="220"><div><span class="product-kicker">OUR LITTLE LAB COMPANION</span><h2>先认住这副圆眼镜。</h2><p>方形显示器是身体，短支架像小小的双脚，青色与粉色留下熟悉的轮廓。它把 FPGA 教学里偏硬的信号、接口和时序，变成一个可以跟着逛、一起思考的角色。</p></div></section>
+
+## 同一个角色，八种心情
+
+<div class="expression-grid"><section><img src="assets/mascot/mascot-explaining.png" alt="吉祥物表情：讲解" width="160" height="160" loading="lazy"><h3>讲解</h3><p>拿起波形卡片，把关键变化讲清楚。</p></section><section><img src="assets/mascot/mascot-thinking.png" alt="吉祥物表情：思考" width="160" height="160" loading="lazy"><h3>思考</h3><p>遇到新问题，先停下来找规律。</p></section><section><img src="assets/mascot/mascot-focused.png" alt="吉祥物表情：专注" width="160" height="160" loading="lazy"><h3>专注</h3><p>观察一根信号，也值得认真一点。</p></section><section><img src="assets/mascot/mascot-repairing.png" alt="吉祥物表情：维修" width="160" height="160" loading="lazy"><h3>维修</h3><p>代码没对上现象，一起查查哪里出了错。</p></section><section><img src="assets/mascot/mascot-nervous.png" alt="吉祥物表情：紧张" width="160" height="160" loading="lazy"><h3>紧张</h3><p>第一次点运行前，难免有点忐忑。</p></section><section><img src="assets/mascot/mascot-shocked.png" alt="吉祥物表情：惊讶" width="160" height="160" loading="lazy"><h3>惊讶</h3><p>预期之外的结果，也可能是新线索。</p></section><section><img src="assets/mascot/mascot-relieved.png" alt="吉祥物表情：松口气" width="160" height="160" loading="lazy"><h3>松口气</h3><p>找到原因，终于能解释刚才发生了什么。</p></section><section><img src="assets/mascot/mascot-celebrating.png" alt="吉祥物表情：庆祝" width="160" height="160" loading="lazy"><h3>庆祝</h3><p>跑通这一关，给自己的耐心鼓个掌。</p></section></div>
+
+## 它怎样出现在这个网站里
+
+在教学入口，它引导你去看一次真实操作；在排查与方法页，它陪着整理问题；在功能演示和更新里，它为不同段落留下统一的记忆。右下方的小伙伴可以随时展开导航，回到练习、认识角色或找到创作者。
+
+## 可爱之外，也有分寸
+
+吉祥物出现的位置要为内容留出空间。文字、按钮和波形先被看清，表情再为这一刻添一点温度；手机采用更小的导航角色，访客不用追着动效才能完成操作。
+
+[[platform|看看它陪伴的教学平台]] · [[content-creation|功能演示与视频]] · [[contact|去找地瓜丸→]]
+
+---
+title: 鼠标双轴云台｜ESP32-S3 与 FPGA 两版
+description: 同一个鼠标输入，沿两条主控路线驱动双轴机构。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 视觉与运动控制
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">同一个鼠标输入，沿两条主控路线驱动双轴机构。</p><div class="case-tags"><span>Python GUI</span><span>UART</span><span>ESP32-S3 / ESP-IDF</span><span>Verilog RTL</span><span>STEP / DIR</span><span>ZDT X42S</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>两版均有主控实现、PC 程序及接线资料；具体整机表现需按各版验证</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/mouse-gimbal.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/mouse-gimbal-mobile.svg" width="460" height="1000"><img src="assets/projects/mouse-gimbal.svg" alt="鼠标双轴云台｜ESP32-S3 与 FPGA 两版的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 把鼠标动作变成可控的两轴运动
+
+这件作品以电脑鼠标作为输入，通过中文界面调节灵敏度、速度和死区，再将命令发送给主控，驱动两台闭环步进电机。除了连续鼠标控制，还保留点动和激光开关，方便先检查方向与单轴动作，再进入完整交互。
+
+## 同一条链路，两种实现
+
+ESP32-S3 版本使用 ESP-IDF 固件接收串口命令并输出 STEP／DIR 脉冲，另有 Arduino 版本备份。FPGA 版本将串口接收、命令解析与两路脉冲发生组织成硬件逻辑，并保留状态指示。两版共用“电脑解释输入、主控执行时序、电机完成动作”的分工，但不能把一版的引脚、协议与配置直接套给另一版。
+
+## 交互参数要能解释动作
+
+灵敏度决定输入和运动的比例，死区减少静止附近的细小变化，速度限制则控制动作的激烈程度。鼠标停下之后怎样停止输出，同样是交互的一部分。中文 GUI 与串口协议使输入、命令和实际动作更容易逐步对照，也为后续接入视觉坐标留下清晰接口。
+
+## 从能动到可联调
+
+项目材料按硬件、接线、固件、GUI、协议与常见问题组织。实践时先核对供电、共地与两轴方向，再用小范围点动检查执行链；确认命令能被接收之后，才调节连续输入的手感。电机自身闭环与系统级视觉闭环是不同层次，不能因为使用闭环电机就声称完成了位置视觉反馈。
+
+## 作品展示的重点
+
+现有两条工程都保留实现与说明，本页对比的是软件任务与硬件并行逻辑如何承担同一种控制接口。未公开本机配置或整包工程，也不把未经同条件测量的实时性、精度和流畅程度写成胜负结论。它与自动追踪项目共用部分执行链，但鼠标版仍以人工输入为目标。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: 我最近在做什么
+description: 截至 2026-11-09 的当前进展与继续关注的方向。
+date: 2026-11-07
+modified: 2026-11-09
 tags:
   - 关于我
 publish: true
@@ -468,6 +902,8 @@ FPGA 教学平台已更新到 31 关、8 章，外设与逐针手册纳入同一
 
 档案的 22 个内容页现均配有对应图片：功能页展示真实操作，协作与方法页用图解说明；手机使用独立排版的竖向示意图。
 
+2026-11-09，以 FPGA 教学平台重构介绍站，新增交互板卡、完整演示、吉祥物专区与[[projects|其他项目总览]]；图片与视频使用国内服务器地址。
+
 ## 继续关注的方向
 
 提升课程的教学价值，让复杂概念有更明确的观察方式；制作更完整的功能演示；继续改善电脑和手机上的使用体验；根据真实反馈确定下一项值得做的改动。
@@ -476,22 +912,63 @@ FPGA 教学平台已更新到 31 关、8 章，外设与逐针手册纳入同一
 
 ## 资料日期
 
-最近整理日期：2026-11-08。这里是持续维护的公开记录，不是实时运行状态页。
+最近整理日期：2026-11-09。这里是持续维护的公开记录，不是实时运行状态页。
 
 ## 继续探索
 
 - [[timeline|项目更新与成长记录]]
 - [[decisions|做取舍的几个原则]]
 - [[content-creation|教学视频与功能演示]]
-- [[contact|找到我与体验作品]]
+- [[contact|去找地瓜丸→]]
 
 [[index|回到档案首页]]
+
+---
+title: 脑电固件与蓝牙 OTA｜方法笔记
+description: 一次无线升级，背后是构建、签名、版本与恢复路径的配合。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 工程方法
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">一次无线升级，背后是构建、签名、版本与恢复路径的配合。</p><div class="case-tags"><span>Secure DFU</span><span>Bootloader</span><span>签名验证</span><span>版本策略</span><span>构建与回读</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>只展示工程方法；不公开密钥、设备配置、固件包或签名材料</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/ota-method.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/ota-method-mobile.svg" width="460" height="1000"><img src="assets/projects/ota-method.svg" alt="脑电固件与蓝牙 OTA｜方法笔记的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 先定义升级边界，再讨论“无线”
+
+给采集设备加上 OTA，不只是把固件通过蓝牙发过去。应用、无线协议栈、Bootloader 与持久数据必须有清楚的责任边界，才能解释设备为什么进入升级、怎样确认包有效，以及升级之后如何返回正常采集。
+
+## 从首刷到后续升级
+
+这条实践路线区分两个阶段：首次通过有线调试接口建立完整启动链，后续由应用进入升级服务，再通过 BLE 接收签名包。构建产物、运行版本和设备上的实际状态需要对应，不能把普通应用镜像与首刷镜像混用。无线传输只是一段通道，真正决定是否接受更新的是设备端的校验与版本规则。
+
+## 把可恢复性落实到流程
+
+新包写入、完整性校验、签名验证和切换运行状态应分别留出检查点。需要关注的失败包括断连、传输中断、包不匹配和空间不足。重试能力不能靠一句“支持断点”概括，应围绕当前设备状态与明确的恢复入口检查。更新后还要复核数据输出、连接和持久配置，才算完成交付。
+
+## 签名与版本各自解决什么
+
+签名负责确认更新来自被信任的发布方；版本策略用于避免意外回退或同版本混淆。私钥不放在用户设备或公开项目页，公开说明也没有必要暴露设备标识、存储细节和可直接刷写的包。展示工作方法与公开可下载固件，是两种不同的交付范围。
+
+## 怎样证明一次升级成功
+
+已有 FUMA 分支保留首刷及 BLE OTA 的实机记录，后续 UNIT 分支有自己的编译和仿真阶段。本页只总结其中可复用的工程顺序：保存改前状态，核对兼容范围，构建并验签，执行升级，再读取版本与采集状态。它也是我处理网站上线和固件交付时共同采用的思路。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
 
 ---
 title: 我的 FPGA 教学平台
 description: 把代码、约束、波形与硬件观察放进一次完整练习。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
   - 代表作品
   - 产品与教学
@@ -509,6 +986,23 @@ publish: true
 <ol class="case-flow"><li><span>01</span><strong>理解任务</strong><p>先知道目标现象和接口要求。</p></li><li><span>02</span><strong>编写与接线</strong><p>修改 Verilog，填写 XDC 或图形连线。</p></li><li><span>03</span><strong>运行与观察</strong><p>查看检查结果、波形和板卡反馈。</p></li><li><span>04</span><strong>定位与重试</strong><p>根据现象修改，再运行验证。</p></li></ol>
 
 <figure class="case-figure "><a class="case-image-link" href="assets/cases/platform-workspace.png"><img src="assets/cases/platform-workspace.png" alt="练习编辑器、板卡和运行入口的真实界面" loading="lazy" decoding="async"></a><figcaption>练习界面存档：编辑器中的 TODO 是学员待填写模板；这张截图展示布局，未展示已通过的运行结果。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 功能逐项展开看
+
+<details class="feature-story" open><summary><span>01 / 动手写</span><strong>代码、约束与一次运行</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>先读任务，再写 Verilog；编辑器、约束、运行反馈和观察窗口连在一起。每次修改后都可以重新运行，沿着信号与检查结果继续定位，而不是只猜语法有没有写对。</p><figure class="case-figure "><a class="case-image-link" href="assets/cases/platform-workspace.png"><img src="assets/cases/platform-workspace.png" alt="代码、约束与一次运行" width="1600" height="1000" loading="lazy" decoding="async"></a><figcaption>一个学习目标，放在同一张工作台上。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>02 / 接得上</span><strong>点选连线，约束跟着落下</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>代码里的端口不是凭空存在的。图形连线将端口、板上针脚和 XDC 联系起来；接线后还要查看自动填写的约束。手写和图形方式都留在练习里，方便理解二者对应关系。</p><figure class="case-figure "><a class="case-image-link" href="assets/showcase/constraint-wiring.gif"><img src="assets/showcase/constraint-wiring.gif" alt="点选连线，约束跟着落下" width="850" height="766" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：端口连接到针脚，约束随之填写。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>03 / 看得清</span><strong>沿波形找到问题发生的那一拍</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>从长时间窗口定位密集活动，再进入局部细节。平移、缩放、跳变定位、双游标测量与进制切换各有用途：先确认要观察的问题，再选择能解释它的工具。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/waveform.gif"><img src="assets/notes/waveform.gif" alt="沿波形找到问题发生的那一拍" width="900" height="498" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：时间窗口、信号和游标位置。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>04 / 有现象</span><strong>LED 与屏幕，让结果看得见</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>灯为什么亮、什么时候翻转，需要和代码里的计数、状态及输出电平一起看。教学桌面让波形中的变化有直观反馈；显示关卡还可以把行场时序还原成一帧画面。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/led-feedback.gif"><img src="assets/notes/led-feedback.gif" alt="LED 与屏幕，让结果看得见" width="750" height="758" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：波形时间位置与虚拟 LED 对应。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>05 / 查得到</span><strong>元件不是摆设，手册紧挨着器件</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>从器件名称到接口，再到针号、方向和对端，资料应能顺着问题找到。完整硬件桌面覆盖所有关卡，逐针手册帮助学习者核对连线，而不是在好几个文档之间来回找。</p><figure class="case-figure "><a class="case-image-link" href="assets/showcase/board-manual.gif"><img src="assets/showcase/board-manual.gif" alt="元件不是摆设，手册紧挨着器件" width="900" height="574" loading="lazy" decoding="async"></a><figcaption>真实操作录屏：点击板上元件，继续查资料。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+<details class="feature-story"><summary><span>06 / 往深处走</span><strong>从一颗灯，走到数据流与外设</strong><b>展开演示 ＋</b></summary><div class="feature-story-body"><p>31 个公开关卡分成 8 章，从组合逻辑、时钟计数和状态机，延伸到 UART、I²C、显示、FIFO、网络、高速流及独立外设实验。每关先抓住一个能观察、能判断的关键行为。</p><figure class="case-figure "><a class="case-image-link" href="assets/notes/screen-display.gif"><img src="assets/notes/screen-display.gif" alt="从一颗灯，走到数据流与外设" width="900" height="524" loading="lazy" decoding="async"></a><figcaption>真实显示关卡录屏：彩条、像素位置与时序说明。<span>点击看大图 ↗</span></figcaption></figure></div></details>
+
+## 3D 硬件桌面，直接动手试
+
+<div class="board-exhibit"><img src="assets/hardware.png" alt="地瓜丸 FPGA 教学平台的完整 3D 外设桌面" loading="lazy"><div><span>浏览器里的硬件桌面</span><h3>亲手转一圈，点开每个器件。</h3><p>主板、AD/DA、SPI、GPIO、PCIe 与接口，在同一张桌面上。</p><button type="button" data-load-board="https://dgwfpga.cn/portfolio-media/20261109/board-viewer/">打开交互式 3D 板卡 →</button><small>按需加载 · 拖动旋转 · 元件可点击</small></div></div>
+
+## 完整操作演示
+
+<figure class="video-feature"><video controls playsinline preload="none" poster="assets/notes/promo-cover.png" aria-label="平台功能实操宣传片"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4" type="video/mp4"><a href="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4">打开演示视频</a></video><figcaption>平台功能实操宣传片 · 点击播放，支持全屏。<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/fpga-platform.mp4" target="_blank" rel="noopener">单独打开 ↗</a></figcaption></figure>
 
 ## 我怎样推进这个产品
 
@@ -531,6 +1025,32 @@ publish: true
 ## 继续阅读
 
 [[skills|能力与作品证据]] · [[maintenance|网站如何持续运行]] · [[tide-composer|潮汐作曲家：另一个 FPGA 实物项目]]
+
+---
+title: 地瓜丸工作室 · 其他项目
+description: 以 FPGA 教学平台为主线，继续探索感知、控制、工具与交互。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+publish: true
+---
+
+<section class="mascot-intro"><img src="assets/mascot/mascot-thinking.png" alt="思考中的地瓜丸吉祥物" width="160" height="160"><div><span class="product-kicker">BEYOND THE TEACHING PLATFORM</span><h2>把不同的想法，继续做成作品。</h2><p>FPGA 教学平台是主线。这里收录工作室的其他实践：有实物、有完整工程，也有需要继续验证的方案与原型。每页都写清具体技术路径和当前阶段。</p><a href="platform.html">先看我们的 FPGA 教学平台 →</a></div></section>
+
+## 先看 FPGA 实物音画作品
+
+<section class="project-tile"><a href="tide-composer.html"><img src="assets/cases/tide-system.png" alt="潮汐作曲家实物运行照片" loading="lazy"></a><div><span>FPGA / HDMI / 图像与音频</span><h3><a href="tide-composer.html">潮汐作曲家</a></h3><p>从 TF 卡素材、SDRAM 帧缓存到 HDMI 输出，结合转场、缩放与板端控制。完整演示、原版海报、实物图与技术架构放在一起阅读。</p><a href="tide-composer.html">看实物、海报和视频 →</a></div></section>
+
+## 感知、控制、工具与交互
+
+<div class="project-collection"><section class="project-tile"><a href="flexstep.html"><img src="assets/projects/flexstep.svg" alt="FlexStep｜人体步态柔性感知系统的项目图" loading="lazy"></a><div><span>柔性压力阵列 / Arduino / 多通道采集</span><h3><a href="flexstep.html">FlexStep｜人体步态柔性感知系统</a></h3><p>让足底受力成为可以观察、比较和解释的连续信息。</p><a href="flexstep.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="acoustic-terminal.html"><img src="assets/projects/acoustic-terminal.svg" alt="双麦声学感知／声学取证终端的项目图" loading="lazy"></a><div><span>EG4S20 FPGA / INMP441 ×2 / I2S</span><h3><a href="acoustic-terminal.html">双麦声学感知／声学取证终端</a></h3><p>从两路麦克风采样，到方向、频带、波形与录音的完整观察链。</p><a href="acoustic-terminal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="wearifi.html"><img src="assets/projects/wearifi-interface.png" alt="WeariFi｜柔域智感的项目图" loading="lazy"></a><div><span>ESP32-S3 / WiFi CSI / nRF / BLE / Django REST</span><h3><a href="wearifi.html">WeariFi｜柔域智感</a></h3><p>把空间感知与可穿戴感知放在同一个监护流程里。</p><a href="wearifi.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="fuma-unit.html"><img src="assets/projects/fuma-unit.svg" alt="FUMA／UNIT｜多模态脑电固件的项目图" loading="lazy"></a><div><span>nRF52832 / nRF5 SDK / C</span><h3><a href="fuma-unit.html">FUMA／UNIT｜多模态脑电固件</a></h3><p>把采样、传感器状态、无线传输与电源管理组织成可维护的固件。</p><a href="fuma-unit.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ota-method.html"><img src="assets/projects/ota-method.svg" alt="脑电固件与蓝牙 OTA｜方法笔记的项目图" loading="lazy"></a><div><span>Secure DFU / Bootloader / 签名验证</span><h3><a href="ota-method.html">脑电固件与蓝牙 OTA｜方法笔记</a></h3><p>一次无线升级，背后是构建、签名、版本与恢复路径的配合。</p><a href="ota-method.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="auto-aim.html"><img src="assets/projects/auto-aim.svg" alt="电赛实践｜简易自行瞄准装置的项目图" loading="lazy"></a><div><span>嵌入式视觉 / Python / 矩形识别</span><h3><a href="auto-aim.html">电赛实践｜简易自行瞄准装置</a></h3><p>从识别目标，到把视觉误差变成云台动作。</p><a href="auto-aim.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ball-balance.html"><img src="assets/projects/ball-balance.svg" alt="车载平衡滚球｜视觉与运动控制的项目图" loading="lazy"></a><div><span>MaixCAM2 / YOLOv5 / UDP</span><h3><a href="ball-balance.html">车载平衡滚球｜视觉与运动控制</a></h3><p>看见球的位置，还要处理速度、摩擦、平衡点和失联。</p><a href="ball-balance.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="mouse-gimbal.html"><img src="assets/projects/mouse-gimbal.svg" alt="鼠标双轴云台｜ESP32-S3 与 FPGA 两版的项目图" loading="lazy"></a><div><span>Python GUI / UART / ESP32-S3 / ESP-IDF</span><h3><a href="mouse-gimbal.html">鼠标双轴云台｜ESP32-S3 与 FPGA 两版</a></h3><p>同一个鼠标输入，沿两条主控路线驱动双轴机构。</p><a href="mouse-gimbal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="maixcam-tracking.html"><img src="assets/projects/maixcam-tracking.svg" alt="MaixCAM｜模型训练与二维追踪的项目图" loading="lazy"></a><div><span>MaixCAM Pro / MaixHub / YOLOv5</span><h3><a href="maixcam-tracking.html">MaixCAM｜模型训练与二维追踪</a></h3><p>从自己的训练图片，到目标坐标与云台动作的完整应用路径。</p><a href="maixcam-tracking.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ai-monitor.html"><img src="assets/projects/ai-monitor.svg" alt="AI 监控台｜从悬浮窗到用量仪表的项目图" loading="lazy"></a><div><span>PowerShell / WPF / 增量日志解析</span><h3><a href="ai-monitor.html">AI 监控台｜从悬浮窗到用量仪表</a></h3><p>把分散在不同客户端的用量，整理成桌面上随时能看懂的状态。</p><a href="ai-monitor.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="everyday.html"><img src="assets/projects/everyday-interface.png" alt="Everyday｜像素任务清单与启动中控台的项目图" loading="lazy"></a><div><span>Electron / HTML / CSS / JavaScript</span><h3><a href="everyday.html">Everyday｜像素任务清单与启动中控台</a></h3><p>把日常计划、完成反馈与常用应用启动，放进一块像素桌面。</p><a href="everyday.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="game-security-ai.html"><img src="assets/projects/game-security-ai.svg" alt="游戏安全 AI｜初赛分类实践的项目图" loading="lazy"></a><div><span>Python / TF-IDF / Logistic Regression</span><h3><a href="game-security-ai.html">游戏安全 AI｜初赛分类实践</a></h3><p>围绕文本特征、分层分类与结果交付，留下可复查的实验材料。</p><a href="game-security-ai.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ural-echo.html"><img src="assets/projects/ural-echo.svg" alt="乌拉尔回响｜交互叙事实验的项目图" loading="lazy"></a><div><span>HTML / CSS / JavaScript / Web Audio</span><h3><a href="ural-echo.html">乌拉尔回响｜交互叙事实验</a></h3><p>用调频、噪声和通讯文本，让玩家通过操作进入故事。</p><a href="ural-echo.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="sword-duel.html"><img src="assets/projects/sword-duel-interface.png" alt="不归砚／Sword Duel｜动作交互原型的项目图" loading="lazy"></a><div><span>Canvas 2D / JavaScript / 动作状态机</span><h3><a href="sword-duel.html">不归砚／Sword Duel｜动作交互原型</a></h3><p>用清晰的动作状态、命中反馈与节奏，试做一场有手感的对决。</p><a href="sword-duel.html">看技术路径与项目过程 →</a></div></section></div>
+
+## 这些实践，怎样回到教学
+
+传感器、电机、显示器和桌面界面面对不同问题，却都需要把输入、处理与结果解释清楚。把系统拆成能观察、能核对的环节，是我在这些作品之间持续积累的方法。
+
+[[platform|回到 FPGA 教学平台]] · [[skills|能力与作品证据]] · [[about|关于地瓜丸]] · [[contact|去找地瓜丸→]]
 
 ---
 title: 用 Remotion 做产品演示
@@ -693,10 +1213,51 @@ PCIe 关卡聚焦事务接口中的 BAR 读写等行为，不包含物理层收�
 [[index|回到档案首页]]
 
 ---
+title: 不归砚／Sword Duel｜动作交互原型
+description: 用清晰的动作状态、命中反馈与节奏，试做一场有手感的对决。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 交互与游戏
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">用清晰的动作状态、命中反馈与节奏，试做一场有手感的对决。</p><div class="case-tags"><span>Canvas 2D</span><span>JavaScript</span><span>动作状态机</span><span>音效与粒子</span><span>Electron</span><span>本地记录</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>有网页动作原型与 Electron 配置；本轮未运行或复验最新平衡</aside>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/sword-duel-interface.png"><img src="assets/projects/sword-duel-interface.png" alt="不归砚／Sword Duel｜动作交互原型的现有界面" width="1440" height="1000" loading="lazy"></a><figcaption>现有网页原型的标题界面存档。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/sword-duel.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/sword-duel-mobile.svg" width="460" height="1000"><img src="assets/projects/sword-duel.svg" alt="不归砚／Sword Duel｜动作交互原型的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 手感来自输入和反馈之间的关系
+
+《不归砚》是一个网页动作游戏原型，工程名为 Sword Duel。玩家通过移动、攻击、瞬步和格挡参与战斗，界面同时反馈体力、连击、分数与失败结果。作品尝试解决的，是一次操作如何被玩家立即理解，以及下一次动作何时可以衔接。
+
+## 动作需要明确的状态边界
+
+实现围绕蓄力、挥击、格挡窗口、冲刺与冷却等状态展开。输入先决定动作是否允许发生，碰撞与攻击范围再决定结果，随后更新生命、分数和连击。不同状态的持续时间与取消关系影响节奏，如果所有输入都直接改变位置或伤害，画面即使热闹，也很难形成可学习的规则。
+
+## 反馈要指向刚才发生的事
+
+Canvas 绘制、粒子、镜头震动、短暂停顿与音效共同强调命中、招架和失败。表现层需要服从动作逻辑：玩家应能分清击中了、被防住了，还是因为状态限制没有出手，而非每次都播放同一种夸张效果。连续反馈的强弱也要有区别，给重要事件留出辨识度。
+
+## 从浏览器原型到桌面封装
+
+工程保留 HTML 页面与 Electron 入口，包含本地最高分记录和桌面打包配置。网页与桌面运行环境不同，存储、音频、窗口焦点和键盘输入需要分别检查。封装能力让原型更容易打开，但安装包存在并不能证明每种设备上都已完成测试。
+
+## 当前展示范围
+
+页面与工程配置能说明玩法结构、动作状态和反馈设计，本轮没有运行最新版本，因此不声称完成长期平衡、兼容性测试或正式发行。这里把它作为持续创作的动作交互实验，与教学平台中“操作之后必须给出可解释反馈”的设计原则相互连接。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
 title: 潮汐作曲家：FPGA 海洋音画系统
 description: 从实物音画展示到实时缩放、固化和回读验证。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
   - 代表作品
   - FPGA实践
@@ -708,6 +1269,16 @@ publish: true
 <figure class="case-figure "><a class="case-image-link" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="潮汐作曲家在显示器与 FPGA 开发板上运行的实物照片" loading="lazy" decoding="async"></a><figcaption>真实拍摄的“暮港”场景：显示器、开发板与连接线同框，可看到板端输出的画面。<span>点击查看大图 ↗</span></figcaption></figure>
 
 <div class="archive-actions"><a href="tide-technology.html">技术架构与创新设计 ↗</a><a href="tide-technology.html#技术栈从-rtl-到可复现的部署">查看技术栈 ↗</a></div>
+
+## 先看真实演示与作品海报
+
+<figure class="video-feature"><video controls playsinline preload="none" poster="assets/showcase/tide-135.webp" aria-label="潮汐作曲家 · 参赛作品完整演示，约 3 分钟"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/tide-composer.mp4" type="video/mp4"><a href="https://dgwfpga.cn/portfolio-media/20261109/videos/tide-composer.mp4">打开演示视频</a></video><figcaption>潮汐作曲家 · 参赛作品完整演示，约 3 分钟 · 点击播放，支持全屏。<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/tide-composer.mp4" target="_blank" rel="noopener">单独打开 ↗</a></figcaption></figure>
+
+<div class="poster-split"><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-poster.webp"><img src="assets/showcase/tide-poster.webp" alt="潮汐作曲家参赛作品海报" width="1556" height="2200" loading="lazy" decoding="async"></a><figcaption>原作品海报：展示主题、实物、设置菜单与板卡。<span>点击看大图 ↗</span></figcaption></figure><div><h3>让海岸的一天，随着音乐呼吸</h3><p>原海报与演示视频来自同一套参赛材料。视频中能看到板端操作、场景画面、设置菜单、画面参数和实际设备连接。它与后续实时缩放固化版的工程记录分别保留，不把不同版本的材料混成一次测试。</p><a href="assets/showcase/tide-poster.pdf" target="_blank" rel="noopener">打开原版海报 PDF ↗</a><p>从实物认识作品，再沿技术介绍页拆解 TF、SDRAM、像素地址、转场与音频链路。</p><a href="tide-technology.html">查看技术架构与创新设计 →</a></div></div>
+
+## 把视频里的细节留下来
+
+<div class="tide-gallery"><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-045.webp"><img src="assets/showcase/tide-045.webp" alt="参赛演示视频 45 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 00:45 截帧。<span>点击看大图 ↗</span></figcaption></figure><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-075.webp"><img src="assets/showcase/tide-075.webp" alt="参赛演示视频 75 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 01:15 截帧。<span>点击看大图 ↗</span></figcaption></figure><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-105.webp"><img src="assets/showcase/tide-105.webp" alt="参赛演示视频 105 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 01:45 截帧。<span>点击看大图 ↗</span></figcaption></figure><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-135.webp"><img src="assets/showcase/tide-135.webp" alt="参赛演示视频 135 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 02:15 截帧。<span>点击看大图 ↗</span></figcaption></figure><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-160.webp"><img src="assets/showcase/tide-160.webp" alt="参赛演示视频 160 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 02:40 截帧。<span>点击看大图 ↗</span></figcaption></figure></div>
 
 ## 从素材到屏幕
 
@@ -740,164 +1311,6 @@ publish: true
 ## 继续阅读
 
 [[skills|能力与作品证据]] · [[platform|把 FPGA 知识做成在线练习]] · [[workflow|从想法到上线的工作流]]
-
----
-title: 项目更新与成长记录
-description: 从波形、社区与高速数据流，到 4.1 外设和交互细节。
-date: 2026-11-07
-modified: 2026-11-08
-tags:
-  - 关于我
-publish: true
----
-
-这条时间线按功能阶段组织，展示作品是怎样逐步变化的。具体能力以当前在线版本为准。
-
-| 阶段 | 主要变化 |
-| --- | --- |
-| 波形台 2.0 / 2.1 | 时间窗口、测量、密集活动与局部精细波形 |
-| 2.2 社区互动 | 平台脉搏、匿名动态与给地瓜丸充电 |
-| 3.0 高速数据流 | Ready/Valid、Skid Buffer、异步 FIFO、流式 CRC32 |
-| 2026-11-06 · 4.1 | ADC、DAC、SPI、GPIO、PCIe 五关，完整硬件与逐针手册 |
-| 2026-11-06 · 界面迭代 | 手册阅读、硬件横幅、设备标注与章节漫画 |
-| 2026-11-07 | 合并连续重复运行动态；建立公开 AI 共创档案 |
-| 2026-11-08 | 补充三篇图文案例、能力证据入口、分类导航和图片大图查看 |
-| 2026-11-08 · 技术档案 | 新增潮汐作曲家技术介绍，四组响应式架构图与实现验证数据 |
-| 2026-11-08 · 图文档案 | 22 个内容页全部配图，补入真实操作动图、作品照片和独立手机图解 |
-
-<!-- note-visuals-20261108 -->
-
-<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/evolution.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/evolution-mobile.svg" width="460" height="840"><img src="assets/notes/evolution.svg" alt="波形台、社区、高速数据流和外设实验的功能演进" width="1100" height="610" loading="lazy" decoding="async"></picture></a><figcaption>按已完成的功能阶段整理；确切版本与日期见上方记录。<span>点击查看大图 ↗</span></figcaption></figure>
-
-## 怎样阅读这些记录
-
-版本号说明大的功能阶段，小改动继续记录日期。重点不是更新次数，而是使用中遇到的问题是否被解决、能力有没有更容易被理解。
-
-## 继续探索
-
-- [[platform|我的 FPGA 教学平台]]
-- [[waveform|把波形真正看清]]
-- [[hardware|把硬件与手册放在一起]]
-- [[interaction|让信息看得清、找得到]]
-- [[now|我最近在做什么]]
-
-[[index|回到档案首页]]
-
----
-title: 把波形真正看清
-description: 缩放、测量、跳变定位与局部精细波形，服务于具体分析。
-date: 2026-11-07
-modified: 2026-11-08
-tags:
-  - 代表作品
-publish: true
----
-
-波形是学习者判断代码行为的重要证据。“显示了一张图”还不够，关键是能否找到需要观察的那一拍。
-
-<!-- note-visuals-20261108 -->
-
-<figure class="case-figure note-visual "><a class="case-image-link" href="assets/notes/waveform.gif"><img src="assets/notes/waveform.gif" alt="波形台真实操作录屏：时间窗口与信号观察" width="900" height="498" loading="lazy" decoding="async"></a><figcaption>真实界面演示：在波形中切换时间位置并观察信号；操作过程来自公开功能素材。<span>点击查看大图 ↗</span></figcaption></figure>
-
-## 从全局到细节
-
-波形台支持时间窗口缩放、平移、适配、双游标时间差、跳变沿定位、不同进制和 CSV 导出。密集活动先帮助定位，再请求局部精细波形观察边沿。
-
-## 一次有价值的反馈
-
-学习者曾反馈：放大到最大仍看不清密集活动。这个问题推动了局部细节查看能力，而不是单纯把画布做得更大。
-
-## 观察应该能互相对照
-
-同一时刻的信号值、虚拟 LED、显示输出应能对起来。功能设计的重点是降低分析阻力，让人更容易找到时序问题。
-
-## 继续探索
-
-- [[platform|我的 FPGA 教学平台]]
-- [[debugging|从反馈里找到真正的问题]]
-- [[fpga|FPGA 与数字逻辑]]
-- [[decisions|做取舍的几个原则]]
-
-[[index|回到档案首页]]
-
----
-title: 把功能做成可用的网页
-description: 编辑、查阅和观察都需要顺手，技术实现最终要服务使用过程。
-date: 2026-11-07
-modified: 2026-11-08
-tags:
-  - 实践能力
-publish: true
----
-
-网页开发在这个项目里的任务，是把复杂的练习过程组织成一个可以操作的界面。
-
-<!-- note-visuals-20261108 -->
-
-<figure class="case-figure note-visual "><a class="case-image-link" href="assets/cases/platform-workspace.png"><img src="assets/cases/platform-workspace.png" alt="编辑器、虚拟板卡和波形共同组成的真实练习界面" width="1600" height="1000" loading="lazy" decoding="async"></a><figcaption>真实练习布局存档；代码为学员待填写模板。<span>点击查看大图 ↗</span></figcaption></figure>
-
-<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/web.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/web-mobile.svg" width="460" height="776"><img src="assets/notes/web.svg" alt="操作输入、共享练习状态和观察解释之间的数据关系" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>练习界面关系示意：代码、约束与结果需要互相对应。<span>点击查看大图 ↗</span></figcaption></figure>
-
-## 具体实践
-
-编辑器、约束连线、运行反馈、三维教具、元件手册、波形测量和可放大的工作区域，需要共享一致的状态。手机与电脑的空间不同，也需要不同的布局处理。
-
-## 从使用中发现问题
-
-文字与深色背景融在一起、手册被挤成横条、学习动态被重复记录占满，都是实际反馈。修复的目标是恢复信息的可读性与操作的确定性。
-
-## 验证到页面里
-
-构建成功只是一步。还要检查真实页面中的点击、滚动、窄屏布局和资源加载，才能说明改动已经产生了预期效果。
-
-## 继续探索
-
-- [[interaction|让信息看得清、找得到]]
-- [[debugging|从反馈里找到真正的问题]]
-- [[platform|我的 FPGA 教学平台]]
-- [[workflow|从想法到上线的工作流]]
-
-[[index|回到档案首页]]
-
----
-title: 从想法到上线的工作流
-description: 把需求、实现、验证与留痕连成一条可以复查的过程。
-date: 2026-11-07
-modified: 2026-11-08
-tags:
-  - AI协作
-publish: true
----
-
-这个流程来自持续修改个人作品的需要，目标是减少“改完不知道改了哪里”的情况。
-
-<!-- note-visuals-20261108 -->
-
-<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/workflow.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/workflow-mobile.svg" width="460" height="946"><img src="assets/notes/workflow.svg" alt="明确问题、做出结果、验证审查和发布留痕四个工作阶段" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>交付流程示意：每个阶段留下可以继续查看或核对的结果。<span>点击查看大图 ↗</span></figcaption></figure>
-
-## 四个阶段
-
-1. 明确问题：现在发生什么，希望变成什么。
-2. 做出具体结果：代码、页面、镜头或文案应能直接查看。
-3. 验证和审查：核对功能、边界、布局与关键数据。
-4. 发布并留痕：记录版本、验证证据和回退范围。
-
-## 小改动与大改动
-
-检查范围跟着风险走。文字调整和内核变化需要的验证不同；已经通过且内容没有变化的检查，不必为了显得认真反复执行。
-
-## 长期积累
-
-一份持续更新的项目记录，能让下一次修改有明确起点。备份、文档与版本记录各有用途，彼此配合。
-
-## 继续探索
-
-- [[ai-collaboration|我怎样与 AI 一起做项目]]
-- [[maintenance|个人网站的维护实践]]
-- [[debugging|从反馈里找到真正的问题]]
-- [[timeline|项目更新与成长记录]]
-
-[[index|回到档案首页]]
 
 ---
 title: 潮汐作曲家：技术架构与创新设计
@@ -983,3 +1396,245 @@ TF 卡中的 PCM 既送往 HDMI 音频输出，也用于幅值包络和低、中
 [[tide-composer|看实物照片与项目过程]] · [[skills|查看个人能力与作品证据]] · [[fpga|FPGA 与数字逻辑实践]]
 
 <p class="tech-source-note">资料依据：当前实时缩放固化版 RTL、PLL 配置、ModelSim 回归日志、TD 构建摘要与 Flash / TF 回读记录。页面示意图依据工程关系重新绘制。作品基于官方示例继续开发，以奶蛙大队参赛。</p>
+
+---
+title: 项目更新与成长记录
+description: 从波形、社区与高速数据流，到 4.1 外设和交互细节。
+date: 2026-11-07
+modified: 2026-11-09
+tags:
+  - 关于我
+publish: true
+---
+
+这条时间线按功能阶段组织，展示作品是怎样逐步变化的。具体能力以当前在线版本为准。
+
+| 阶段 | 主要变化 |
+| --- | --- |
+| 波形台 2.0 / 2.1 | 时间窗口、测量、密集活动与局部精细波形 |
+| 2.2 社区互动 | 平台脉搏、匿名动态与给地瓜丸充电 |
+| 3.0 高速数据流 | Ready/Valid、Skid Buffer、异步 FIFO、流式 CRC32 |
+| 2026-11-06 · 4.1 | ADC、DAC、SPI、GPIO、PCIe 五关，完整硬件与逐针手册 |
+| 2026-11-06 · 界面迭代 | 手册阅读、硬件横幅、设备标注与章节漫画 |
+| 2026-11-07 | 合并连续重复运行动态；建立公开 AI 共创档案 |
+| 2026-11-08 | 补充三篇图文案例、能力证据入口、分类导航和图片大图查看 |
+| 2026-11-08 · 技术档案 | 新增潮汐作曲家技术介绍，四组响应式架构图与实现验证数据 |
+| 2026-11-08 · 图文档案 | 22 个内容页全部配图，补入真实操作动图、作品照片和独立手机图解 |
+
+| 2026-11-09 · 平台主线 | 重构介绍站、交互 3D 板卡、国内视频与海报、吉祥物专区及 14 篇其他项目介绍 |
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/evolution.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/evolution-mobile.svg" width="460" height="840"><img src="assets/notes/evolution.svg" alt="波形台、社区、高速数据流和外设实验的功能演进" width="1100" height="610" loading="lazy" decoding="async"></picture></a><figcaption>按已完成的功能阶段整理；确切版本与日期见上方记录。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 怎样阅读这些记录
+
+版本号说明大的功能阶段，小改动继续记录日期。重点不是更新次数，而是使用中遇到的问题是否被解决、能力有没有更容易被理解。
+
+## 继续探索
+
+- [[platform|我的 FPGA 教学平台]]
+- [[waveform|把波形真正看清]]
+- [[hardware|把硬件与手册放在一起]]
+- [[interaction|让信息看得清、找得到]]
+- [[now|我最近在做什么]]
+
+[[index|回到档案首页]]
+
+---
+title: 乌拉尔回响｜交互叙事实验
+description: 用调频、噪声和通讯文本，让玩家通过操作进入故事。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 交互与游戏
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">用调频、噪声和通讯文本，让玩家通过操作进入故事。</p><div class="case-tags"><span>HTML / CSS</span><span>JavaScript</span><span>Web Audio</span><span>分支叙事</span><span>Capacitor</span><span>Android</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>有网页交互、故事节点与 Android 工程；未核验最终发行版本</aside>
+
+
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/ural-echo.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/ural-echo-mobile.svg" width="460" height="1000"><img src="assets/projects/ural-echo.svg" alt="乌拉尔回响｜交互叙事实验的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 让“听见故事”成为一种操作
+
+《乌拉尔回响》把玩家放在一台高频解调仪之前。故事通过频段、噪声、通讯文本和操作指令展开：玩家拖动粗调滑块、转动细调旋钮，寻找信号，等待清晰度达到条件，再阅读截获内容并选择下一步。界面中的仪器是叙事载体，不是真实的无线电接收设备。
+
+## 交互与叙事共用状态
+
+频率位置影响当前可匹配的信道，清晰度影响文本何时出现，选择则推进该信道里的故事节点。通讯内容、记录员日志与可选指令分别呈现，帮助玩家区分“对方说了什么”和“自己怎样理解”。这要求仪器状态与剧情状态保持一致，避免按钮已经推进，画面却仍停在旧内容。
+
+## 网页技术承担仪器感
+
+项目使用 HTML、CSS 与 JavaScript 组织滑块、旋钮、文字与面板，Web Audio 合成噪声及操作声音，故事内容以独立节点结构维护。调谐反馈、文本逐步显示和声音变化共同解释当前操作，让用户无需先读完长篇说明，也能理解自己正在靠近还是离开信号。
+
+## 多端不是简单换一个外壳
+
+现有文件包括网页版本、Capacitor Android 工程，另有原生 Android 项目与调试包。触摸拖动、旋钮手感、音频启动权限和屏幕比例都会影响体验；桌面能运行，不等于手机上已经完成适配。不同实现的最终版本关系与正式发布状态还需分别确认。
+
+## 这件作品留下的经验
+
+它尝试把仪器界面、科幻文本和选择机制放进同一套可操作叙事。公开展示聚焦交互结构与创作方法，不把虚构的故事设定当作历史或科学陈述，也不把现有调试包描述为已上架的成熟产品。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: 把波形真正看清
+description: 缩放、测量、跳变定位与局部精细波形，服务于具体分析。
+date: 2026-11-07
+modified: 2026-11-08
+tags:
+  - 代表作品
+publish: true
+---
+
+波形是学习者判断代码行为的重要证据。“显示了一张图”还不够，关键是能否找到需要观察的那一拍。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual "><a class="case-image-link" href="assets/notes/waveform.gif"><img src="assets/notes/waveform.gif" alt="波形台真实操作录屏：时间窗口与信号观察" width="900" height="498" loading="lazy" decoding="async"></a><figcaption>真实界面演示：在波形中切换时间位置并观察信号；操作过程来自公开功能素材。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 从全局到细节
+
+波形台支持时间窗口缩放、平移、适配、双游标时间差、跳变沿定位、不同进制和 CSV 导出。密集活动先帮助定位，再请求局部精细波形观察边沿。
+
+## 一次有价值的反馈
+
+学习者曾反馈：放大到最大仍看不清密集活动。这个问题推动了局部细节查看能力，而不是单纯把画布做得更大。
+
+## 观察应该能互相对照
+
+同一时刻的信号值、虚拟 LED、显示输出应能对起来。功能设计的重点是降低分析阻力，让人更容易找到时序问题。
+
+## 继续探索
+
+- [[platform|我的 FPGA 教学平台]]
+- [[debugging|从反馈里找到真正的问题]]
+- [[fpga|FPGA 与数字逻辑]]
+- [[decisions|做取舍的几个原则]]
+
+[[index|回到档案首页]]
+
+---
+title: WeariFi｜柔域智感
+description: 把空间感知与可穿戴感知放在同一个监护流程里。
+date: 2026-11-09
+modified: 2026-11-09
+tags:
+  - 更多作品
+  - 感知与嵌入式
+publish: true
+---
+
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把空间感知与可穿戴感知放在同一个监护流程里。</p><div class="case-tags"><span>ESP32-S3 / WiFi CSI</span><span>nRF / BLE</span><span>Django REST</span><span>PyTorch</span><span>PostgreSQL</span><span>网页与小程序</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>参赛方案、前后端工程与演示材料齐备；识别率和长期监护指标未独立复测</aside>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/wearifi-interface.png"><img src="assets/projects/wearifi-interface.png" alt="WeariFi｜柔域智感的现有界面" width="1440" height="1000" loading="lazy"></a><figcaption>参赛材料中的前端原型界面；设备状态与数值用于展示界面结构，项目阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/wearifi.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/wearifi-mobile.svg" width="460" height="1000"><img src="assets/projects/wearifi.svg" alt="WeariFi｜柔域智感的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 两种感知，观察不同信息
+
+WeariFi 面向居家活动与健康监护，尝试将 WiFi CSI 的环境变化信息与柔性贴片的运动数据联系起来。非接触式感知关心空间中的活动，可穿戴侧关注佩戴者本人的动作；两种来源需要明确时间关系和设备状态，才能进一步讨论如何互补，而非简单叠加两个传感器名称。
+
+## 感知、边缘与应用三层协同
+
+项目材料与工程按三层组织：ESP32-S3 负责 CSI 采集与边缘预处理，nRF 贴片侧负责运动采集和 BLE 通信；数据再进入服务端，组织查询、事件和可视化。现有后端工程使用 Django REST 与 PyTorch，包含 PostgreSQL、异步任务和部署依赖；网页用户端与手机小程序承担状态查看、历史信息及事件入口。
+
+## 技术难点在融合之前
+
+不同设备的数据频率、时间戳和丢失状态并不天然一致。方案因此需要先处理对齐、预处理、缺失与设备连接，再建立模型输入。告警界面也必须区分“没有检测到事件”和“设备没有有效数据”，避免让一个看起来平静的页面掩盖断连。模型训练、阈值与应用提示需要在同一验证条件下解释。
+
+## 从参赛材料走向可检验系统
+
+已有设计说明、技术文档、软硬件模块工程、网页、小程序及演示视频，能够展示整体系统如何分工。公开页保留这种系统集成思路，不沿用文档中未经独立核验的“首创”、误报率、续航或社会效益数字。不同应用产品线是方案延展，不能由一份演示推断全部已经成熟落地。
+
+## 当前作品定位
+
+这是围绕感知融合、数据服务与交互呈现推进的团队项目实践。这里展示技术路径与工程材料，不将其当作临床诊断设备，也不以方案目标替代真实人群测试。
+
+## 继续阅读
+
+[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
+
+---
+title: 把功能做成可用的网页
+description: 编辑、查阅和观察都需要顺手，技术实现最终要服务使用过程。
+date: 2026-11-07
+modified: 2026-11-08
+tags:
+  - 实践能力
+publish: true
+---
+
+网页开发在这个项目里的任务，是把复杂的练习过程组织成一个可以操作的界面。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual "><a class="case-image-link" href="assets/cases/platform-workspace.png"><img src="assets/cases/platform-workspace.png" alt="编辑器、虚拟板卡和波形共同组成的真实练习界面" width="1600" height="1000" loading="lazy" decoding="async"></a><figcaption>真实练习布局存档；代码为学员待填写模板。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/web.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/web-mobile.svg" width="460" height="776"><img src="assets/notes/web.svg" alt="操作输入、共享练习状态和观察解释之间的数据关系" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>练习界面关系示意：代码、约束与结果需要互相对应。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 具体实践
+
+编辑器、约束连线、运行反馈、三维教具、元件手册、波形测量和可放大的工作区域，需要共享一致的状态。手机与电脑的空间不同，也需要不同的布局处理。
+
+## 从使用中发现问题
+
+文字与深色背景融在一起、手册被挤成横条、学习动态被重复记录占满，都是实际反馈。修复的目标是恢复信息的可读性与操作的确定性。
+
+## 验证到页面里
+
+构建成功只是一步。还要检查真实页面中的点击、滚动、窄屏布局和资源加载，才能说明改动已经产生了预期效果。
+
+## 继续探索
+
+- [[interaction|让信息看得清、找得到]]
+- [[debugging|从反馈里找到真正的问题]]
+- [[platform|我的 FPGA 教学平台]]
+- [[workflow|从想法到上线的工作流]]
+
+[[index|回到档案首页]]
+
+---
+title: 从想法到上线的工作流
+description: 把需求、实现、验证与留痕连成一条可以复查的过程。
+date: 2026-11-07
+modified: 2026-11-08
+tags:
+  - AI协作
+publish: true
+---
+
+这个流程来自持续修改个人作品的需要，目标是减少“改完不知道改了哪里”的情况。
+
+<!-- note-visuals-20261108 -->
+
+<figure class="case-figure note-visual note-diagram"><a class="case-image-link" href="assets/notes/workflow.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/workflow-mobile.svg" width="460" height="946"><img src="assets/notes/workflow.svg" alt="明确问题、做出结果、验证审查和发布留痕四个工作阶段" width="1100" height="450" loading="lazy" decoding="async"></picture></a><figcaption>交付流程示意：每个阶段留下可以继续查看或核对的结果。<span>点击查看大图 ↗</span></figcaption></figure>
+
+## 四个阶段
+
+1. 明确问题：现在发生什么，希望变成什么。
+2. 做出具体结果：代码、页面、镜头或文案应能直接查看。
+3. 验证和审查：核对功能、边界、布局与关键数据。
+4. 发布并留痕：记录版本、验证证据和回退范围。
+
+## 小改动与大改动
+
+检查范围跟着风险走。文字调整和内核变化需要的验证不同；已经通过且内容没有变化的检查，不必为了显得认真反复执行。
+
+## 长期积累
+
+一份持续更新的项目记录，能让下一次修改有明确起点。备份、文档与版本记录各有用途，彼此配合。
+
+## 继续探索
+
+- [[ai-collaboration|我怎样与 AI 一起做项目]]
+- [[maintenance|个人网站的维护实践]]
+- [[debugging|从反馈里找到真正的问题]]
+- [[timeline|项目更新与成长记录]]
+
+[[index|回到档案首页]]

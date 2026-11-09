@@ -1,9 +1,9 @@
 {
   "center": {
     "id": "dgw",
-    "label": "地瓜丸",
-    "summary": "用 AI 把想法做成作品，留下可核对的过程。",
-    "href": "../about.html"
+    "label": "地瓜丸 FPGA 教学平台",
+    "summary": "以免费在线教学平台为主线，连接功能、方法、创作者与其他作品。",
+    "href": "../platform.html"
   },
   "groups": {
     "profile": {
@@ -319,6 +319,198 @@
         "about",
         "platform",
         "content-creation"
+      ]
+    },
+    {
+      "id": "flexstep",
+      "title": "FlexStep｜人体步态柔性感知系统",
+      "group": "projects",
+      "summary": "让足底受力成为可以观察、比较和解释的连续信息。",
+      "href": "../flexstep.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "acoustic-terminal",
+      "title": "双麦声学感知／声学取证终端",
+      "group": "projects",
+      "summary": "从两路麦克风采样，到方向、频带、波形与录音的完整观察链。",
+      "href": "../acoustic-terminal.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "wearifi",
+      "title": "WeariFi｜柔域智感",
+      "group": "projects",
+      "summary": "把空间感知与可穿戴感知放在同一个监护流程里。",
+      "href": "../wearifi.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "fuma-unit",
+      "title": "FUMA／UNIT｜多模态脑电固件",
+      "group": "projects",
+      "summary": "把采样、传感器状态、无线传输与电源管理组织成可维护的固件。",
+      "href": "../fuma-unit.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "ota-method",
+      "title": "脑电固件与蓝牙 OTA｜方法笔记",
+      "group": "projects",
+      "summary": "一次无线升级，背后是构建、签名、版本与恢复路径的配合。",
+      "href": "../ota-method.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "auto-aim",
+      "title": "电赛实践｜简易自行瞄准装置",
+      "group": "projects",
+      "summary": "从识别目标，到把视觉误差变成云台动作。",
+      "href": "../auto-aim.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "ball-balance",
+      "title": "车载平衡滚球｜视觉与运动控制",
+      "group": "projects",
+      "summary": "看见球的位置，还要处理速度、摩擦、平衡点和失联。",
+      "href": "../ball-balance.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "mouse-gimbal",
+      "title": "鼠标双轴云台｜ESP32-S3 与 FPGA 两版",
+      "group": "projects",
+      "summary": "同一个鼠标输入，沿两条主控路线驱动双轴机构。",
+      "href": "../mouse-gimbal.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "maixcam-tracking",
+      "title": "MaixCAM｜模型训练与二维追踪",
+      "group": "projects",
+      "summary": "从自己的训练图片，到目标坐标与云台动作的完整应用路径。",
+      "href": "../maixcam-tracking.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "ai-monitor",
+      "title": "AI 监控台｜从悬浮窗到用量仪表",
+      "group": "projects",
+      "summary": "把分散在不同客户端的用量，整理成桌面上随时能看懂的状态。",
+      "href": "../ai-monitor.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "everyday",
+      "title": "Everyday｜像素任务清单与启动中控台",
+      "group": "projects",
+      "summary": "把日常计划、完成反馈与常用应用启动，放进一块像素桌面。",
+      "href": "../everyday.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "game-security-ai",
+      "title": "游戏安全 AI｜初赛分类实践",
+      "group": "projects",
+      "summary": "围绕文本特征、分层分类与结果交付，留下可复查的实验材料。",
+      "href": "../game-security-ai.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "ural-echo",
+      "title": "乌拉尔回响｜交互叙事实验",
+      "group": "projects",
+      "summary": "用调频、噪声和通讯文本，让玩家通过操作进入故事。",
+      "href": "../ural-echo.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "sword-duel",
+      "title": "不归砚／Sword Duel｜动作交互原型",
+      "group": "projects",
+      "summary": "用清晰的动作状态、命中反馈与节奏，试做一场有手感的对决。",
+      "href": "../sword-duel.html",
+      "related": [
+        "projects",
+        "platform",
+        "skills"
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "工作室其他项目",
+      "group": "projects",
+      "summary": "感知、控制、工具与交互作品总览。",
+      "href": "../projects.html",
+      "related": [
+        "platform",
+        "about",
+        "contact"
+      ]
+    },
+    {
+      "id": "mascot",
+      "title": "认识我们的吉祥物",
+      "group": "profile",
+      "summary": "圆眼镜、小显示器，贯穿平台与教程的熟悉角色。",
+      "href": "../mascot.html",
+      "related": [
+        "platform",
+        "about",
+        "contact"
       ]
     }
   ]

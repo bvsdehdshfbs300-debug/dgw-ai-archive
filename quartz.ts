@@ -3,6 +3,7 @@ import ArchiveNavigation from "./quartz/components/ArchiveNavigation"
 import CaseCapabilities from "./quartz/components/CaseCapabilities"
 import ArchiveMedia from "./quartz/components/ArchiveMedia"
 import ArchiveTopicVisual from "./quartz/components/ArchiveTopicVisual"
+import MascotCompanion from "./quartz/components/MascotCompanion"
 import { PageTypeDispatcher } from "./quartz/plugins/pageTypes/dispatcher"
 
 const config = await loadQuartzConfig()
@@ -13,7 +14,7 @@ for (const [type, slots] of [["default", layout.defaults], ...Object.entries(lay
   slots.beforeBody = [...(slots.beforeBody ?? []), ArchiveTopicVisual()]
   slots.left = [...(slots.left ?? []), ArchiveNavigation()]
   slots.right = [CaseCapabilities(), ...(slots.right ?? [])]
-  slots.afterBody = [...(slots.afterBody ?? []), ArchiveMedia()]
+  slots.afterBody = [...(slots.afterBody ?? []), ArchiveMedia(), MascotCompanion()]
 }
 // Quartz 5 creates its dispatcher while loading YAML, before this custom layout exists.
 // Replace that dispatcher with one using the same page types and our augmented slots.

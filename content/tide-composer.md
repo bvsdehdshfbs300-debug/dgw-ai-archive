@@ -2,7 +2,7 @@
 title: 潮汐作曲家：FPGA 海洋音画系统
 description: 从实物音画展示到实时缩放、固化和回读验证。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-09
 tags:
   - 代表作品
   - FPGA实践
@@ -14,6 +14,16 @@ publish: true
 <figure class="case-figure "><a class="case-image-link" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="潮汐作曲家在显示器与 FPGA 开发板上运行的实物照片" loading="lazy" decoding="async"></a><figcaption>真实拍摄的“暮港”场景：显示器、开发板与连接线同框，可看到板端输出的画面。<span>点击查看大图 ↗</span></figcaption></figure>
 
 <div class="archive-actions"><a href="tide-technology.html">技术架构与创新设计 ↗</a><a href="tide-technology.html#技术栈从-rtl-到可复现的部署">查看技术栈 ↗</a></div>
+
+## 先看真实演示与作品海报
+
+<figure class="video-feature"><video controls playsinline preload="none" poster="assets/showcase/tide-135.webp" aria-label="潮汐作曲家 · 参赛作品完整演示，约 3 分钟"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/tide-composer.mp4" type="video/mp4"><a href="https://dgwfpga.cn/portfolio-media/20261109/videos/tide-composer.mp4">打开演示视频</a></video><figcaption>潮汐作曲家 · 参赛作品完整演示，约 3 分钟 · 点击播放，支持全屏。<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/tide-composer.mp4" target="_blank" rel="noopener">单独打开 ↗</a></figcaption></figure>
+
+<div class="poster-split"><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-poster.webp"><img src="assets/showcase/tide-poster.webp" alt="潮汐作曲家参赛作品海报" width="1556" height="2200" loading="lazy" decoding="async"></a><figcaption>原作品海报：展示主题、实物、设置菜单与板卡。<span>点击看大图 ↗</span></figcaption></figure><div><h3>让海岸的一天，随着音乐呼吸</h3><p>原海报与演示视频来自同一套参赛材料。视频中能看到板端操作、场景画面、设置菜单、画面参数和实际设备连接。它与后续实时缩放固化版的工程记录分别保留，不把不同版本的材料混成一次测试。</p><a href="assets/showcase/tide-poster.pdf" target="_blank" rel="noopener">打开原版海报 PDF ↗</a><p>从实物认识作品，再沿技术介绍页拆解 TF、SDRAM、像素地址、转场与音频链路。</p><a href="tide-technology.html">查看技术架构与创新设计 →</a></div></div>
+
+## 把视频里的细节留下来
+
+<div class="tide-gallery"><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-045.webp"><img src="assets/showcase/tide-045.webp" alt="参赛演示视频 45 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 00:45 截帧。<span>点击看大图 ↗</span></figcaption></figure><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-075.webp"><img src="assets/showcase/tide-075.webp" alt="参赛演示视频 75 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 01:15 截帧。<span>点击看大图 ↗</span></figcaption></figure><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-105.webp"><img src="assets/showcase/tide-105.webp" alt="参赛演示视频 105 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 01:45 截帧。<span>点击看大图 ↗</span></figcaption></figure><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-135.webp"><img src="assets/showcase/tide-135.webp" alt="参赛演示视频 135 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 02:15 截帧。<span>点击看大图 ↗</span></figcaption></figure><figure class="case-figure "><a class="case-image-link" href="assets/showcase/tide-160.webp"><img src="assets/showcase/tide-160.webp" alt="参赛演示视频 160 秒处的真实画面" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>原演示视频 02:40 截帧。<span>点击看大图 ↗</span></figcaption></figure></div>
 
 ## 从素材到屏幕
 
