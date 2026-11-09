@@ -2,6 +2,8 @@
   if(window.__dgwExhibitReady)return;
   window.__dgwExhibitReady=true;
   document.addEventListener('click',event=>{
+   const filter=event.target.closest?.('[data-gallery-group]');
+   if(filter){const gallery=filter.closest('.feature-gallery');const group=filter.dataset.galleryGroup;let count=0;gallery.querySelectorAll('.gallery-card').forEach(card=>{const show=group==='all'||card.dataset.group===group;card.hidden=!show;if(show)count++});gallery.querySelectorAll('[data-gallery-group]').forEach(button=>button.setAttribute('aria-pressed',String(button===filter)));const output=gallery.querySelector('[data-gallery-count]');if(output)output.textContent='正在展示 '+count+' 张真实功能截图';return;}
    const button=event.target.closest?.('[data-load-board]');if(!button)return;
    const wrapper=button.closest('.board-exhibit');if(!wrapper)return;
    const frame=document.createElement('iframe');frame.src=button.dataset.loadBoard;
