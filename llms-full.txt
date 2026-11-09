@@ -953,7 +953,7 @@ publish: true
 
 
 ---
-title: 地瓜丸工作室 · 其他项目
+title: 我做过的项目｜地瓜丸工作室
 description: 以 FPGA 教学平台为主线，继续探索感知、控制、工具与交互。
 date: 2026-11-09
 modified: 2026-11-09
@@ -964,13 +964,9 @@ publish: true
 
 <section class="mascot-intro"><img src="assets/mascot/mascot-thinking.png" alt="思考中的地瓜丸吉祥物" width="160" height="160"><div><span class="product-kicker">BEYOND THE TEACHING PLATFORM</span><h2>把不同的想法，继续做成作品。</h2><p>FPGA 教学平台是主线。这里收录工作室的其他实践：有实物、有完整工程，也有需要继续验证的方案与原型。每页都写清具体技术路径和当前阶段。</p><a href="platform.html">先看我们的 FPGA 教学平台 →</a></div></section>
 
-## 先看 FPGA 实物音画作品
+## 我做过的项目
 
-<section class="project-tile"><a href="tide-composer.html"><img src="assets/cases/tide-system.png" alt="潮汐作曲家实物运行照片" loading="lazy"></a><div><span>FPGA / HDMI / 图像与音频</span><h3><a href="tide-composer.html">潮汐作曲家</a></h3><p>从 TF 卡素材、SDRAM 帧缓存到 HDMI 输出，结合转场、缩放与板端控制。完整演示、原版海报、实物图与技术架构放在一起阅读。</p><a href="tide-composer.html">看实物、海报和视频 →</a></div></section>
-
-## 感知、控制、工具与交互
-
-<div class="project-collection"><section class="project-tile"><a href="flexstep.html"><img src="assets/projects/flexstep.svg" alt="FlexStep｜人体步态柔性感知系统的项目图" loading="lazy"></a><div><span>柔性压力阵列 / Arduino / 多通道采集</span><h3><a href="flexstep.html">FlexStep｜人体步态柔性感知系统</a></h3><p>让足底受力成为可以观察、比较和解释的连续信息。</p><a href="flexstep.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="acoustic-terminal.html"><img src="assets/projects/acoustic-terminal.svg" alt="双麦声学感知／声学取证终端的项目图" loading="lazy"></a><div><span>EG4S20 FPGA / INMP441 ×2 / I2S</span><h3><a href="acoustic-terminal.html">双麦声学感知／声学取证终端</a></h3><p>从两路麦克风采样，到方向、频带、波形与录音的完整观察链。</p><a href="acoustic-terminal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="wearifi.html"><img src="assets/projects/wearifi-interface.png" alt="WeariFi｜柔域智感的项目图" loading="lazy"></a><div><span>ESP32-S3 / WiFi CSI / nRF / BLE / Django REST</span><h3><a href="wearifi.html">WeariFi｜柔域智感</a></h3><p>把空间感知与可穿戴感知放在同一个监护流程里。</p><a href="wearifi.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="fuma-unit.html"><img src="assets/projects/fuma-unit.svg" alt="FUMA／UNIT｜多模态脑电固件的项目图" loading="lazy"></a><div><span>nRF52832 / nRF5 SDK / C</span><h3><a href="fuma-unit.html">FUMA／UNIT｜多模态脑电固件</a></h3><p>把采样、传感器状态、无线传输与电源管理组织成可维护的固件。</p><a href="fuma-unit.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ota-method.html"><img src="assets/projects/ota-method.svg" alt="脑电固件与蓝牙 OTA｜方法笔记的项目图" loading="lazy"></a><div><span>Secure DFU / Bootloader / 签名验证</span><h3><a href="ota-method.html">脑电固件与蓝牙 OTA｜方法笔记</a></h3><p>一次无线升级，背后是构建、签名、版本与恢复路径的配合。</p><a href="ota-method.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="auto-aim.html"><img src="assets/projects/auto-aim.svg" alt="电赛实践｜简易自行瞄准装置的项目图" loading="lazy"></a><div><span>嵌入式视觉 / Python / 矩形识别</span><h3><a href="auto-aim.html">电赛实践｜简易自行瞄准装置</a></h3><p>从识别目标，到把视觉误差变成云台动作。</p><a href="auto-aim.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ball-balance.html"><img src="assets/project-field/ball-system.webp" alt="车载平衡滚球｜视觉与运动控制的项目图" loading="lazy"></a><div><span>MaixCAM2 / YOLOv5 / UDP</span><h3><a href="ball-balance.html">车载平衡滚球｜视觉与运动控制</a></h3><p>整机照片、三段实拍，以及视觉坐标怎样驱动杆面倾角。</p><a href="ball-balance.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="mouse-gimbal.html"><img src="assets/projects/mouse-gimbal.svg" alt="鼠标双轴云台｜ESP32-S3 与 FPGA 两版的项目图" loading="lazy"></a><div><span>Python GUI / UART / ESP32-S3 / ESP-IDF</span><h3><a href="mouse-gimbal.html">鼠标双轴云台｜ESP32-S3 与 FPGA 两版</a></h3><p>同一个鼠标输入，沿两条主控路线驱动双轴机构。</p><a href="mouse-gimbal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="maixcam-tracking.html"><img src="assets/project-field/maixcam-demo.webp" alt="MaixCAM｜模型训练与二维追踪的项目图" loading="lazy"></a><div><span>MaixCAM Pro / MaixHub / YOLOv5</span><h3><a href="maixcam-tracking.html">MaixCAM｜模型训练与二维追踪</a></h3><p>4 分 52 秒完整演示，直接看检测框、坐标反馈、控制界面和实机动作。</p><a href="maixcam-tracking.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ai-monitor.html"><img src="assets/projects/ai-monitor.svg" alt="AI 监控台｜从悬浮窗到用量仪表的项目图" loading="lazy"></a><div><span>PowerShell / WPF / 增量日志解析</span><h3><a href="ai-monitor.html">AI 监控台｜从悬浮窗到用量仪表</a></h3><p>把分散在不同客户端的用量，整理成桌面上随时能看懂的状态。</p><a href="ai-monitor.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="everyday.html"><img src="assets/projects/everyday-interface.png" alt="Everyday｜像素任务清单与启动中控台的项目图" loading="lazy"></a><div><span>Electron / HTML / CSS / JavaScript</span><h3><a href="everyday.html">Everyday｜像素任务清单与启动中控台</a></h3><p>把日常计划、完成反馈与常用应用启动，放进一块像素桌面。</p><a href="everyday.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="game-security-ai.html"><img src="assets/projects/game-security-ai.svg" alt="游戏安全 AI｜初赛分类实践的项目图" loading="lazy"></a><div><span>Python / TF-IDF / Logistic Regression</span><h3><a href="game-security-ai.html">游戏安全 AI｜初赛分类实践</a></h3><p>围绕文本特征、分层分类与结果交付，留下可复查的实验材料。</p><a href="game-security-ai.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ural-echo.html"><img src="assets/projects/ural-echo.svg" alt="乌拉尔回响｜交互叙事实验的项目图" loading="lazy"></a><div><span>HTML / CSS / JavaScript / Web Audio</span><h3><a href="ural-echo.html">乌拉尔回响｜交互叙事实验</a></h3><p>用调频、噪声和通讯文本，让玩家通过操作进入故事。</p><a href="ural-echo.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="sword-duel.html"><img src="assets/projects/sword-duel-interface.png" alt="不归砚／Sword Duel｜动作交互原型的项目图" loading="lazy"></a><div><span>Canvas 2D / JavaScript / 动作状态机</span><h3><a href="sword-duel.html">不归砚／Sword Duel｜动作交互原型</a></h3><p>用清晰的动作状态、命中反馈与节奏，试做一场有手感的对决。</p><a href="sword-duel.html">看技术路径与项目过程 →</a></div></section></div>
+<div class="project-collection"><section class="project-tile"><a href="tide-composer.html"><img src="assets/cases/tide-system.png" alt="潮汐作曲家实物运行照片" loading="lazy"></a><div><span>FPGA / HDMI / 图像与音频</span><h3><a href="tide-composer.html">潮汐作曲家</a></h3><p>从 TF 卡素材、SDRAM 帧缓存到 HDMI 输出，结合转场、缩放与板端控制。完整演示、原版海报、实物图与技术架构放在一起阅读。</p><a href="tide-composer.html">看实物、海报和视频 →</a></div></section><section class="project-tile"><a href="flexstep.html"><img src="assets/projects/flexstep.svg" alt="FlexStep｜人体步态柔性感知系统的项目图" loading="lazy"></a><div><span>柔性压力阵列 / Arduino / 多通道采集</span><h3><a href="flexstep.html">FlexStep｜人体步态柔性感知系统</a></h3><p>让足底受力成为可以观察、比较和解释的连续信息。</p><a href="flexstep.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="acoustic-terminal.html"><img src="assets/projects/acoustic-terminal.svg" alt="双麦声学感知／声学取证终端的项目图" loading="lazy"></a><div><span>EG4S20 FPGA / INMP441 ×2 / I2S</span><h3><a href="acoustic-terminal.html">双麦声学感知／声学取证终端</a></h3><p>从两路麦克风采样，到方向、频带、波形与录音的完整观察链。</p><a href="acoustic-terminal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="wearifi.html"><img src="assets/projects/wearifi-interface.png" alt="WeariFi｜柔域智感的项目图" loading="lazy"></a><div><span>ESP32-S3 / WiFi CSI / nRF / BLE / Django REST</span><h3><a href="wearifi.html">WeariFi｜柔域智感</a></h3><p>把空间感知与可穿戴感知放在同一个监护流程里。</p><a href="wearifi.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="fuma-unit.html"><img src="assets/projects/fuma-unit.svg" alt="FUMA／UNIT｜多模态脑电固件的项目图" loading="lazy"></a><div><span>nRF52832 / nRF5 SDK / C</span><h3><a href="fuma-unit.html">FUMA／UNIT｜多模态脑电固件</a></h3><p>把采样、传感器状态、无线传输与电源管理组织成可维护的固件。</p><a href="fuma-unit.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ota-method.html"><img src="assets/projects/ota-method.svg" alt="脑电固件与蓝牙 OTA｜方法笔记的项目图" loading="lazy"></a><div><span>Secure DFU / Bootloader / 签名验证</span><h3><a href="ota-method.html">脑电固件与蓝牙 OTA｜方法笔记</a></h3><p>一次无线升级，背后是构建、签名、版本与恢复路径的配合。</p><a href="ota-method.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="auto-aim.html"><img src="assets/projects/auto-aim.svg" alt="电赛实践｜简易自行瞄准装置的项目图" loading="lazy"></a><div><span>嵌入式视觉 / Python / 矩形识别</span><h3><a href="auto-aim.html">电赛实践｜简易自行瞄准装置</a></h3><p>从识别目标，到把视觉误差变成云台动作。</p><a href="auto-aim.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ball-balance.html"><img src="assets/project-field/ball-system.webp" alt="车载平衡滚球｜视觉与运动控制的项目图" loading="lazy"></a><div><span>MaixCAM2 / YOLOv5 / UDP</span><h3><a href="ball-balance.html">车载平衡滚球｜视觉与运动控制</a></h3><p>整机照片、三段实拍，以及视觉坐标怎样驱动杆面倾角。</p><a href="ball-balance.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="mouse-gimbal.html"><img src="assets/projects/mouse-gimbal.svg" alt="鼠标双轴云台｜ESP32-S3 与 FPGA 两版的项目图" loading="lazy"></a><div><span>Python GUI / UART / ESP32-S3 / ESP-IDF</span><h3><a href="mouse-gimbal.html">鼠标双轴云台｜ESP32-S3 与 FPGA 两版</a></h3><p>同一个鼠标输入，沿两条主控路线驱动双轴机构。</p><a href="mouse-gimbal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="maixcam-tracking.html"><img src="assets/project-field/maixcam-demo.webp" alt="MaixCAM｜模型训练与二维追踪的项目图" loading="lazy"></a><div><span>MaixCAM Pro / MaixHub / YOLOv5</span><h3><a href="maixcam-tracking.html">MaixCAM｜模型训练与二维追踪</a></h3><p>4 分 52 秒完整演示，直接看检测框、坐标反馈、控制界面和实机动作。</p><a href="maixcam-tracking.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ai-monitor.html"><img src="assets/projects/ai-monitor.svg" alt="AI 监控台｜从悬浮窗到用量仪表的项目图" loading="lazy"></a><div><span>PowerShell / WPF / 增量日志解析</span><h3><a href="ai-monitor.html">AI 监控台｜从悬浮窗到用量仪表</a></h3><p>把分散在不同客户端的用量，整理成桌面上随时能看懂的状态。</p><a href="ai-monitor.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="everyday.html"><img src="assets/projects/everyday-interface.png" alt="Everyday｜像素任务清单与启动中控台的项目图" loading="lazy"></a><div><span>Electron / HTML / CSS / JavaScript</span><h3><a href="everyday.html">Everyday｜像素任务清单与启动中控台</a></h3><p>把日常计划、完成反馈与常用应用启动，放进一块像素桌面。</p><a href="everyday.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="game-security-ai.html"><img src="assets/projects/game-security-ai.svg" alt="游戏安全 AI｜初赛分类实践的项目图" loading="lazy"></a><div><span>Python / TF-IDF / Logistic Regression</span><h3><a href="game-security-ai.html">游戏安全 AI｜初赛分类实践</a></h3><p>围绕文本特征、分层分类与结果交付，留下可复查的实验材料。</p><a href="game-security-ai.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ural-echo.html"><img src="assets/projects/ural-echo.svg" alt="乌拉尔回响｜交互叙事实验的项目图" loading="lazy"></a><div><span>HTML / CSS / JavaScript / Web Audio</span><h3><a href="ural-echo.html">乌拉尔回响｜交互叙事实验</a></h3><p>用调频、噪声和通讯文本，让玩家通过操作进入故事。</p><a href="ural-echo.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="sword-duel.html"><img src="assets/projects/sword-duel-interface.png" alt="不归砚／Sword Duel｜动作交互原型的项目图" loading="lazy"></a><div><span>Canvas 2D / JavaScript / 动作状态机</span><h3><a href="sword-duel.html">不归砚／Sword Duel｜动作交互原型</a></h3><p>用清晰的动作状态、命中反馈与节奏，试做一场有手感的对决。</p><a href="sword-duel.html">看技术路径与项目过程 →</a></div></section></div>
 
 ## 这些实践，怎样回到教学
 
@@ -1006,7 +1002,7 @@ publish: true
 
 ---
 title: 我的能力与作品证据
-description: 沿着具体作品，看我推进目标、做取舍、调试与验证的过程。
+description: FPGA、嵌入式视觉、闭环控制与Web产品的系统开发和AI协作交付能力。
 date: 2026-11-07
 modified: 2026-11-09
 tags:
@@ -1014,29 +1010,37 @@ tags:
 publish: true
 ---
 
-<div class="field-intro"><span class="field-kicker">地瓜丸 · 能力与作品</span><p class="field-lead">我做过什么，<br>直接去作品里看。</p><p>主要作品是免费在线 FPGA 教学平台。另外也做图像音频、视觉控制和桌面工具。这里把具体工作与可查看的材料放在一起。</p></div><figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/feature-tour/13-code-led.webp"><img src="assets/feature-tour/13-code-led.webp" alt="FPGA 教学平台：代码、硬件反馈和波形放在同一张工作台。" width="1600" height="900" loading="lazy" decoding="async"></a><figcaption>FPGA 教学平台：代码、硬件反馈和波形放在同一张工作台。<span>点击看原图 ↗</span></figcaption></figure>
+<div class="field-intro"><span class="field-kicker">地瓜丸 · 系统开发与工程交付</span><p class="field-lead">从板端逻辑到在线产品，<br>把系统设计、联调与交付接起来。</p><p>我的实践覆盖 FPGA 音画处理、嵌入式视觉、闭环运动控制与 Web 产品。围绕自己推进的项目，我组织技术方案、软硬件接口、可视化和验证，并搭建 AI 协作流程，让实现、演示和长期维护能够衔接。</p></div><figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/feature-tour/13-code-led.webp"><img src="assets/feature-tour/13-code-led.webp" alt="FPGA 教学平台：代码、硬件反馈和波形放在同一张工作台。" width="1600" height="900" loading="lazy" decoding="async"></a><figcaption>FPGA 教学平台：代码、硬件反馈和波形放在同一张工作台。<span>点击看原图 ↗</span></figcaption></figure>
 
 <a id="product" class="section-anchor"></a>
 
-## 从教学平台认识我
+## 在线教学产品与全栈系统集成
 
-<div class="field-table-wrap"><table class="field-table"><thead><tr><th>工作</th><th>落在哪个功能里</th><th>可以查看的材料</th></tr></thead><tbody><tr><td>教学任务设计</td><td>从 LED、时序和通信走到数据流与外设。</td><td><a href="fpga.html">8 章课程路线与观察例子 →</a></td></tr><tr><td><span id="web"></span>交互与资料组织</td><td>图形连线生成 XDC，点元件查逐针手册。</td><td><a href="hardware.html">手册和 3D 桌面 →</a></td></tr><tr><td><span id="debug"></span>排查与迭代</td><td>波形细节、文字对比度、动态合并和页面链接修复。</td><td><a href="debugging.html">具体问题与处理 →</a></td></tr><tr><td><span id="operations"></span>部署与维护</td><td>云端服务、通知、备份和更新验收。</td><td><a href="maintenance.html">维护过程记录 →</a></td></tr></tbody></table></div>
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>工作</th><th>落在哪个功能里</th><th>可以查看的材料</th></tr></thead><tbody><tr><td>课程与产品架构</td><td>将 31 关学习目标组织为 8 章，覆盖数字逻辑、接口、数据流及外设。</td><td><a href="fpga.html">8 章课程路线与观察例子 →</a></td></tr><tr><td><span id="web"></span>交互系统整合</td><td>连接编辑器、图形约束、3D、逐针手册与观察反馈。</td><td><a href="hardware.html">手册和 3D 桌面 →</a></td></tr><tr><td><span id="debug"></span>问题定位与产品迭代</td><td>从使用反馈定位数据、时序、界面和部署问题，推进对应修复。</td><td><a href="debugging.html">具体问题与处理 →</a></td></tr><tr><td><span id="operations"></span>部署与持续交付</td><td>云端部署、状态通知、数据备份、版本留档和上线验收。</td><td><a href="maintenance.html">维护过程记录 →</a></td></tr></tbody></table></div>
 
 <a id="fpga" class="section-anchor"></a>
 
-## FPGA 实物作品
+## FPGA 数字系统与图像音频处理
 
 <figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/cases/tide-system.png"><img src="assets/cases/tide-system.png" alt="潮汐作曲家：板卡与显示器同框的实物运行画面。" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>潮汐作曲家：板卡与显示器同框的实物运行画面。<span>点击看原图 ↗</span></figcaption></figure><div class="field-table-wrap"><table class="field-table"><thead><tr><th>作品里的工作</th><th>技术内容</th><th>展开查看</th></tr></thead><tbody><tr><td>把素材送到屏幕</td><td>SD 卡、SDRAM 帧缓存、HDMI 输出。</td><td><a href="tide-technology.html">系统架构 →</a></td></tr><tr><td>让画面实时改变</td><td>缩放地址映射，转场期间提交状态。</td><td><a href="tide-technology.html">缩放与转场设计 →</a></td></tr><tr><td>核对写入与实物现象</td><td>构建报告、Flash 回读和 TF 镜像检查。</td><td><a href="tide-composer.html">作品与验证过程 →</a></td></tr></tbody></table></div>
 
 <a id="hardware" class="section-anchor"></a>
 
-## 视觉与运动控制
+## 嵌入式视觉与闭环运动控制
 
-<figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/project-field/maix-control.webp"><img src="assets/project-field/maix-control.webp" alt="MaixCAM 项目的控制界面实录：目标状态、偏差点与 PID 参数。" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>MaixCAM 项目的控制界面实录：目标状态、偏差点与 PID 参数。<span>点击看原图 ↗</span></figcaption></figure><div class="field-table-wrap"><table class="field-table"><thead><tr><th>作品</th><th>我推进的内容</th><th>实拍入口</th></tr></thead><tbody><tr><td>车载平衡滚球</td><td>视觉位置、速度估计、摩擦补偿与步进控制。</td><td><a href="ball-balance.html">照片和 3 段实拍 →</a></td></tr><tr><td>MaixCAM 自动识别瞄准</td><td>模型部署、坐标反馈、GUI 与双轴机构联调。</td><td><a href="maixcam-tracking.html">4 分 52 秒演示 →</a></td></tr><tr><td>鼠标双轴云台</td><td>ESP32-S3 与 FPGA 两条主控路线。</td><td><a href="mouse-gimbal.html">两版实现介绍 →</a></td></tr></tbody></table></div>
+<figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/project-field/maix-control.webp"><img src="assets/project-field/maix-control.webp" alt="MaixCAM 项目的控制界面实录：目标状态、偏差点与 PID 参数。" width="1280" height="720" loading="lazy" decoding="async"></a><figcaption>MaixCAM 项目的控制界面实录：目标状态、偏差点与 PID 参数。<span>点击看原图 ↗</span></figcaption></figure><div class="field-table-wrap"><table class="field-table"><thead><tr><th>作品</th><th>系统开发与联调</th><th>实拍入口</th></tr></thead><tbody><tr><td>车载平衡滚球</td><td>视觉位置、速度估计、摩擦补偿与步进控制。</td><td><a href="ball-balance.html">照片和 3 段实拍 →</a></td></tr><tr><td>MaixCAM 自动识别瞄准</td><td>模型部署、坐标反馈、GUI 与双轴机构联调。</td><td><a href="maixcam-tracking.html">4 分 52 秒演示 →</a></td></tr><tr><td>鼠标双轴云台</td><td>ESP32-S3 与 FPGA 两条主控路线。</td><td><a href="mouse-gimbal.html">两版实现介绍 →</a></td></tr></tbody></table></div>
 
-## 软件工具、表达与协作
+## 软件工具与技术表达
 
-<div class="field-table-wrap"><table class="field-table"><thead><tr><th>方向</th><th>具体作品或工作</th><th>入口</th></tr></thead><tbody><tr><td>桌面工具</td><td>AI 用量监控台、Everyday 像素任务与启动中控。</td><td><a href="projects.html">其他项目 →</a></td></tr><tr><td><span id="creation"></span>视频制作</td><td>功能实录、截图聚焦、横竖屏分别构图。</td><td><a href="content-creation.html">演示与镜头安排 →</a></td></tr><tr><td>与 AI 合作</td><td>我提出目标、检查预览和决定取舍，AI 协助实现与验证。</td><td><a href="ai-collaboration.html">按一次改动看分工 →</a></td></tr></tbody></table></div><nav class="field-read-next" aria-label="继续阅读"><a href="projects.html">全部作品 →</a><a href="contact.html">去找地瓜丸 →</a></nav>
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>方向</th><th>具体作品或工作</th><th>入口</th></tr></thead><tbody><tr><td>桌面工具</td><td>AI 用量监控台、Everyday 像素任务与启动中控。</td><td><a href="projects.html">其他项目 →</a></td></tr><tr><td><span id="creation"></span>视频制作</td><td>功能实录、截图聚焦、横竖屏分别构图。</td><td><a href="content-creation.html">演示与镜头安排 →</a></td></tr><tr><td>与 AI 合作</td><td>我提出目标、检查预览和决定取舍，AI 协助实现与验证。</td><td><a href="ai-collaboration.html">按一次改动看分工 →</a></td></tr></tbody></table></div>
+
+## AI 协作工程化与交付管理
+
+<ol class="field-path"><li><b>需求与系统拆解</b>把目标、约束和验收标准写成具体工作包。</li><li><b>上下文与素材复用</b>组织已有工程、演示素材与决策记录，减少重复准备。</li><li><b>预览与验证</b>先看可操作结果，再按改动检查界面、运行或部署。</li><li><b>版本与交接</b>保存提交、备份、验证证据和待办，使项目可以继续接手。</li></ol>
+
+<p>在这个过程中，我把控目标、技术取舍和实际体验，结合 AI 辅助实现、分析与检查。<a href="workflow.html">查看这套工作流怎样搭建 →</a></p>
+
+<nav class="field-read-next" aria-label="继续阅读"><a href="projects.html">全部作品 →</a><a href="contact.html">去找地瓜丸 →</a></nav>
 
 
 
@@ -1442,7 +1446,7 @@ publish: true
 
 ---
 title: 从想法到上线的工作流
-description: 把需求、实现、验证与留痕连成一条可以复查的过程。
+description: 用工程目录、素材库、AI协作、预览、验证脚本和版本记录组织个人项目交付。
 date: 2026-11-07
 modified: 2026-11-09
 tags:
@@ -1450,14 +1454,24 @@ tags:
 publish: true
 ---
 
-<div class="field-intro"><span class="field-kicker">地瓜丸 · 项目工作流</span><p class="field-lead">每次修改，<br>留一个下次能接上的起点。</p><p>用这次介绍站的修复举例：用户指出拉伸和 404，随后核对素材、修改页面、检查公网，再保存版本和回退资料。</p></div><figure class="case-figure field-frame"><a class="case-image-link gallery-full" href="assets/feature-tour/02-xdc-auto-fill.webp"><img src="assets/feature-tour/02-xdc-auto-fill.webp" alt="实录素材整理后成为功能截图。原始素材、网页用图和发布版本分别留档。" width="1600" height="900" loading="lazy" decoding="async"></a><figcaption>实录素材整理后成为功能截图。原始素材、网页用图和发布版本分别留档。<span>点击看原图 ↗</span></figcaption></figure>
+<div class="field-intro"><span class="field-kicker">地瓜丸 · AI 协作工程工作流</span><p class="field-lead">把一次次修改，<br>整理成能复用的工程流程。</p><p>这套工作流是在教学平台、功能宣传片和硬件项目的反复迭代中逐步搭起来的。它依托工程目录、Markdown、Git、本地预览和检查脚本，由我负责目标与取舍，AI 辅助实现、分析和验证。</p></div>
 
-## 一次修改会留下这些东西
+<figure class="case-figure"><a class="case-image-link" href="assets/notes/workflow.svg"><picture><source media="(max-width:600px)" srcset="assets/notes/workflow-mobile.svg" width="460" height="946"><img src="assets/notes/workflow.svg" alt="明确问题、做出结果、验证审查和发布留痕的工作流" width="1100" height="450" loading="lazy"></picture></a><figcaption>从需求到交付，每一段都有可以继续使用的产物。点击看大图。</figcaption></figure>
 
-<div class="field-table-wrap"><table class="field-table"><thead><tr><th>阶段</th><th>这次具体做什么</th><th>留下什么</th></tr></thead><tbody><tr><td>明确问题</td><td>核对用户截图中的拉伸、404 和配图不足。</td><td>原始反馈与修改范围。</td></tr><tr><td>准备可查看结果</td><td>替换首图，整理不同功能截图，做主题筛选。</td><td>页面预览、审查后的素材和来源索引。</td></tr><tr><td>检查原操作</td><td>窄屏比例、点击大图、筛选、真实公网链接。</td><td>浏览器截图与检查报告。</td></tr><tr><td>发布与留档</td><td>同步国内镜像与公开分支，检查上线内容。</td><td>发布提交、交付说明及前后备份。</td></tr></tbody></table></div>
+## 先搭清楚这六个部分
 
-## 检查范围跟着改动走
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>部分</th><th>放什么</th><th>解决什么问题</th></tr></thead><tbody><tr><td>需求与决策</td><td>当前目标、限制、验收标准与已确认选择。</td><td>实现时知道做到哪一步才算完成。</td></tr><tr><td>项目工作包</td><td>按页面、关卡、镜头或服务拆分具体任务。</td><td>范围清楚，能独立预览和检查。</td></tr><tr><td>素材与上下文</td><td>原始资料、审查后的网页素材、工程现状与历史。</td><td>复用已有成果，避免从零重新解释。</td></tr><tr><td>实现与预览</td><td>可运行代码、可点击页面、可观看的演示。</td><td>让讨论落到实际结果。</td></tr><tr><td>验证工具</td><td>构建、类型检查、浏览器操作、运行链路及公网检查脚本。</td><td>重复动作按相同标准检查。</td></tr><tr><td>版本与交接</td><td>Git 提交、备份、交付说明、文件地图和待办。</td><td>遇到问题可回退，下次协作有起点。</td></tr></tbody></table></div>
 
-<ul class="field-review-list"><li><b>文案与图片：</b>看来源、链接、比例和手机阅读。</li><li><b>界面交互：</b>重复实际点击、展开、关闭和滚动。</li><li><b>判题与关卡：</b>检查参考实现、错误实现和相关运行链路。</li><li><b>部署：</b>检查真实入口与关键接口，保留可回退的配置和版本。</li></ul>
+## 我按这个顺序搭起来
 
-<nav class="field-read-next" aria-label="继续阅读"><a href="ai-collaboration.html">查看人和 AI 的分工 →</a><a href="maintenance.html">查看维护实践 →</a><a href="timeline.html">查看版本记录 →</a></nav>
+<ol class="field-review-list"><li><b>先固定一类真实任务。</b>从一个页面更新、一关实验或一段演示开始，写明输入、输出和验收标准。</li><li><b>建立项目入口和职责地图。</b>说明正文、代码、素材、预览与发布文件分别在哪里，保留原始资料。</li><li><b>把任务拆成具体工作包。</b>让 AI 使用现有工程和记录完成实现，每个工作包都能展示结果。</li><li><b>把重复检查整理成工具。</b>按任务接入构建、类型、页面和运行检查，保留测试条件与报告。</li><li><b>接上预览和发布步骤。</b>需要审查时先展示具体版本；发布后继续检查真实入口和资源。</li><li><b>让交付成为下一轮输入。</b>记录版本、证据、回退范围和待办，后续沿这份上下文继续推进。</li></ol>
+
+## 在项目里，它具体怎么跑
+
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>任务</th><th>实现前准备</th><th>交付时检查</th></tr></thead><tbody><tr><td>教学平台更新</td><td>使用反馈、现有界面、课程目标和当前版本。</td><td>点击、波形、约束、运行反馈及桌面／手机布局。</td></tr><tr><td>功能演示视频</td><td>分镜、实录素材、吉祥物、横竖版构图。</td><td>聚焦、文字、声音、二维码与编码后的成片。</td></tr><tr><td>视觉与控制项目</td><td>目标数据、接口协议、执行机构和联调条件。</td><td>识别、坐标、命令、控制界面与实机动作逐段对应。</td></tr><tr><td>网站发布</td><td>审查后的内容、静态构建和上一版备份。</td><td>国内入口、资源加载、媒体播放和公开版本一致性。</td></tr></tbody></table></div>
+
+## 工作流里，我把控什么
+
+目标和验收标准由我确定；技术方案、优先级和体验问题由我审查。AI 协助拆解、实现、排查和整理，脚本承担重复检查。重要决定和验证结果进入记录，形成下一次修改可复用的工程上下文。
+
+<nav class="field-read-next" aria-label="继续阅读"><a href="skills.html">技术能力与作品证据 →</a><a href="ai-collaboration.html">看具体协作分工 →</a><a href="projects.html">我做过的项目 →</a></nav>
