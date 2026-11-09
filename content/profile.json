@@ -3,7 +3,7 @@
   "display_name": "dgw",
   "updated_at": "2026-11-09",
   "language": "zh-CN",
-  "description": "以免费在线 FPGA 教学平台为主线，展示硬件、控制、感知与个人工具作品。",
+  "description": "独立开发者，以FPGA教学平台为主线，开展FPGA音画、嵌入式视觉、闭环控制与Web产品开发，组织AI协作工程交付。",
   "projects": [
     {
       "name": "地瓜丸的 FPGA 教学平台",
@@ -20,11 +20,11 @@
     }
   ],
   "practice_areas": [
-    "FPGA 与数字逻辑教学",
-    "网页交互与可视化",
-    "Remotion 功能演示",
-    "个人网站维护",
-    "AI 协作与项目记录"
+    "FPGA数字系统与图像音频处理",
+    "嵌入式视觉与闭环运动控制",
+    "Web产品与软硬件系统集成",
+    "部署、联调与工程交付",
+    "AI协作工作流与技术表达"
   ],
   "links": {
     "archive": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/",
@@ -136,5 +136,16 @@
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/sword-duel.html",
       "stage": "有网页动作原型与 Electron 配置；本轮未运行或复验最新平衡"
     }
-  ]
+  ],
+  "workflow": {
+    "url": "https://dgwfpga.cn/showcase/workflow.html",
+    "stages": [
+      "需求与验收标准",
+      "工作包与素材上下文",
+      "AI辅助实现",
+      "预览与按范围验证",
+      "发布、备份和交接"
+    ],
+    "ownership": "地瓜丸确定目标、取舍与验收；AI辅助实现、分析和检查。"
+  }
 }

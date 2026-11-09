@@ -1,16 +1,32 @@
 # 地瓜丸 · 公开个人档案
 
-更新日期：2026-11-08。
+更新日期：2026-11-09。
 
-地瓜丸是 FPGA 教学内容创作者，正在持续维护个人在线教学平台，并记录与 AI 协作的实践。
+地瓜丸是一名独立开发者，主要维护免费在线 FPGA 教学平台，同时开展 FPGA 音画、嵌入式视觉、运动控制与桌面工具实践。围绕需求、系统拆解、实现联调和交付，结合 AI 辅助推进项目。
 
-- 主要作品：[地瓜丸的 FPGA 教学平台](https://dgwfpga.cn/)，4.1，31 个公开关卡、8 章。
-- 实物案例：[潮汐作曲家](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-composer.html)，含实物照片、实时缩放方案与验证过程；以奶蛙大队参赛，基于官方例程并使用 AI 辅助迭代。
-- 维护案例：[个人网站维护实践](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/maintenance.html)，区分本机阶段和当前云部署，记录启动排查、微信通知和闪窗处理。
-- 能力入口：[能力与作品证据](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html)，按具体案例说明个人工作、AI 辅助与工程基础。
-- 实践方向：数字逻辑教学、网页交互、波形与三维教具、功能演示与网站维护。
-- 协作方法：明确目标与边界，查看具体结果，按影响范围验证，并保留更新记录。
-- 证据入口：[关系图](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/graph/) · [当前近况](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/now.html) · [作品介绍](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/platform.html)。
-- 联系入口：[B站](https://space.bilibili.com/660494383)，QQ群 1125010630。
+## 技术能力
 
-本文只描述公开作品与实践，不提供内部源码、运维信息或私人资料。能力描述以实际作品为依据，不推断学历、任职经历或资格认证。
+- FPGA 数字系统与音画处理：图像缓存、HDMI、实时缩放、转场状态、音画反馈与板端验证。
+- 嵌入式视觉与闭环控制：模型部署、目标坐标通信、PID、双轴云台和滚球机构联调。
+- Web 产品与系统集成：编辑器、图形约束、波形、3D 和资料查阅的整合，以及部署和持续维护。
+- AI 协作工程化：工作包拆解、素材组织、预览审查、按范围验证、版本与交接。
+
+具体材料见[能力与作品证据](https://dgwfpga.cn/showcase/skills.html)。
+
+## 我做过的项目
+
+- 主要产品：[地瓜丸 FPGA 教学平台](https://dgwfpga.cn/)，4.1，31 个公开关卡、8 章。
+- [潮汐作曲家](https://dgwfpga.cn/showcase/tide-composer.html)：奶蛙大队参赛作品，基于官方例程，结合 AI 辅助迭代；提供实物、海报、视频和技术架构。
+- [车载平衡滚球](https://dgwfpga.cn/showcase/ball-balance.html)：视觉位置、控制策略、执行机构与实拍。
+- [MaixCAM 自动识别瞄准](https://dgwfpga.cn/showcase/maixcam-tracking.html)：识别端、坐标反馈、GUI 与双轴机构演示。
+- [其他作品](https://dgwfpga.cn/showcase/projects.html)：感知、嵌入式、桌面工具和交互项目。
+
+## AI 协作工作流
+
+由地瓜丸确定需求和验收标准，将任务拆成工作包，组织素材与上下文，使用 AI 辅助实现；通过具体预览、检查脚本和公网验证核对结果，再保存版本、备份、交付说明与待办。搭建方法见[工作流](https://dgwfpga.cn/showcase/workflow.html)。
+
+## 公开入口
+
+[作品关系图](https://dgwfpga.cn/showcase/graph/) · [当前近况](https://dgwfpga.cn/showcase/now.html) · [去找地瓜丸→](https://dgwfpga.cn/showcase/contact.html)
+
+B站 UID 660494383，抖音号 55753961013，QQ群 1125010630。公开介绍以实际作品和已确认材料为依据，内部源码、运维凭据和私人资料分开维护。

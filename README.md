@@ -6,9 +6,13 @@
 
 [![平台外设与逐针手册](https://dgwfpga.cn/portfolio-media/20261109/assets/hardware.png)](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/platform.html)
 
-## 再看工作室的其他作品
+## 我做过的项目
 
 [项目总览](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/projects.html)收录潮汐作曲家，以及柔性感知、双麦声学、脑电固件与 OTA、瞄准与平衡控制、两版鼠标云台、视觉追踪、AI 监控、Everyday 与游戏作品。每页说明技术路径、设计取舍和当前阶段。
+
+## 我的技术能力与工作流
+
+跨 FPGA 音画、嵌入式视觉与闭环控制，推进软硬件系统集成及在线产品交付。[能力与作品证据](https://dgwfpga.cn/showcase/skills.html) · [AI 协作工作流怎样搭建](https://dgwfpga.cn/showcase/workflow.html)。
 
 ## 认识熟悉的小伙伴
 
