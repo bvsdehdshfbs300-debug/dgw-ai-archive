@@ -1,5 +1,6 @@
 @use "./variables.scss" as *;
 @use "./platform-showcase.scss";
+@use "./feature-gallery.scss";
 
 :root { --bodyFont: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; --headerFont: var(--bodyFont); --codeFont: Consolas, monospace; }
 :root[saved-theme] { --bodyFont: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; --headerFont: var(--bodyFont); --codeFont: Consolas, monospace; }
@@ -91,6 +92,9 @@ article a { text-underline-offset: .22em; }
 .section-anchor { scroll-margin-top: 2rem; }
 .product-hero .product-deck { color: #d6e9e3; }
 .board-exhibit p { color: #ecf8f1; }
+.hero-image > img { width:100%; height:auto; max-height:none; aspect-ratio:16 / 9; object-fit:contain; content-visibility:visible; }
+.gallery-card > .case-image-link > img { content-visibility:visible; }
+.lightbox-original { position:absolute; left:1rem; top:.8rem; font-size:.8rem; color:var(--secondary); }
 @media (max-width:800px) {
   .page { margin-left:0; margin-right:42px; max-width:calc(100% - 42px); }
   .page article { overflow-wrap:anywhere; }

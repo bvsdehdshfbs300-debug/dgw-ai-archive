@@ -512,6 +512,18 @@
         "about",
         "contact"
       ]
+    },
+    {
+      "id": "feature-tour",
+      "title": "平台功能实景图鉴",
+      "group": "projects",
+      "summary": "29张真实功能截图，按主题查看代码、约束、波形、显示与外设。",
+      "href": "../feature-tour.html",
+      "related": [
+        "platform",
+        "hardware",
+        "waveform"
+      ]
     }
   ]
 }

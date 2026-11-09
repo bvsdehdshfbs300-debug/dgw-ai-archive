@@ -3,6 +3,7 @@ import { QuartzComponentConstructor } from "./types"
 export default (() => {
   function ArchiveMedia() {
     return <dialog class="archive-lightbox" aria-label="查看原始图片">
+      <a class="lightbox-original" target="_blank" rel="noopener noreferrer">在新标签查看原图 ↗</a>
       <button type="button" class="lightbox-close" aria-label="关闭大图">关闭 ×</button>
       <img alt="" /><p class="lightbox-caption" />
     </dialog>
@@ -20,7 +21,9 @@ export default (() => {
         const image = target.querySelector('img');
         if (!image) return;
         event.preventDefault(); trigger = target;
-        dialog.querySelector('img').src = image.currentSrc || target.href;
+        const fullImage = target.classList.contains('gallery-full') ? target.href : (image.currentSrc || target.href);
+        dialog.querySelector('img').src = fullImage;
+        dialog.querySelector('.lightbox-original').href = fullImage;
         dialog.querySelector('img').alt = image.alt;
         dialog.querySelector('.lightbox-caption').textContent = target.closest('figure')?.querySelector('figcaption')?.textContent || image.alt;
         dialog.showModal();

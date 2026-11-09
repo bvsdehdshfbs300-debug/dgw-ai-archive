@@ -16,8 +16,10 @@
 
 ## 公开档案与维护
 
-本仓库同时保留 AI 共创档案与[作品关系图](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/graph/)。38 个内容页由 Quartz 生成；网站介绍与静态页面代码公开，教学平台、关卡内核、参考答案、各私有项目源码和凭据不在本仓库。
+本仓库同时保留 AI 共创档案与[作品关系图](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/graph/)。39 个内容页由 Quartz 生成；网站介绍与静态页面代码公开，教学平台、关卡内核、参考答案、各私有项目源码和凭据不在本仓库。
 
 本地修改 `content/`，运行 `npm run build` 后发布到 `gh-pages`。图片与视频来自国内云服务器，图片保留本站备用路径；视频点击后才加载，3D 只发布独立展示构建，无源映射。
 
 框架与内容许可见 [LICENSE.txt](LICENSE.txt) 与 [CONTENT-LICENSE.md](CONTENT-LICENSE.md)。更新于 2026-11-09。
+
+[平台功能实景图鉴](https://dgwfpga.cn/showcase/feature-tour.html)：29张不同功能截图，支持主题筛选、完整原图与手机阅读。

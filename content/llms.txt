@@ -42,3 +42,5 @@
 - [WeariFi｜柔域智感](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/wearifi.html)
 - [把功能做成可用的网页](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/web.html)
 - [从想法到上线的工作流](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/workflow.html)
+
+- [平台功能实景图鉴](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/feature-tour.html): 29 张真实功能图，按主题筛选并查看原图。

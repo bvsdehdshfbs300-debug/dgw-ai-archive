@@ -39,6 +39,17 @@ const media='https://dgwfpga.cn/portfolio-media/20261109/';
 for(const file of fs.readdirSync(path.join(root,'public'),{recursive:true}).filter(name=>name.endsWith('.html'))){
  const output=path.join(root,'public',file);
  let html=fs.readFileSync(output,'utf8');
+ // Quartz's extensionless links are accepted by GitHub, but not every static origin.
+ // Emit explicit HTML links for both the China mirror and downloaded static copies.
+ html=html.replace(/\bhref="([^"]+)"/g,(all,url)=>{
+  if(/^(?:[a-z]+:|\/\/|#)/i.test(url))return all;
+  const match=url.match(/^([^?#]*)([?#].*)?$/);
+  if(!match || !match[1] || match[1].endsWith('/') || path.extname(match[1]))return all;
+  const local=match[1].replace(/^\/dgw-ai-archive\//,'/');
+  const resolved=local.startsWith('/')?path.join(root,'public',local):path.resolve(path.dirname(output),local);
+  if(fs.existsSync(resolved+'.html'))return 'href="'+match[1]+'.html'+(match[2]??'')+'"';
+  return all;
+ });
  html=html.replace(/\b(src|href|srcset|poster)="([^"]+)"/g,(all,attribute,url)=>{
   if(/^(?:https?:|data:|blob:|#)/.test(url))return all;
   let local=url.replace(/^\/dgw-ai-archive\//,'/');
