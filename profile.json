@@ -97,7 +97,11 @@
         "material_types": [
           "原交互页面自动演示"
         ]
-      }
+      },
+      "additional_materials": [
+        "外壳实物照片",
+        "柔性器件结构方案图"
+      ]
     },
     {
       "name": "FUMA／UNIT｜多模态脑电固件",
@@ -131,12 +135,16 @@
           "现场实拍截帧"
         ]
       },
-      "public_videos": 3
+      "public_videos": 3,
+      "source_repository": "https://github.com/bvsdehdshfbs300-debug/dgw-auto-aim",
+      "code_license": "MIT"
     },
     {
       "name": "车载平衡滚球｜视觉与运动控制",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ball-balance.html",
-      "stage": "有最终工程、控制说明与位置记录；未在本轮重测动态指标"
+      "stage": "有最终工程、控制说明与位置记录；未在本轮重测动态指标",
+      "source_repository": "https://github.com/bvsdehdshfbs300-debug/dgw-ball-balance",
+      "code_license": "MIT"
     },
     {
       "name": "鼠标双轴云台｜ESP32-S3 与 FPGA 两版",
@@ -149,12 +157,17 @@
           "现场实拍截帧"
         ]
       },
-      "public_videos": 1
+      "public_videos": 1,
+      "source_repository": "https://github.com/bvsdehdshfbs300-debug/dgw-mouse-gimbal",
+      "code_license": "MIT"
     },
     {
       "name": "MaixCAM｜模型训练与二维追踪",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/maixcam-tracking.html",
-      "stage": "模型示例、识别端与 PC GUI、部署文档已整理；性能未在本轮重测"
+      "stage": "模型示例、识别端与 PC GUI、部署文档已整理；性能未在本轮重测",
+      "source_repository": "https://github.com/bvsdehdshfbs300-debug/dgw-maixcam-tracking",
+      "code_license": "MIT",
+      "dataset_capture_video": "https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maix-dataset-capture-20261110.mp4"
     },
     {
       "name": "AI 监控台｜从悬浮窗到用量仪表",
