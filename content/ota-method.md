@@ -2,7 +2,7 @@
 title: 脑电固件与蓝牙 OTA｜方法笔记
 description: 一次无线升级，背后是构建、签名、版本与恢复路径的配合。
 date: 2026-11-09
-modified: 2026-11-09
+modified: 2026-11-10
 tags:
   - 更多作品
   - 工程方法
@@ -11,9 +11,10 @@ publish: true
 
 <div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">一次无线升级，背后是构建、签名、版本与恢复路径的配合。</p><div class="case-tags"><span>Secure DFU</span><span>Bootloader</span><span>签名验证</span><span>版本策略</span><span>构建与回读</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>只展示工程方法；不公开密钥、设备配置、固件包或签名材料</aside>
 
+<nav class="evidence-nav" aria-label="项目截图导览"><strong>本页图像 · 1 张</strong><a href="#shot-ota-offline-gui">01</a></nav>
 
+<figure id="shot-ota-offline-gui" class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-evidence/ota-offline-gui.webp"><img src="assets/project-evidence/ota-offline-gui-preview.webp" alt="原蓝牙升级工具：选择升级包 → 扫描设备 → 开始升级。本次只打开界面，未加载固件包、扫描设备或执行刷写。" width="1000" height="829" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">未连接设备的原 GUI</span>原蓝牙升级工具：选择升级包 → 扫描设备 → 开始升级。本次只打开界面，未加载固件包、扫描设备或执行刷写。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
 
-<figure class="case-figure"><a class="case-image-link" href="assets/projects/ota-method.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/ota-method-mobile.svg" width="460" height="1000"><img src="assets/projects/ota-method.svg" alt="脑电固件与蓝牙 OTA｜方法笔记的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 先定义升级边界，再讨论“无线”
 
@@ -34,6 +35,12 @@ publish: true
 ## 怎样证明一次升级成功
 
 已有 FUMA 分支保留首刷及 BLE OTA 的实机记录，后续 UNIT 分支有自己的编译和仿真阶段。本页只总结其中可复用的工程顺序：保存改前状态，核对兼容范围，构建并验签，执行升级，再读取版本与采集状态。它也是我处理网站上线和固件交付时共同采用的思路。
+
+<details class="evidence-diagram"><summary>查看功能路径示意</summary>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/ota-method.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/ota-method-mobile.svg" width="460" height="1000"><img src="assets/projects/ota-method.svg" alt="脑电固件与蓝牙 OTA｜方法笔记的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+</details>
 
 ## 继续阅读
 

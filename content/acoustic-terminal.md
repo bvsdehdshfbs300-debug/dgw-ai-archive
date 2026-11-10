@@ -2,7 +2,7 @@
 title: 双麦声学感知／声学取证终端
 description: 从两路麦克风采样，到方向、频带、波形与录音的完整观察链。
 date: 2026-11-09
-modified: 2026-11-09
+modified: 2026-11-10
 tags:
   - 更多作品
   - FPGA实践
@@ -11,9 +11,10 @@ publish: true
 
 <div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">从两路麦克风采样，到方向、频带、波形与录音的完整观察链。</p><div class="case-tags"><span>EG4S20 FPGA</span><span>INMP441 ×2</span><span>I2S</span><span>ILI9341</span><span>Goertzel</span><span>Python</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>完整 v6 交付版：综合、布局布线及位流生成通过；本版位流尚未上板</aside>
 
-<figure class="case-figure"><a class="case-image-link" href="assets/projects/acoustic-wiring.png"><img src="assets/projects/acoustic-wiring.png" alt="双麦声学终端工程接线图" width="2000" height="1290" loading="lazy"></a><figcaption>完整交付版的工程接线图；板端验证阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+<nav class="evidence-nav" aria-label="项目截图导览"><strong>本页图像 · 1 张</strong><a href="#shot-acoustic-demo-dashboard">01</a></nav>
 
-<figure class="case-figure"><a class="case-image-link" href="assets/projects/acoustic-terminal.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/acoustic-terminal-mobile.svg" width="460" height="1000"><img src="assets/projects/acoustic-terminal.svg" alt="双麦声学感知／声学取证终端的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+<figure id="shot-acoustic-demo-dashboard" class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-evidence/acoustic-demo-dashboard.webp"><img src="assets/project-evidence/acoustic-demo-dashboard-preview.webp" alt="双麦仪表盘：双通道波形、八频带、时频图与 GCC-PHAT 方向估计同屏。画面来自程序内置演示模式，未接麦克风。" width="1000" height="672" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">内置演示模式</span>双麦仪表盘：双通道波形、八频带、时频图与 GCC-PHAT 方向估计同屏。画面来自程序内置演示模式，未接麦克风。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
+
 
 ## 让声音拥有多个观察入口
 
@@ -34,6 +35,12 @@ v6 已完成 TD 6.2.1 综合、布局布线和位流生成，记录中有资源�
 ## 为什么保留“取证”视角
 
 重点是让原始声音、处理结果和录音记录能对应，为分析留下可复查材料。板端采样、串口传输与电脑分析分别保留验证入口。
+
+<details class="evidence-diagram"><summary>查看功能路径示意</summary>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/acoustic-terminal.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/acoustic-terminal-mobile.svg" width="460" height="1000"><img src="assets/projects/acoustic-terminal.svg" alt="双麦声学感知／声学取证终端的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+</details>
 
 ## 继续阅读
 

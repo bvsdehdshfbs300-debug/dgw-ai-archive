@@ -2,6 +2,7 @@
 @use "./platform-showcase.scss";
 @use "./feature-gallery.scss";
 @use "./field-notes.scss";
+@use "./project-evidence.scss";
 
 :root { --bodyFont: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; --headerFont: var(--bodyFont); --codeFont: Consolas, monospace; }
 :root[saved-theme] { --bodyFont: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; --headerFont: var(--bodyFont); --codeFont: Consolas, monospace; }

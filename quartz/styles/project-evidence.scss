@@ -1,0 +1,23 @@
+.evidence-nav { display:flex; align-items:center; gap:.45rem; flex-wrap:wrap; margin:1.4rem 0 .8rem; font-size:.76rem; }
+.evidence-nav strong { color:var(--darkgray); font-weight:500; margin-right:.35rem; }
+.evidence-nav a { border:1px solid var(--lightgray); padding:.25rem .55rem; border-radius:6px; font-family:var(--codeFont); }
+.evidence-nav a:hover { border-color:var(--secondary); }
+.evidence-shot { margin:1.2rem 0 2rem; scroll-margin-top:1.4rem; }
+.evidence-shot > a { display:flex; justify-content:center; padding:.7rem; background:var(--highlight); border:1px solid var(--lightgray); border-radius:14px; overflow:hidden; }
+.evidence-shot > .case-image-link > img { display:block; width:auto; max-width:100%; height:auto; max-height:720px; object-fit:contain; margin:0; border:0; border-radius:6px; }
+.evidence-shot figcaption { font-size:.77rem; line-height:1.9; color:var(--darkgray); padding:.7rem .1rem 0; }
+.evidence-kind { display:block; color:var(--secondary); font-size:.67rem; font-weight:650; letter-spacing:.015em; margin-bottom:.3rem; }
+.evidence-zoom { display:block; font-size:.65rem; color:var(--secondary); margin-top:.25rem; }
+.evidence-pair { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; align-items:start; }
+.evidence-pair .evidence-shot { min-width:0; }
+.evidence-diagram { border-block:1px solid var(--lightgray); margin:1.5rem 0; }
+.evidence-diagram summary { cursor:pointer; color:var(--secondary); padding:1rem 0; font-size:.88rem; }
+.project-tile > a { display:grid; place-items:center; aspect-ratio:16/10; padding:.65rem; background:var(--highlight); box-sizing:border-box; min-width:0; }
+.project-tile > a img { display:block; width:100%; height:100%; max-height:260px; object-fit:contain; margin:0; }
+@media(max-width:600px) {
+ .evidence-pair { grid-template-columns:1fr; gap:0; }
+ .evidence-shot > a { padding:.35rem; border-radius:10px; }
+ .evidence-shot img { max-height:620px; }
+ .evidence-shot figcaption { font-size:.75rem; }
+ .project-tile > a img { max-height:240px; }
+}

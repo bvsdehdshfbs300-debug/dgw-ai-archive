@@ -2,40 +2,55 @@
 title: 电赛实践｜简易自行瞄准装置
 description: 从识别目标，到把视觉误差变成云台动作。
 date: 2026-11-09
-modified: 2026-11-09
+modified: 2026-11-10
 tags:
   - 更多作品
   - 视觉与运动控制
 publish: true
 ---
 
-<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">从识别目标，到把视觉误差变成云台动作。</p><div class="case-tags"><span>嵌入式视觉</span><span>Python</span><span>矩形识别</span><span>透视映射</span><span>PID</span><span>脉冲控制</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>2025 电赛 E 题相关工程与迭代材料；本页未重新复验整机指标</aside>
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">从识别目标，到把视觉误差变成云台动作。</p><div class="case-tags"><span>嵌入式视觉</span><span>Python</span><span>矩形识别</span><span>透视映射</span><span>PID</span><span>脉冲控制</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>三段现场实拍：目标识别、板端操作与机构运动；不以视频推算精度或竞赛成绩</aside>
 
+<nav class="evidence-nav" aria-label="实拍导览"><strong>现场实拍 · 3 段</strong><a href="#video-auto-aim-vision-20261110">01</a><a href="#video-auto-aim-console-20261110">02</a><a href="#video-auto-aim-motion-20261110">03</a></nav>
 
+<figure id="shot-auto-aim-target" class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-evidence/auto-aim-target.webp"><img src="assets/project-evidence/auto-aim-target-preview.webp" alt="镜头前的黑框目标，在板端画面里显示出矩形轮廓、角点和中心。" width="1000" height="563" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">现场实拍截帧</span>镜头前的黑框目标，在板端画面里显示出矩形轮廓、角点和中心。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
+
+## 先看识别画面里到底有什么
+
+识别结果直接出现在装置的小屏上：矩形轮廓、角点和中心标记放在同一张画面里，可以观察目标几何关系有没有找对。绿色边框只是第一步；后续控制还要使用中心偏差，才能把“看见”接到机构动作上。
+
+<figure id="video-auto-aim-vision-20261110" class="field-media"><video controls playsinline preload="none" poster="assets/project-evidence/auto-aim-target.webp"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/auto-aim-vision-20261110.mp4" type="video/mp4">当前浏览器不支持内嵌视频，可使用下方原视频入口。</video><figcaption><span>完整实拍 · 15 秒</span><strong>目标识别与板端显示</strong>观察画面中的目标边框、角点和中心标记；保留现场镜头移动与原声。 <a href="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/auto-aim-vision-20261110.mp4" target="_blank" rel="noopener">打开完整视频 ↗</a></figcaption></figure>
+
+## 操作入口也在装置上
+
+第二段展示现场如何通过小屏切换页面、调整选项，再回到相机画面。调参入口和识别结果放在一起，联调时能够立即对照刚才改了什么、画面出现什么变化。
+
+<figure id="video-auto-aim-console-20261110" class="field-media"><video controls playsinline preload="none" poster="assets/project-evidence/auto-aim-console.webp"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/auto-aim-console-20261110.mp4" type="video/mp4">当前浏览器不支持内嵌视频，可使用下方原视频入口。</video><figcaption><span>完整实拍 · 37 秒</span><strong>板端菜单、参数与模式操作</strong>完整保留触屏操作及页面切换过程，便于看清实际操作顺序。 <a href="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/auto-aim-console-20261110.mp4" target="_blank" rel="noopener">打开完整视频 ↗</a></figcaption></figure>
+
+<figure id="shot-auto-aim-console" class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-evidence/auto-aim-console.webp"><img src="assets/project-evidence/auto-aim-console-preview.webp" alt="板端参数页面与装置接线同框，来自第二段实拍。" width="1000" height="563" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">现场实拍截帧</span>板端参数页面与装置接线同框，来自第二段实拍。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
+
+## 镜头拉远，看机构与标靶
+
+第三段把两轴装置与墙面标靶同时收入画面。相机、屏幕、连线和底座都在现场，机构运动也有明确的参照物。它补足了只看识别界面时看不到的那一段执行过程。
+
+<figure id="video-auto-aim-motion-20261110" class="field-media"><video controls playsinline preload="none" poster="assets/project-evidence/auto-aim-motion.webp"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/auto-aim-motion-20261110.mp4" type="video/mp4">当前浏览器不支持内嵌视频，可使用下方原视频入口。</video><figcaption><span>完整实拍 · 10 秒</span><strong>机构运动与现场标靶</strong>从装置背面到侧面的运动过程，可结合墙面标靶观察朝向变化。 <a href="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/auto-aim-motion-20261110.mp4" target="_blank" rel="noopener">打开完整视频 ↗</a></figcaption></figure>
+
+<figure id="shot-auto-aim-motion" class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-evidence/auto-aim-motion.webp"><img src="assets/project-evidence/auto-aim-motion-preview.webp" alt="装置与标靶的现场布置，来自第三段实拍。" width="1000" height="563" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">现场实拍截帧</span>装置与标靶的现场布置，来自第三段实拍。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
+
+## 识别与运动之间怎样衔接
+
+工程按矩形检测、角点排序、中心定位、透视映射和控制输出分段组织，并保留目标遍历、回中与参数界面。图像给出偏差，控制端再结合死区、限速和增益生成两轴动作，新的画面继续参与下一轮处理。角点顺序、识别抖动和机械响应分别检查，才便于解释机构为什么这样动。
+
+## 这次实拍能说明什么
+
+三段视频分别呈现了识别结果、板端交互和现场机构。具体响应时间、定位误差及比赛结果需要独立记录，不能仅凭这几段画面给出数字。后续鼠标云台和 MaixCAM 项目沿用这套分段联调思路，可继续对照人工输入与视觉输入的差别。
+
+<details class="evidence-diagram"><summary>查看识别与控制路径示意</summary>
 
 <figure class="case-figure"><a class="case-image-link" href="assets/projects/auto-aim.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/auto-aim-mobile.svg" width="460" height="1000"><img src="assets/projects/auto-aim.svg" alt="电赛实践｜简易自行瞄准装置的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
 
-## 识别到目标之后，还要让机构跟得上
-
-简易自行瞄准装置围绕视觉识别、目标位置与双轴机构控制展开。真正的问题并不止于画出识别框：图像中计算出的中心，需要转换成机构能执行的动作；目标丢失、识别抖动和机械响应也会影响下一次观察。
-
-## 一条可以逐段检查的闭环
-
-本地工程围绕矩形检测、角点排序、中心定位、透视映射和 PID 调整进行了多轮迭代，包含目标遍历、回中与参数界面。视觉侧先从画面提取目标几何关系，再计算相对参考位置的偏差，控制侧将偏差转成两轴运动。云台动作改变相机或指向位置，新的图像继续进入下一轮处理。
-
-## 对“识别更准”的具体理解
-
-矩形边缘不完整、角点顺序颠倒、视角变化和噪声都可能让中心跳变。因此，工程把角点、有效矩形判断和坐标映射作为独立环节处理；控制端还要考虑死区、限速和增益，避免把图像中的小抖动放大成机构持续摆动。识别与控制需要共同调试，不能只优化其中一个数字。
-
-## 调试材料留下了什么
-
-已有正式题目、多个识别与遍历版本以及界面程序，可用于追踪方案怎样从基础检测走向更完整的控制流程。当前公开页介绍这些技术关系与工程取舍，不把文件名中的“最终”“高精度”当成独立性能证明，也不据目录推断具体奖项或比赛结果。
-
-## 与后续云台项目的联系
-
-这段实践把我关注的对象从单段算法推进到完整链路：输入能不能稳定解释、命令是否正确执行、动作之后是否回到目标。后来鼠标云台与 MaixCAM 追踪项目继续沿用这种分段联调方式；具体精度与速度仍应由对应装置的实测记录说明。
+</details>
 
 ## 继续阅读
 
-[[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]
-
+[[mouse-gimbal|鼠标控制云台实拍与两版上位机]] · [[maixcam-tracking|MaixCAM 实拍]] · [[projects|我做过的项目]] · [[platform|FPGA 教学平台]]

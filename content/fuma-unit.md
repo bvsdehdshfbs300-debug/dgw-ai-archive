@@ -2,7 +2,7 @@
 title: FUMA／UNIT｜多模态脑电固件
 description: 把采样、传感器状态、无线传输与电源管理组织成可维护的固件。
 date: 2026-11-09
-modified: 2026-11-09
+modified: 2026-11-10
 tags:
   - 更多作品
   - 感知与嵌入式
@@ -11,9 +11,10 @@ publish: true
 
 <div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把采样、传感器状态、无线传输与电源管理组织成可维护的固件。</p><div class="case-tags"><span>nRF52832</span><span>nRF5 SDK</span><span>C</span><span>SAADC / DMA</span><span>BLE</span><span>EEG / IMU / PPG</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>FUMA 原版 OTA 有实机记录；UNIT Float V9 为编译与离线仿真阶段</aside>
 
+<nav class="evidence-nav" aria-label="项目截图导览"><strong>本页图像 · 1 张</strong><a href="#shot-fuma-offline-gui">01</a></nav>
 
+<figure id="shot-fuma-offline-gui" class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-evidence/fuma-offline-gui.webp"><img src="assets/project-evidence/fuma-offline-gui-preview.webp" alt="UNIT 原接收端：EEG／PPG／IMU 控制、电极接触状态、采集与 FFT 入口。当前 BLE、UART 均未连接，未读取生理数据。" width="1000" height="766" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">未连接设备的原 GUI</span>UNIT 原接收端：EEG／PPG／IMU 控制、电极接触状态、采集与 FFT 入口。当前 BLE、UART 均未连接，未读取生理数据。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
 
-<figure class="case-figure"><a class="case-image-link" href="assets/projects/fuma-unit.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/fuma-unit-mobile.svg" width="460" height="1000"><img src="assets/projects/fuma-unit.svg" alt="FUMA／UNIT｜多模态脑电固件的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
 
 ## 多传感器共同运行，先把职责分清
 
@@ -34,6 +35,12 @@ FUMA／UNIT 围绕脑电、惯性与光电信息采集展开。与只让某个�
 ## 从固件到可维护的系统
 
 分层方法、数据链路和逐版本验证共同组成交付：先确定采样条件与信号质量，再核对接收端的数据与时间关系。记录版本和验证条件，让后续调整有明确的起点。
+
+<details class="evidence-diagram"><summary>查看功能路径示意</summary>
+
+<figure class="case-figure"><a class="case-image-link" href="assets/projects/fuma-unit.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/fuma-unit-mobile.svg" width="460" height="1000"><img src="assets/projects/fuma-unit.svg" alt="FUMA／UNIT｜多模态脑电固件的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
+
+</details>
 
 ## 继续阅读
 
