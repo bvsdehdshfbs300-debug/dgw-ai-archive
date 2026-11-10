@@ -2,7 +2,7 @@
 title: 车载平衡滚球｜视觉与运动控制
 description: 三段实拍和整机照片，配合视觉、控制与机械调试过程介绍车载滚球系统。
 date: 2026-11-09
-modified: 2026-11-09
+modified: 2026-11-10
 tags:
   - 更多作品
   - 视觉与运动控制
@@ -23,4 +23,12 @@ publish: true
 
 ## 调试里真正费时间的地方
 
-<div class="field-table-wrap"><table class="field-table"><thead><tr><th>现场问题</th><th>工程里的处理</th><th>调试时对照</th></tr></thead><tbody><tr><td>接近目标，球却不动</td><td>静摩擦补偿、积分助推。</td><td>球的位置、输出角度和当前模式。</td></tr><tr><td>动作结束后仍有固定偏差</td><td>用 trim 处理平衡偏置，与快速控制量分开。</td><td>保持阶段的误差和补偿变化。</td></tr><tr><td>补偿越调越大</td><td>修正 trim 学习混入瞬态控制量的问题。</td><td>误差是否收敛，补偿是否持续累积。</td></tr><tr><td>丢球或收不到新坐标</td><td>限制输出和变化率，超时进入回平策略。</td><td>目标有效性、通信状态和输出角度。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看视觉端与控制端的分工</summary><div>视觉端处理目标有效性和位置平滑。速度估计放在控制端，控制任务按自己的节拍更新，避免两边重复滤波增加迟滞。</div></details><details class="field-detail"><summary>展开看已有的工程记录</summary><div>项目保留最终及后续工程、控制说明、模型材料和位置 CSV。视频展示当时的装置运行；稳定时间、跟踪精度等指标需要结合原始记录和测试条件单独测量。</div></details><nav class="field-read-next" aria-label="继续阅读"><a href="maixcam-tracking.html">看另一套视觉云台 →</a><a href="projects.html">看其他作品 →</a><a href="platform.html">回到 FPGA 教学平台 →</a></nav>
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>现场问题</th><th>工程里的处理</th><th>调试时对照</th></tr></thead><tbody><tr><td>接近目标，球却不动</td><td>静摩擦补偿、积分助推。</td><td>球的位置、输出角度和当前模式。</td></tr><tr><td>动作结束后仍有固定偏差</td><td>用 trim 处理平衡偏置，与快速控制量分开。</td><td>保持阶段的误差和补偿变化。</td></tr><tr><td>补偿越调越大</td><td>修正 trim 学习混入瞬态控制量的问题。</td><td>误差是否收敛，补偿是否持续累积。</td></tr><tr><td>丢球或收不到新坐标</td><td>限制输出和变化率，超时进入回平策略。</td><td>目标有效性、通信状态和输出角度。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看视觉端与控制端的分工</summary><div>视觉端处理目标有效性和位置平滑。速度估计放在控制端，控制任务按自己的节拍更新，避免两边重复滤波增加迟滞。</div></details><details class="field-detail"><summary>展开看已有的工程记录</summary><div>项目保留最终及后续工程、控制说明、模型材料和位置 CSV。视频展示当时的装置运行；稳定时间、跟踪精度等指标需要结合原始记录和测试条件单独测量。</div></details>
+
+## 源码与复现
+
+[车载平衡滚球控制 · 查看 GitHub 源码](https://github.com/bvsdehdshfbs300-debug/dgw-ball-balance)
+
+仓库提供代码入口、接线／协议和运行说明，按 MIT 发布；构建与验证范围单独记录。模型权重、数据集和个人配置不随代码公开。
+
+<nav class="field-read-next" aria-label="继续阅读"><a href="maixcam-tracking.html">看另一套视觉云台 →</a><a href="projects.html">看其他作品 →</a><a href="platform.html">回到 FPGA 教学平台 →</a></nav>

@@ -9,9 +9,11 @@ tags:
 publish: true
 ---
 
-<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把空间感知与可穿戴感知放在同一个监护流程里。</p><div class="case-tags"><span>ESP32-S3 / WiFi CSI</span><span>nRF / BLE</span><span>Django REST</span><span>PyTorch</span><span>PostgreSQL</span><span>网页与小程序</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>参赛方案、前后端工程与演示材料齐备；识别率和长期监护指标未独立复测</aside>
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把空间感知与可穿戴感知放在同一个监护流程里。</p><div class="case-tags"><span>ESP32-S3 / WiFi CSI</span><span>nRF / BLE</span><span>Django REST</span><span>PyTorch</span><span>PostgreSQL</span><span>网页与小程序</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>新增外壳实物与结构方案图；交互演示、前后端工程和参赛资料齐备</aside>
 
-<nav class="evidence-nav" aria-label="项目截图导览"><strong>本页图像 · 3 张</strong><a href="#shot-wearifi-activity">01</a><a href="#shot-wearifi-preparing">02</a><a href="#shot-wearifi-alert">03</a></nav>
+<figure class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-hardware/wearifi-prototype.webp"><img src="assets/project-hardware/wearifi-prototype-preview.webp" alt="WeariFi 外壳实物：手持照片呈现外观与体积。" width="562" height="1000" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">实物照片</span>WeariFi 外壳实物：手持照片呈现外观与体积。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
+
+<nav class="evidence-nav" aria-label="项目截图导览"><strong>交互界面 · 3 张</strong><a href="#shot-wearifi-activity">01</a><a href="#shot-wearifi-preparing">02</a><a href="#shot-wearifi-alert">03</a></nav>
 
 <figure id="shot-wearifi-activity" class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-evidence/wearifi-activity.webp"><img src="assets/project-evidence/wearifi-activity-preview.webp" alt="活动状态：房间分布、体征卡片与守护记录共同更新。 截图来自自动演示，数值非真人测量。" width="1000" height="750" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">原交互页面自动演示</span>活动状态：房间分布、体征卡片与守护记录共同更新。 截图来自自动演示，数值非真人测量。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
 
@@ -19,6 +21,12 @@ publish: true
 ## 两种感知，观察不同信息
 
 WeariFi 面向居家活动与健康监护，尝试将 WiFi CSI 的环境变化信息与柔性贴片的运动数据联系起来。非接触式感知关心空间中的活动，可穿戴侧关注佩戴者本人的动作；两种来源需要明确时间关系和设备状态，才能进一步讨论如何互补，而非简单叠加两个传感器名称。
+
+## 柔性器件，怎样组织在一起
+
+这张结构方案图把水凝胶、封装、器件、导电网络、电极与电池分层展开，用于解释柔性器件的组成关系。它与上方的外壳照片展示不同层次：一张看外观，一张看结构设计。
+
+<figure class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-hardware/wearifi-layer-stack.webp"><img src="assets/project-hardware/wearifi-layer-stack-preview.webp" alt="用户提供的柔性器件分层结构示意，展示封装、器件、导电网络与电池的关系；不是实物拆解照片。" width="1000" height="638" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">结构方案图</span>用户提供的柔性器件分层结构示意，展示封装、器件、导电网络与电池的关系；不是实物拆解照片。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
 
 ## 感知、边缘与应用三层协同
 

@@ -56,6 +56,12 @@ ESP32-S3 版本使用 ESP-IDF 固件接收串口命令并输出 STEP／DIR 脉�
 
 </details>
 
+## 源码与复现
+
+[鼠标控制双轴云台 · 两条主控路线 · 查看 GitHub 源码](https://github.com/bvsdehdshfbs300-debug/dgw-mouse-gimbal)
+
+仓库提供代码入口、接线／协议和运行说明，按 MIT 发布；构建与验证范围单独记录。模型权重、数据集和个人配置不随代码公开。
+
 ## 继续阅读
 
 [[projects|更多作品]] · [[platform|地瓜丸的 FPGA 教学平台]] · [[contact|去找地瓜丸→]]

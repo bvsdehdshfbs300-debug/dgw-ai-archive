@@ -2,7 +2,7 @@
 title: MaixCAM｜自动识别瞄准与二维追踪
 description: 4分52秒实拍演示，按章节查看目标识别、坐标反馈、PID控制界面和双轴云台动作。
 date: 2026-11-09
-modified: 2026-11-09
+modified: 2026-11-10
 tags:
   - 更多作品
   - 视觉与运动控制
@@ -16,6 +16,14 @@ publish: true
 <section class="field-video-section">
 <figure class="field-media"><video id="maix-walkthrough" controls playsinline preload="none" poster="assets/project-field/maixcam-demo.webp" width="1280" height="720"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maixcam-demo.mp4" type="video/mp4">当前浏览器无法播放，可<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maixcam-demo.mp4">直接打开视频</a>。</video><figcaption><span>04:52 / 实拍原片</span><strong>MaixCAM 自动识别与云台演示</strong>保留完整 4 分 52 秒原片。既能看实机，也能看识别框、坐标日志和 PID 控制界面。</figcaption></figure><div class="field-chapters" role="group" aria-label="视频章节"><button type="button" data-video-seek="0" data-video-target="maix-walkthrough"><span>00:00</span>实机与目标</button><button type="button" data-video-seek="40" data-video-target="maix-walkthrough"><span>00:40</span>连接相机</button><button type="button" data-video-seek="90" data-video-target="maix-walkthrough"><span>01:30</span>识别框与偏差</button><button type="button" data-video-seek="155" data-video-target="maix-walkthrough"><span>02:35</span>坐标与串口指令</button><button type="button" data-video-seek="210" data-video-target="maix-walkthrough"><span>03:30</span>PID 控制界面</button><button type="button" data-video-seek="270" data-video-target="maix-walkthrough"><span>04:30</span>回到实机</button></div><p class="field-chapter-status" aria-live="polite">点击章节，从对应位置播放。</p></section>
 
+## 模型之前，先把训练图片拍下来
+
+这段 5.7 秒现场记录展示触屏采图：把目标放进相机视野，观察取景并点击屏幕采集图片。采集脚本会把图片保存到设备目录，后续再导出、标注和训练；视频记录的是采集过程，原始数据集没有在网页上公开下载。
+
+<figure class="field-media"><video id="maix-dataset-video" controls playsinline preload="none" poster="assets/project-hardware/maix-dataset-capture.webp"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maix-dataset-capture-20261110.mp4" type="video/mp4">可使用下方入口直接打开视频。</video><figcaption><span>00:05.7 / 采集实拍</span><strong>MaixCAM 触屏采集数据集</strong>保留完整时长和原声。<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maix-dataset-capture-20261110.mp4" target="_blank" rel="noopener">打开完整视频 ↗</a></figcaption></figure>
+
+<figure class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-hardware/maix-dataset-capture.webp"><img src="assets/project-hardware/maix-dataset-capture-preview.webp" alt="采集视频截帧：相机屏幕取景与目标玩偶同框。" width="1000" height="563" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">实拍截帧</span>采集视频截帧：相机屏幕取景与目标玩偶同框。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
+
 ## 先看见，再把偏差送出去
 
 <ol class="field-path"><li><b>训练自己的目标</b>采图、标注，在 MaixHub 训练后部署模型。</li><li><b>相机计算偏差</b>MaixPy 加载 YOLOv5，计算目标中心相对画面中心的 dx / dy。</li><li><b>电脑判断动作</b>UDP 接收坐标，GUI 显示状态，PID 生成控制命令。</li><li><b>双轴机构响应</b>经 ESP32-S3 输出电机控制，调整相机朝向。</li></ol>
@@ -28,4 +36,12 @@ publish: true
 
 ## 我怎么区分问题出在哪一段
 
-<div class="field-table-wrap"><table class="field-table"><thead><tr><th>看到的现象</th><th>先检查</th><th>对应工具</th></tr></thead><tbody><tr><td>目标在画面里，但没有框</td><td>模型文件、目标类别、检测阈值。</td><td>相机识别画面。</td></tr><tr><td>有框，电脑没有坐标</td><td>UDP 接收端是否启动、地址与端口是否一致。</td><td>坐标日志与 GUI 目标状态。</td></tr><tr><td>有坐标，云台方向相反</td><td>dx / dy 的符号和轴方向是否匹配。</td><td>dry-run、X / Y 反向设置。</td></tr><tr><td>云台能跟，靠近中心来回摆</td><td>死区、增益、单次步数和发送间隔。</td><td>偏差轨迹、最近命令与实机动作。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看模型训练与部署</summary><div>数据准备要包含不同背景和距离。训练后核对模型文件、识别程序、PC GUI 与主控固件的对应关系，再把识别与动作逐段接起来。</div></details><details class="field-detail"><summary>展开看这个演示的范围</summary><div>原片以玩偶目标展示识别、坐标反馈与双轴控制。它能说明这套系统如何联调；其他目标或不同光照需要重新准备数据与测试。</div></details><nav class="field-read-next" aria-label="继续阅读"><a href="ball-balance.html">看车载滚球实拍 →</a><a href="mouse-gimbal.html">看两版鼠标云台 →</a><a href="projects.html">其他作品 →</a></nav>
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>看到的现象</th><th>先检查</th><th>对应工具</th></tr></thead><tbody><tr><td>目标在画面里，但没有框</td><td>模型文件、目标类别、检测阈值。</td><td>相机识别画面。</td></tr><tr><td>有框，电脑没有坐标</td><td>UDP 接收端是否启动、地址与端口是否一致。</td><td>坐标日志与 GUI 目标状态。</td></tr><tr><td>有坐标，云台方向相反</td><td>dx / dy 的符号和轴方向是否匹配。</td><td>dry-run、X / Y 反向设置。</td></tr><tr><td>云台能跟，靠近中心来回摆</td><td>死区、增益、单次步数和发送间隔。</td><td>偏差轨迹、最近命令与实机动作。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看模型训练与部署</summary><div>数据准备要包含不同背景和距离。训练后核对模型文件、识别程序、PC GUI 与主控固件的对应关系，再把识别与动作逐段接起来。</div></details><details class="field-detail"><summary>展开看这个演示的范围</summary><div>原片以玩偶目标展示识别、坐标反馈与双轴控制。它能说明这套系统如何联调；其他目标或不同光照需要重新准备数据与测试。</div></details>
+
+## 源码与复现
+
+[MaixCAM 视觉追踪与数据采集 · 查看 GitHub 源码](https://github.com/bvsdehdshfbs300-debug/dgw-maixcam-tracking)
+
+仓库提供代码入口、接线／协议和运行说明，按 MIT 发布；构建与验证范围单独记录。模型权重、数据集和个人配置不随代码公开。
+
+<nav class="field-read-next" aria-label="继续阅读"><a href="ball-balance.html">看车载滚球实拍 →</a><a href="mouse-gimbal.html">看两版鼠标云台 →</a><a href="projects.html">其他作品 →</a></nav>

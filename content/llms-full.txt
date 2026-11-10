@@ -211,6 +211,12 @@ publish: true
 
 </details>
 
+## 源码与复现
+
+[简易自行瞄准装置 · 查看 GitHub 源码](https://github.com/bvsdehdshfbs300-debug/dgw-auto-aim)
+
+仓库提供代码入口、接线／协议和运行说明，按 MIT 发布；构建与验证范围单独记录。模型权重、数据集和个人配置不随代码公开。
+
 ## 继续阅读
 
 [[mouse-gimbal|鼠标控制云台实拍与两版上位机]] · [[maixcam-tracking|MaixCAM 实拍]] · [[projects|我做过的项目]] · [[platform|FPGA 教学平台]]
@@ -220,7 +226,7 @@ publish: true
 title: 车载平衡滚球｜视觉与运动控制
 description: 三段实拍和整机照片，配合视觉、控制与机械调试过程介绍车载滚球系统。
 date: 2026-11-09
-modified: 2026-11-09
+modified: 2026-11-10
 tags:
   - 更多作品
   - 视觉与运动控制
@@ -241,7 +247,15 @@ publish: true
 
 ## 调试里真正费时间的地方
 
-<div class="field-table-wrap"><table class="field-table"><thead><tr><th>现场问题</th><th>工程里的处理</th><th>调试时对照</th></tr></thead><tbody><tr><td>接近目标，球却不动</td><td>静摩擦补偿、积分助推。</td><td>球的位置、输出角度和当前模式。</td></tr><tr><td>动作结束后仍有固定偏差</td><td>用 trim 处理平衡偏置，与快速控制量分开。</td><td>保持阶段的误差和补偿变化。</td></tr><tr><td>补偿越调越大</td><td>修正 trim 学习混入瞬态控制量的问题。</td><td>误差是否收敛，补偿是否持续累积。</td></tr><tr><td>丢球或收不到新坐标</td><td>限制输出和变化率，超时进入回平策略。</td><td>目标有效性、通信状态和输出角度。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看视觉端与控制端的分工</summary><div>视觉端处理目标有效性和位置平滑。速度估计放在控制端，控制任务按自己的节拍更新，避免两边重复滤波增加迟滞。</div></details><details class="field-detail"><summary>展开看已有的工程记录</summary><div>项目保留最终及后续工程、控制说明、模型材料和位置 CSV。视频展示当时的装置运行；稳定时间、跟踪精度等指标需要结合原始记录和测试条件单独测量。</div></details><nav class="field-read-next" aria-label="继续阅读"><a href="maixcam-tracking.html">看另一套视觉云台 →</a><a href="projects.html">看其他作品 →</a><a href="platform.html">回到 FPGA 教学平台 →</a></nav>
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>现场问题</th><th>工程里的处理</th><th>调试时对照</th></tr></thead><tbody><tr><td>接近目标，球却不动</td><td>静摩擦补偿、积分助推。</td><td>球的位置、输出角度和当前模式。</td></tr><tr><td>动作结束后仍有固定偏差</td><td>用 trim 处理平衡偏置，与快速控制量分开。</td><td>保持阶段的误差和补偿变化。</td></tr><tr><td>补偿越调越大</td><td>修正 trim 学习混入瞬态控制量的问题。</td><td>误差是否收敛，补偿是否持续累积。</td></tr><tr><td>丢球或收不到新坐标</td><td>限制输出和变化率，超时进入回平策略。</td><td>目标有效性、通信状态和输出角度。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看视觉端与控制端的分工</summary><div>视觉端处理目标有效性和位置平滑。速度估计放在控制端，控制任务按自己的节拍更新，避免两边重复滤波增加迟滞。</div></details><details class="field-detail"><summary>展开看已有的工程记录</summary><div>项目保留最终及后续工程、控制说明、模型材料和位置 CSV。视频展示当时的装置运行；稳定时间、跟踪精度等指标需要结合原始记录和测试条件单独测量。</div></details>
+
+## 源码与复现
+
+[车载平衡滚球控制 · 查看 GitHub 源码](https://github.com/bvsdehdshfbs300-debug/dgw-ball-balance)
+
+仓库提供代码入口、接线／协议和运行说明，按 MIT 发布；构建与验证范围单独记录。模型权重、数据集和个人配置不随代码公开。
+
+<nav class="field-read-next" aria-label="继续阅读"><a href="maixcam-tracking.html">看另一套视觉云台 →</a><a href="projects.html">看其他作品 →</a><a href="platform.html">回到 FPGA 教学平台 →</a></nav>
 
 
 ---
@@ -762,7 +776,7 @@ publish: true
 title: MaixCAM｜自动识别瞄准与二维追踪
 description: 4分52秒实拍演示，按章节查看目标识别、坐标反馈、PID控制界面和双轴云台动作。
 date: 2026-11-09
-modified: 2026-11-09
+modified: 2026-11-10
 tags:
   - 更多作品
   - 视觉与运动控制
@@ -776,6 +790,14 @@ publish: true
 <section class="field-video-section">
 <figure class="field-media"><video id="maix-walkthrough" controls playsinline preload="none" poster="assets/project-field/maixcam-demo.webp" width="1280" height="720"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maixcam-demo.mp4" type="video/mp4">当前浏览器无法播放，可<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maixcam-demo.mp4">直接打开视频</a>。</video><figcaption><span>04:52 / 实拍原片</span><strong>MaixCAM 自动识别与云台演示</strong>保留完整 4 分 52 秒原片。既能看实机，也能看识别框、坐标日志和 PID 控制界面。</figcaption></figure><div class="field-chapters" role="group" aria-label="视频章节"><button type="button" data-video-seek="0" data-video-target="maix-walkthrough"><span>00:00</span>实机与目标</button><button type="button" data-video-seek="40" data-video-target="maix-walkthrough"><span>00:40</span>连接相机</button><button type="button" data-video-seek="90" data-video-target="maix-walkthrough"><span>01:30</span>识别框与偏差</button><button type="button" data-video-seek="155" data-video-target="maix-walkthrough"><span>02:35</span>坐标与串口指令</button><button type="button" data-video-seek="210" data-video-target="maix-walkthrough"><span>03:30</span>PID 控制界面</button><button type="button" data-video-seek="270" data-video-target="maix-walkthrough"><span>04:30</span>回到实机</button></div><p class="field-chapter-status" aria-live="polite">点击章节，从对应位置播放。</p></section>
 
+## 模型之前，先把训练图片拍下来
+
+这段 5.7 秒现场记录展示触屏采图：把目标放进相机视野，观察取景并点击屏幕采集图片。采集脚本会把图片保存到设备目录，后续再导出、标注和训练；视频记录的是采集过程，原始数据集没有在网页上公开下载。
+
+<figure class="field-media"><video id="maix-dataset-video" controls playsinline preload="none" poster="assets/project-hardware/maix-dataset-capture.webp"><source src="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maix-dataset-capture-20261110.mp4" type="video/mp4">可使用下方入口直接打开视频。</video><figcaption><span>00:05.7 / 采集实拍</span><strong>MaixCAM 触屏采集数据集</strong>保留完整时长和原声。<a href="https://dgwfpga.cn/portfolio-media/20261109/videos/projects/maix-dataset-capture-20261110.mp4" target="_blank" rel="noopener">打开完整视频 ↗</a></figcaption></figure>
+
+<figure class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-hardware/maix-dataset-capture.webp"><img src="assets/project-hardware/maix-dataset-capture-preview.webp" alt="采集视频截帧：相机屏幕取景与目标玩偶同框。" width="1000" height="563" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">实拍截帧</span>采集视频截帧：相机屏幕取景与目标玩偶同框。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
+
 ## 先看见，再把偏差送出去
 
 <ol class="field-path"><li><b>训练自己的目标</b>采图、标注，在 MaixHub 训练后部署模型。</li><li><b>相机计算偏差</b>MaixPy 加载 YOLOv5，计算目标中心相对画面中心的 dx / dy。</li><li><b>电脑判断动作</b>UDP 接收坐标，GUI 显示状态，PID 生成控制命令。</li><li><b>双轴机构响应</b>经 ESP32-S3 输出电机控制，调整相机朝向。</li></ol>
@@ -788,7 +810,15 @@ publish: true
 
 ## 我怎么区分问题出在哪一段
 
-<div class="field-table-wrap"><table class="field-table"><thead><tr><th>看到的现象</th><th>先检查</th><th>对应工具</th></tr></thead><tbody><tr><td>目标在画面里，但没有框</td><td>模型文件、目标类别、检测阈值。</td><td>相机识别画面。</td></tr><tr><td>有框，电脑没有坐标</td><td>UDP 接收端是否启动、地址与端口是否一致。</td><td>坐标日志与 GUI 目标状态。</td></tr><tr><td>有坐标，云台方向相反</td><td>dx / dy 的符号和轴方向是否匹配。</td><td>dry-run、X / Y 反向设置。</td></tr><tr><td>云台能跟，靠近中心来回摆</td><td>死区、增益、单次步数和发送间隔。</td><td>偏差轨迹、最近命令与实机动作。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看模型训练与部署</summary><div>数据准备要包含不同背景和距离。训练后核对模型文件、识别程序、PC GUI 与主控固件的对应关系，再把识别与动作逐段接起来。</div></details><details class="field-detail"><summary>展开看这个演示的范围</summary><div>原片以玩偶目标展示识别、坐标反馈与双轴控制。它能说明这套系统如何联调；其他目标或不同光照需要重新准备数据与测试。</div></details><nav class="field-read-next" aria-label="继续阅读"><a href="ball-balance.html">看车载滚球实拍 →</a><a href="mouse-gimbal.html">看两版鼠标云台 →</a><a href="projects.html">其他作品 →</a></nav>
+<div class="field-table-wrap"><table class="field-table"><thead><tr><th>看到的现象</th><th>先检查</th><th>对应工具</th></tr></thead><tbody><tr><td>目标在画面里，但没有框</td><td>模型文件、目标类别、检测阈值。</td><td>相机识别画面。</td></tr><tr><td>有框，电脑没有坐标</td><td>UDP 接收端是否启动、地址与端口是否一致。</td><td>坐标日志与 GUI 目标状态。</td></tr><tr><td>有坐标，云台方向相反</td><td>dx / dy 的符号和轴方向是否匹配。</td><td>dry-run、X / Y 反向设置。</td></tr><tr><td>云台能跟，靠近中心来回摆</td><td>死区、增益、单次步数和发送间隔。</td><td>偏差轨迹、最近命令与实机动作。</td></tr></tbody></table></div><details class="field-detail"><summary>展开看模型训练与部署</summary><div>数据准备要包含不同背景和距离。训练后核对模型文件、识别程序、PC GUI 与主控固件的对应关系，再把识别与动作逐段接起来。</div></details><details class="field-detail"><summary>展开看这个演示的范围</summary><div>原片以玩偶目标展示识别、坐标反馈与双轴控制。它能说明这套系统如何联调；其他目标或不同光照需要重新准备数据与测试。</div></details>
+
+## 源码与复现
+
+[MaixCAM 视觉追踪与数据采集 · 查看 GitHub 源码](https://github.com/bvsdehdshfbs300-debug/dgw-maixcam-tracking)
+
+仓库提供代码入口、接线／协议和运行说明，按 MIT 发布；构建与验证范围单独记录。模型权重、数据集和个人配置不随代码公开。
+
+<nav class="field-read-next" aria-label="继续阅读"><a href="ball-balance.html">看车载滚球实拍 →</a><a href="mouse-gimbal.html">看两版鼠标云台 →</a><a href="projects.html">其他作品 →</a></nav>
 
 
 ---
@@ -876,6 +906,12 @@ ESP32-S3 版本使用 ESP-IDF 固件接收串口命令并输出 STEP／DIR 脉�
 <figure class="case-figure"><a class="case-image-link" href="assets/projects/mouse-gimbal.svg"><picture><source media="(max-width:600px)" srcset="assets/projects/mouse-gimbal-mobile.svg" width="460" height="1000"><img src="assets/projects/mouse-gimbal.svg" alt="鼠标双轴云台｜ESP32-S3 与 FPGA 两版的数据与功能路径" width="1100" height="560" loading="lazy" decoding="async"></picture></a><figcaption>依据项目资料整理的功能关系示意；实际阶段见正文。<span>点击查看大图 ↗</span></figcaption></figure>
 
 </details>
+
+## 源码与复现
+
+[鼠标控制双轴云台 · 两条主控路线 · 查看 GitHub 源码](https://github.com/bvsdehdshfbs300-debug/dgw-mouse-gimbal)
+
+仓库提供代码入口、接线／协议和运行说明，按 MIT 发布；构建与验证范围单独记录。模型权重、数据集和个人配置不随代码公开。
 
 ## 继续阅读
 
@@ -1037,7 +1073,16 @@ publish: true
 
 ## 我做过的项目
 
-<div class="project-collection"><section class="project-tile"><a href="tide-composer.html"><img src="assets/cases/tide-system.png" alt="潮汐作曲家实物运行照片" loading="lazy"></a><div><span>FPGA / HDMI / 图像与音频</span><h3><a href="tide-composer.html">潮汐作曲家</a></h3><p>从 TF 卡素材、SDRAM 帧缓存到 HDMI 输出，结合转场、缩放与板端控制。完整演示、原版海报、实物图与技术架构放在一起阅读。</p><a href="tide-composer.html">看实物、海报和视频 →</a></div></section><section class="project-tile"><a href="flexstep.html"><img src="assets/project-evidence/flexstep-sampling-plan-preview.webp" alt="原汇报方案图" loading="lazy"></a><div><span>柔性压力阵列 / Arduino / 多通道采集</span><h3><a href="flexstep.html">FlexStep｜人体步态柔性感知系统</a></h3><p>让足底受力成为可以观察、比较和解释的连续信息。</p><a href="flexstep.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="acoustic-terminal.html"><img src="assets/project-evidence/acoustic-demo-dashboard-preview.webp" alt="内置演示模式" loading="lazy"></a><div><span>EG4S20 FPGA / INMP441 ×2 / I2S</span><h3><a href="acoustic-terminal.html">双麦声学感知／声学取证终端</a></h3><p>从两路麦克风采样，到方向、频带、波形与录音的完整观察链。</p><a href="acoustic-terminal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="wearifi.html"><img src="assets/project-evidence/wearifi-activity-preview.webp" alt="原交互页面自动演示" loading="lazy"></a><div><span>ESP32-S3 / WiFi CSI / nRF / BLE / Django REST</span><h3><a href="wearifi.html">WeariFi｜柔域智感</a></h3><p>把空间感知与可穿戴感知放在同一个监护流程里。</p><a href="wearifi.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="fuma-unit.html"><img src="assets/project-evidence/fuma-offline-gui-preview.webp" alt="未连接设备的原 GUI" loading="lazy"></a><div><span>nRF52832 / nRF5 SDK / C</span><h3><a href="fuma-unit.html">FUMA／UNIT｜多模态脑电固件</a></h3><p>把采样、传感器状态、无线传输与电源管理组织成可维护的固件。</p><a href="fuma-unit.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ota-method.html"><img src="assets/project-evidence/ota-offline-gui-preview.webp" alt="未连接设备的原 GUI" loading="lazy"></a><div><span>Secure DFU / Bootloader / 签名验证</span><h3><a href="ota-method.html">脑电固件与蓝牙 OTA｜方法笔记</a></h3><p>一次无线升级，背后是构建、签名、版本与恢复路径的配合。</p><a href="ota-method.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="auto-aim.html"><img src="assets/project-evidence/auto-aim-motion-preview.webp" alt="简易自行瞄准装置现场实拍" loading="lazy"></a><div><span>嵌入式视觉 / Python / 矩形识别</span><h3><a href="auto-aim.html">电赛实践｜简易自行瞄准装置</a></h3><p>三段现场视频，看目标识别、板端菜单和机构运动。</p><a href="auto-aim.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ball-balance.html"><img src="assets/project-field/ball-system.webp" alt="车载平衡滚球｜视觉与运动控制的项目图" loading="lazy"></a><div><span>MaixCAM2 / YOLOv5 / UDP</span><h3><a href="ball-balance.html">车载平衡滚球｜视觉与运动控制</a></h3><p>整机照片、三段实拍，以及视觉坐标怎样驱动杆面倾角。</p><a href="ball-balance.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="mouse-gimbal.html"><img src="assets/project-evidence/mouse-gimbal-trail-preview.webp" alt="未连接设备的原 GUI" loading="lazy"></a><div><span>Python GUI / UART / ESP32-S3 / ESP-IDF</span><h3><a href="mouse-gimbal.html">鼠标双轴云台｜ESP32-S3 与 FPGA 两版</a></h3><p>完整鼠标控制云台实拍，配合 ESP32-S3 与 FPGA 两版上位机对照。</p><a href="mouse-gimbal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="maixcam-tracking.html"><img src="assets/project-field/maixcam-demo.webp" alt="MaixCAM｜模型训练与二维追踪的项目图" loading="lazy"></a><div><span>MaixCAM Pro / MaixHub / YOLOv5</span><h3><a href="maixcam-tracking.html">MaixCAM｜模型训练与二维追踪</a></h3><p>4 分 52 秒完整演示，直接看检测框、坐标反馈、控制界面和实机动作。</p><a href="maixcam-tracking.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ai-monitor.html"><img src="assets/project-evidence/monitor-main-preview.webp" alt="原 WPF 控件离线渲染" loading="lazy"></a><div><span>PowerShell / WPF / 增量日志解析</span><h3><a href="ai-monitor.html">AI 监控台｜从悬浮窗到用量仪表</a></h3><p>把分散在不同客户端的用量，整理成桌面上随时能看懂的状态。</p><a href="ai-monitor.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="everyday.html"><img src="assets/project-evidence/everyday-01-home-preview.webp" alt="真实运行界面截图" loading="lazy"></a><div><span>Electron / HTML / CSS / JavaScript</span><h3><a href="everyday.html">Everyday｜像素任务清单与启动中控台</a></h3><p>把日常计划、完成反馈与常用应用启动，放进一块像素桌面。</p><a href="everyday.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="game-security-ai.html"><img src="assets/project-evidence/game-metadata-preview.webp" alt="原模型元数据读取视图" loading="lazy"></a><div><span>Python / TF-IDF / Logistic Regression</span><h3><a href="game-security-ai.html">游戏安全 AI｜初赛分类实践</a></h3><p>游戏事件记录、两级分类，以及原结果表和特征元数据。</p><a href="game-security-ai.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ural-echo.html"><img src="assets/project-evidence/ural-echo-02-station-preview.webp" alt="真实运行界面截图" loading="lazy"></a><div><span>HTML / CSS / JavaScript / Web Audio</span><h3><a href="ural-echo.html">乌拉尔回响｜交互叙事实验</a></h3><p>用调频、噪声和通讯文本，让玩家通过操作进入故事。</p><a href="ural-echo.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="sword-duel.html"><img src="assets/project-evidence/sword-duel-03-parry-preview.webp" alt="真实运行界面截图" loading="lazy"></a><div><span>Canvas 2D / JavaScript / 动作状态机</span><h3><a href="sword-duel.html">不归砚／Sword Duel｜动作交互原型</a></h3><p>用清晰的动作状态、命中反馈与节奏，试做一场有手感的对决。</p><a href="sword-duel.html">看技术路径与项目过程 →</a></div></section></div>
+<div class="project-collection"><section class="project-tile"><a href="tide-composer.html"><img src="assets/cases/tide-system.png" alt="潮汐作曲家实物运行照片" loading="lazy"></a><div><span>FPGA / HDMI / 图像与音频</span><h3><a href="tide-composer.html">潮汐作曲家</a></h3><p>从 TF 卡素材、SDRAM 帧缓存到 HDMI 输出，结合转场、缩放与板端控制。完整演示、原版海报、实物图与技术架构放在一起阅读。</p><a href="tide-composer.html">看实物、海报和视频 →</a></div></section><section class="project-tile"><a href="flexstep.html"><img src="assets/project-evidence/flexstep-sampling-plan-preview.webp" alt="原汇报方案图" loading="lazy"></a><div><span>柔性压力阵列 / Arduino / 多通道采集</span><h3><a href="flexstep.html">FlexStep｜人体步态柔性感知系统</a></h3><p>让足底受力成为可以观察、比较和解释的连续信息。</p><a href="flexstep.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="acoustic-terminal.html"><img src="assets/project-evidence/acoustic-demo-dashboard-preview.webp" alt="内置演示模式" loading="lazy"></a><div><span>EG4S20 FPGA / INMP441 ×2 / I2S</span><h3><a href="acoustic-terminal.html">双麦声学感知／声学取证终端</a></h3><p>从两路麦克风采样，到方向、频带、波形与录音的完整观察链。</p><a href="acoustic-terminal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="wearifi.html"><img src="assets/project-hardware/wearifi-prototype-preview.webp" alt="原交互页面自动演示" loading="lazy"></a><div><span>ESP32-S3 / WiFi CSI / nRF / BLE / Django REST</span><h3><a href="wearifi.html">WeariFi｜柔域智感</a></h3><p>把空间感知与可穿戴感知放在同一个监护流程里。</p><a href="wearifi.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="fuma-unit.html"><img src="assets/project-evidence/fuma-offline-gui-preview.webp" alt="未连接设备的原 GUI" loading="lazy"></a><div><span>nRF52832 / nRF5 SDK / C</span><h3><a href="fuma-unit.html">FUMA／UNIT｜多模态脑电固件</a></h3><p>把采样、传感器状态、无线传输与电源管理组织成可维护的固件。</p><a href="fuma-unit.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ota-method.html"><img src="assets/project-evidence/ota-offline-gui-preview.webp" alt="未连接设备的原 GUI" loading="lazy"></a><div><span>Secure DFU / Bootloader / 签名验证</span><h3><a href="ota-method.html">脑电固件与蓝牙 OTA｜方法笔记</a></h3><p>一次无线升级，背后是构建、签名、版本与恢复路径的配合。</p><a href="ota-method.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="auto-aim.html"><img src="assets/project-evidence/auto-aim-motion-preview.webp" alt="简易自行瞄准装置现场实拍" loading="lazy"></a><div><span>嵌入式视觉 / Python / 矩形识别</span><h3><a href="auto-aim.html">电赛实践｜简易自行瞄准装置</a></h3><p>三段现场视频，看目标识别、板端菜单和机构运动。</p><a href="auto-aim.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ball-balance.html"><img src="assets/project-field/ball-system.webp" alt="车载平衡滚球｜视觉与运动控制的项目图" loading="lazy"></a><div><span>MaixCAM2 / YOLOv5 / UDP</span><h3><a href="ball-balance.html">车载平衡滚球｜视觉与运动控制</a></h3><p>整机照片、三段实拍，以及视觉坐标怎样驱动杆面倾角。</p><a href="ball-balance.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="mouse-gimbal.html"><img src="assets/project-evidence/mouse-gimbal-trail-preview.webp" alt="未连接设备的原 GUI" loading="lazy"></a><div><span>Python GUI / UART / ESP32-S3 / ESP-IDF</span><h3><a href="mouse-gimbal.html">鼠标双轴云台｜ESP32-S3 与 FPGA 两版</a></h3><p>完整鼠标控制云台实拍，配合 ESP32-S3 与 FPGA 两版上位机对照。</p><a href="mouse-gimbal.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="maixcam-tracking.html"><img src="assets/project-field/maixcam-demo.webp" alt="MaixCAM｜模型训练与二维追踪的项目图" loading="lazy"></a><div><span>MaixCAM Pro / MaixHub / YOLOv5</span><h3><a href="maixcam-tracking.html">MaixCAM｜模型训练与二维追踪</a></h3><p>4 分 52 秒完整演示，直接看检测框、坐标反馈、控制界面和实机动作。</p><a href="maixcam-tracking.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ai-monitor.html"><img src="assets/project-evidence/monitor-main-preview.webp" alt="原 WPF 控件离线渲染" loading="lazy"></a><div><span>PowerShell / WPF / 增量日志解析</span><h3><a href="ai-monitor.html">AI 监控台｜从悬浮窗到用量仪表</a></h3><p>把分散在不同客户端的用量，整理成桌面上随时能看懂的状态。</p><a href="ai-monitor.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="everyday.html"><img src="assets/project-evidence/everyday-01-home-preview.webp" alt="真实运行界面截图" loading="lazy"></a><div><span>Electron / HTML / CSS / JavaScript</span><h3><a href="everyday.html">Everyday｜像素任务清单与启动中控台</a></h3><p>把日常计划、完成反馈与常用应用启动，放进一块像素桌面。</p><a href="everyday.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="game-security-ai.html"><img src="assets/project-evidence/game-metadata-preview.webp" alt="原模型元数据读取视图" loading="lazy"></a><div><span>Python / TF-IDF / Logistic Regression</span><h3><a href="game-security-ai.html">游戏安全 AI｜初赛分类实践</a></h3><p>游戏事件记录、两级分类，以及原结果表和特征元数据。</p><a href="game-security-ai.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="ural-echo.html"><img src="assets/project-evidence/ural-echo-02-station-preview.webp" alt="真实运行界面截图" loading="lazy"></a><div><span>HTML / CSS / JavaScript / Web Audio</span><h3><a href="ural-echo.html">乌拉尔回响｜交互叙事实验</a></h3><p>用调频、噪声和通讯文本，让玩家通过操作进入故事。</p><a href="ural-echo.html">看技术路径与项目过程 →</a></div></section><section class="project-tile"><a href="sword-duel.html"><img src="assets/project-evidence/sword-duel-03-parry-preview.webp" alt="真实运行界面截图" loading="lazy"></a><div><span>Canvas 2D / JavaScript / 动作状态机</span><h3><a href="sword-duel.html">不归砚／Sword Duel｜动作交互原型</a></h3><p>用清晰的动作状态、命中反馈与节奏，试做一场有手感的对决。</p><a href="sword-duel.html">看技术路径与项目过程 →</a></div></section></div>
+
+## 嵌入式与控制项目，代码也能直接看
+
+| 项目 | 公开内容 | 源码 |
+| --- | --- | --- |
+| 简易自行瞄准装置 | 板端识别、回中与遍历实现 | [GitHub](https://github.com/bvsdehdshfbs300-debug/dgw-auto-aim) |
+| 车载平衡滚球控制 | MaixCAM2 位置发送与 ESP32 控制 | [GitHub](https://github.com/bvsdehdshfbs300-debug/dgw-ball-balance) |
+| 鼠标控制双轴云台 · 两条主控路线 | ESP32-S3／FPGA 两版固件和上位机 | [GitHub](https://github.com/bvsdehdshfbs300-debug/dgw-mouse-gimbal) |
+| MaixCAM 视觉追踪与数据采集 | 触屏采集、模型流程与视觉追踪 | [GitHub](https://github.com/bvsdehdshfbs300-debug/dgw-maixcam-tracking) |
 
 ## 这些实践，怎样回到教学
 
@@ -1472,9 +1517,11 @@ tags:
 publish: true
 ---
 
-<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把空间感知与可穿戴感知放在同一个监护流程里。</p><div class="case-tags"><span>ESP32-S3 / WiFi CSI</span><span>nRF / BLE</span><span>Django REST</span><span>PyTorch</span><span>PostgreSQL</span><span>网页与小程序</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>参赛方案、前后端工程与演示材料齐备；识别率和长期监护指标未独立复测</aside>
+<div class="case-intro"><span class="case-kicker">地瓜丸的工作室 · 其他项目</span><p class="case-lead">把空间感知与可穿戴感知放在同一个监护流程里。</p><div class="case-tags"><span>ESP32-S3 / WiFi CSI</span><span>nRF / BLE</span><span>Django REST</span><span>PyTorch</span><span>PostgreSQL</span><span>网页与小程序</span></div></div><aside class="project-stage"><strong>这件作品进行到哪里</strong>新增外壳实物与结构方案图；交互演示、前后端工程和参赛资料齐备</aside>
 
-<nav class="evidence-nav" aria-label="项目截图导览"><strong>本页图像 · 3 张</strong><a href="#shot-wearifi-activity">01</a><a href="#shot-wearifi-preparing">02</a><a href="#shot-wearifi-alert">03</a></nav>
+<figure class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-hardware/wearifi-prototype.webp"><img src="assets/project-hardware/wearifi-prototype-preview.webp" alt="WeariFi 外壳实物：手持照片呈现外观与体积。" width="562" height="1000" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">实物照片</span>WeariFi 外壳实物：手持照片呈现外观与体积。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
+
+<nav class="evidence-nav" aria-label="项目截图导览"><strong>交互界面 · 3 张</strong><a href="#shot-wearifi-activity">01</a><a href="#shot-wearifi-preparing">02</a><a href="#shot-wearifi-alert">03</a></nav>
 
 <figure id="shot-wearifi-activity" class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-evidence/wearifi-activity.webp"><img src="assets/project-evidence/wearifi-activity-preview.webp" alt="活动状态：房间分布、体征卡片与守护记录共同更新。 截图来自自动演示，数值非真人测量。" width="1000" height="750" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">原交互页面自动演示</span>活动状态：房间分布、体征卡片与守护记录共同更新。 截图来自自动演示，数值非真人测量。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
 
@@ -1482,6 +1529,12 @@ publish: true
 ## 两种感知，观察不同信息
 
 WeariFi 面向居家活动与健康监护，尝试将 WiFi CSI 的环境变化信息与柔性贴片的运动数据联系起来。非接触式感知关心空间中的活动，可穿戴侧关注佩戴者本人的动作；两种来源需要明确时间关系和设备状态，才能进一步讨论如何互补，而非简单叠加两个传感器名称。
+
+## 柔性器件，怎样组织在一起
+
+这张结构方案图把水凝胶、封装、器件、导电网络、电极与电池分层展开，用于解释柔性器件的组成关系。它与上方的外壳照片展示不同层次：一张看外观，一张看结构设计。
+
+<figure class="evidence-shot"><a class="case-image-link gallery-full" href="assets/project-hardware/wearifi-layer-stack.webp"><img src="assets/project-hardware/wearifi-layer-stack-preview.webp" alt="用户提供的柔性器件分层结构示意，展示封装、器件、导电网络与电池的关系；不是实物拆解照片。" width="1000" height="638" loading="lazy" decoding="async"></a><figcaption><span class="evidence-kind">结构方案图</span>用户提供的柔性器件分层结构示意，展示封装、器件、导电网络与电池的关系；不是实物拆解照片。<span class="evidence-zoom">点击看原图 ↗</span></figcaption></figure>
 
 ## 感知、边缘与应用三层协同
 
