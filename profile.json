@@ -1,7 +1,7 @@
 {
   "name": "地瓜丸",
   "display_name": "dgw",
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "language": "zh-CN",
   "description": "独立开发者，以FPGA教学平台为主线，开展FPGA音画、嵌入式视觉、闭环控制与Web产品开发，组织AI协作工程交付。",
   "projects": [
@@ -69,32 +69,69 @@
     {
       "name": "FlexStep｜人体步态柔性感知系统",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/flexstep.html",
-      "stage": "方案与立项材料；采集整机及动态指标仍需实测验证"
+      "stage": "方案与立项材料；采集整机及动态指标仍需实测验证",
+      "public_images": {
+        "count": 2,
+        "material_types": [
+          "原汇报方案图"
+        ]
+      }
     },
     {
       "name": "双麦声学感知／声学取证终端",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/acoustic-terminal.html",
-      "stage": "完整 v6 交付版：综合、布局布线及位流生成通过；本版位流尚未上板"
+      "stage": "完整 v6 交付版：综合、布局布线及位流生成通过；本版位流尚未上板",
+      "public_images": {
+        "count": 1,
+        "material_types": [
+          "内置演示模式"
+        ]
+      }
     },
     {
       "name": "WeariFi｜柔域智感",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/wearifi.html",
-      "stage": "参赛方案、前后端工程与演示材料齐备；识别率和长期监护指标未独立复测"
+      "stage": "参赛方案、前后端工程与演示材料齐备；识别率和长期监护指标未独立复测",
+      "public_images": {
+        "count": 3,
+        "material_types": [
+          "原交互页面自动演示"
+        ]
+      }
     },
     {
       "name": "FUMA／UNIT｜多模态脑电固件",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/fuma-unit.html",
-      "stage": "FUMA 原版 OTA 有实机记录；UNIT Float V9 为编译与离线仿真阶段"
+      "stage": "FUMA 原版 OTA 有实机记录；UNIT Float V9 为编译与离线仿真阶段",
+      "public_images": {
+        "count": 1,
+        "material_types": [
+          "未连接设备的原 GUI"
+        ]
+      }
     },
     {
       "name": "脑电固件与蓝牙 OTA｜方法笔记",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ota-method.html",
-      "stage": "只展示工程方法；不公开密钥、设备配置、固件包或签名材料"
+      "stage": "只展示工程方法；不公开密钥、设备配置、固件包或签名材料",
+      "public_images": {
+        "count": 1,
+        "material_types": [
+          "未连接设备的原 GUI"
+        ]
+      }
     },
     {
       "name": "电赛实践｜简易自行瞄准装置",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/auto-aim.html",
-      "stage": "2025 电赛 E 题相关工程与迭代材料；本页未重新复验整机指标"
+      "stage": "三段现场实拍，展示目标识别、板端操作与机构运动",
+      "public_images": {
+        "count": 3,
+        "material_types": [
+          "现场实拍截帧"
+        ]
+      },
+      "public_videos": 3
     },
     {
       "name": "车载平衡滚球｜视觉与运动控制",
@@ -104,7 +141,15 @@
     {
       "name": "鼠标双轴云台｜ESP32-S3 与 FPGA 两版",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/mouse-gimbal.html",
-      "stage": "两版均有主控实现、PC 程序及接线资料；具体整机表现需按各版验证"
+      "stage": "鼠标控制云台实拍及两版原上位机界面对照",
+      "public_images": {
+        "count": 7,
+        "material_types": [
+          "未连接设备的原 GUI",
+          "现场实拍截帧"
+        ]
+      },
+      "public_videos": 1
     },
     {
       "name": "MaixCAM｜模型训练与二维追踪",
@@ -114,27 +159,58 @@
     {
       "name": "AI 监控台｜从悬浮窗到用量仪表",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ai-monitor.html",
-      "stage": "有早期悬浮窗、后续监控台与发布包；用量和花费各自保留口径"
+      "stage": "有早期悬浮窗、后续监控台与发布包；用量和花费各自保留口径",
+      "public_images": {
+        "count": 3,
+        "material_types": [
+          "原 WPF 控件离线渲染"
+        ]
+      }
     },
     {
       "name": "Everyday｜像素任务清单与启动中控台",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/everyday.html",
-      "stage": "有完整页面、Electron 主进程与安装包配置；本轮未运行验证"
+      "stage": "已运行任务添加、完成反馈与设置面板；应用外链和安装包未在本轮执行",
+      "public_images": {
+        "count": 3,
+        "material_types": [
+          "真实运行界面截图"
+        ]
+      }
     },
     {
       "name": "游戏安全 AI｜初赛分类实践",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/game-security-ai.html",
-      "stage": "已核对初赛归档文件组成；未加载模型或复算评测成绩"
+      "stage": "已读取原结果表与模型元数据；未加载模型或复算评测成绩",
+      "public_images": {
+        "count": 2,
+        "material_types": [
+          "原模型元数据读取视图",
+          "原结果表读取视图"
+        ]
+      }
     },
     {
       "name": "乌拉尔回响｜交互叙事实验",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ural-echo.html",
-      "stage": "有网页交互、故事节点与 Android 工程；未核验最终发行版本"
+      "stage": "已试玩网页开场、调频与通讯档案；Android 发行版本未在本轮验收",
+      "public_images": {
+        "count": 4,
+        "material_types": [
+          "真实运行界面截图"
+        ]
+      }
     },
     {
       "name": "不归砚／Sword Duel｜动作交互原型",
       "url": "https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/sword-duel.html",
-      "stage": "有网页动作原型与 Electron 配置；本轮未运行或复验最新平衡"
+      "stage": "已在 Electron 运行菜单、战斗、格挡与结算；未复验完整平衡和打包发行",
+      "public_images": {
+        "count": 4,
+        "material_types": [
+          "真实运行界面截图"
+        ]
+      }
     }
   ],
   "workflow": {
