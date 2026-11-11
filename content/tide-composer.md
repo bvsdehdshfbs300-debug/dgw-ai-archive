@@ -55,4 +55,4 @@ publish: true
 
 ## 继续阅读
 
-[[skills|能力与作品证据]] · [[platform|把 FPGA 知识做成在线练习]] · [[workflow|从想法到上线的工作流]]
+[[skills|技术能力与作品]] · [[platform|把 FPGA 知识做成在线练习]] · [[workflow|从想法到上线的工作流]]

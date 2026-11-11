@@ -68,4 +68,4 @@ publish: true
 
 ## 继续阅读
 
-[[skills|能力与作品证据]] · [[maintenance|网站如何持续运行]] · [[tide-composer|潮汐作曲家：另一个 FPGA 实物项目]]
+[[skills|技术能力与作品]] · [[maintenance|网站如何持续运行]] · [[tide-composer|潮汐作曲家：另一个 FPGA 实物项目]]

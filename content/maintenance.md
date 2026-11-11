@@ -88,4 +88,4 @@ publish: true
 
 ## 继续阅读
 
-[[skills|能力与作品证据]] · [[debugging|从反馈定位问题]] · [[workflow|从想法到上线]] · [[platform|教学平台案例]]
+[[skills|技术能力与作品]] · [[debugging|从反馈定位问题]] · [[workflow|从想法到上线]] · [[platform|教学平台案例]]

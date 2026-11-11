@@ -1,6 +1,6 @@
 ---
 title: 做取舍的几个原则
-description: 围绕学习效果、个人维护成本和真实证据做决定。
+description: 结合学习效果、维护成本与实际反馈做决定。
 date: 2026-11-07
 modified: 2026-11-09
 tags:

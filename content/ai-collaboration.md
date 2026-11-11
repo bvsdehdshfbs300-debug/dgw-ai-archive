@@ -18,4 +18,4 @@ publish: true
 
 <ul class="field-review-list"><li>现在对外展示的是哪个版本，入口在哪里。</li><li>用户已经决定的方向，以及哪些内容仍在讨论。</li><li>哪些文件可以改，哪些原始材料要保留。</li><li>上一次改动如何检查，出现问题能回到哪里。</li></ul>
 
-<nav class="field-read-next" aria-label="继续阅读"><a href="workflow.html">查看一次更新的流程 →</a><a href="decisions.html">查看具体取舍 →</a><a href="skills.html">回到作品证据 →</a></nav>
+<nav class="field-read-next" aria-label="继续阅读"><a href="workflow.html">查看一次更新的流程 →</a><a href="decisions.html">查看具体取舍 →</a><a href="skills.html">查看作品展示 →</a></nav>

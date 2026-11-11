@@ -11,7 +11,7 @@
 - Web 产品与系统集成：编辑器、图形约束、波形、3D 和资料查阅的整合，以及部署和持续维护。
 - AI 协作工程化：工作包拆解、素材组织、预览审查、按范围验证、版本与交接。
 
-具体材料见[能力与作品证据](https://dgwfpga.cn/showcase/skills.html)。
+具体材料见[技术能力与作品](https://dgwfpga.cn/showcase/skills.html)。
 
 ## 我做过的项目
 

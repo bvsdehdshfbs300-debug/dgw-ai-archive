@@ -139,7 +139,7 @@
     },
     {
       "id": "skills",
-      "title": "我的能力与作品证据",
+      "title": "我的技术能力与作品",
       "group": "skills",
       "summary": "从产品、FPGA、联调、维护与表达，沿具体案例理解个人实践。",
       "href": "../skills.html",
@@ -273,7 +273,7 @@
       "id": "decisions",
       "title": "做取舍的几个原则",
       "group": "methods",
-      "summary": "围绕学习效果、个人维护成本和真实证据做决定。",
+      "summary": "结合学习效果、维护成本与实际反馈做决定。",
       "href": "../decisions.html",
       "related": [
         "streaming",

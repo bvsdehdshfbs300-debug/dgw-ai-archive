@@ -79,6 +79,6 @@ TF 卡中的 PCM 既送往 HDMI 音频输出，也用于幅值包络和低、中
 
 ## 项目与能力入口
 
-[[tide-composer|看实物照片与项目过程]] · [[skills|查看个人能力与作品证据]] · [[fpga|FPGA 与数字逻辑实践]]
+[[tide-composer|看实物照片与项目过程]] · [[skills|查看技术能力与作品]] · [[fpga|FPGA 与数字逻辑实践]]
 
 <p class="tech-source-note">资料依据：当前实时缩放固化版 RTL、PLL 配置、ModelSim 回归日志、TD 构建摘要与 Flash / TF 回读记录。页面示意图依据工程关系重新绘制。作品基于官方示例继续开发，以奶蛙大队参赛。</p>

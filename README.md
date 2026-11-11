@@ -12,7 +12,7 @@
 
 ## 我的技术能力与工作流
 
-跨 FPGA 音画、嵌入式视觉与闭环控制，推进软硬件系统集成及在线产品交付。[能力与作品证据](https://dgwfpga.cn/showcase/skills.html) · [AI 协作工作流怎样搭建](https://dgwfpga.cn/showcase/workflow.html)。
+跨 FPGA 音画、嵌入式视觉与闭环控制，推进软硬件系统集成及在线产品交付。[技术能力与作品](https://dgwfpga.cn/showcase/skills.html) · [AI 协作工作流怎样搭建](https://dgwfpga.cn/showcase/workflow.html)。
 
 ## 认识熟悉的小伙伴
 
