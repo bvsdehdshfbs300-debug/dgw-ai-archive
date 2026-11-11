@@ -31,7 +31,7 @@
 - [我最近在做什么](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/now.html)
 - [脑电固件与蓝牙 OTA｜方法笔记](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/ota-method.html)
 - [用 Remotion 做产品演示](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/remotion.html)
-- [我的能力与作品证据](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html)
+- [我的技术能力与作品](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/skills.html)
 - [高速数据流与外设实验](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/streaming.html)
 - [不归砚／Sword Duel｜动作交互原型](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/sword-duel.html)
 - [潮汐作曲家：FPGA 海洋音画系统](https://bvsdehdshfbs300-debug.github.io/dgw-ai-archive/tide-composer.html)

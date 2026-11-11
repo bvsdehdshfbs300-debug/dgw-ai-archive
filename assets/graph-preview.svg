@@ -32,7 +32,7 @@
 <text x="873.8" y="490.0" text-anchor="middle" font-size="17" font-weight="700" fill="#327db1">实践能力</text>
 <line x1="873.8" y1="510.0" x2="973.8" y2="473.0" stroke="#327db1" opacity=".22"/>
 <circle cx="973.8" cy="473.0" r="4" fill="#327db1"/>
-<text x="983.8" y="478.0" text-anchor="start" font-size="12" fill="#697f70">能力与作品证据</text>
+<text x="983.8" y="478.0" text-anchor="start" font-size="12" fill="#697f70">技术能力与作品</text>
 <line x1="873.8" y1="510.0" x2="973.8" y2="510.0" stroke="#327db1" opacity=".22"/>
 <circle cx="973.8" cy="510.0" r="4" fill="#327db1"/>
 <text x="983.8" y="515.0" text-anchor="start" font-size="12" fill="#697f70">FPGA 与数字逻辑</text>

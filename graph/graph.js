@@ -2,7 +2,7 @@
 (async()=>{
  const svg=document.getElementById('network');
  const make=(name,attributes={},text)=>{const el=document.createElementNS('http://www.w3.org/2000/svg',name);for(const[key,value]of Object.entries(attributes))el.setAttribute(key,String(value));if(text!==undefined)el.textContent=text;return el;};
- const short={about:'关于地瓜丸',platform:'FPGA 教学平台','tide-composer':'潮汐作曲家','tide-technology':'潮汐技术架构',waveform:'把波形真正看清',hardware:'硬件与逐针手册',streaming:'高速数据流',skills:'能力与作品证据',fpga:'FPGA 与数字逻辑',web:'网页交互', 'content-creation':'真实功能演示',remotion:'Remotion 动画',maintenance:'个人网站维护',debugging:'从反馈定位问题',interaction:'交互与信息呈现','ai-collaboration':'与 AI 一起做项目',workflow:'从想法到上线',decisions:'做取舍的原则',timeline:'更新与成长记录',now:'我最近在做什么',contact:'去找地瓜丸→'};
+ const short={about:'关于地瓜丸',platform:'FPGA 教学平台','tide-composer':'潮汐作曲家','tide-technology':'潮汐技术架构',waveform:'把波形真正看清',hardware:'硬件与逐针手册',streaming:'高速数据流',skills:'技术能力与作品',fpga:'FPGA 与数字逻辑',web:'网页交互', 'content-creation':'真实功能演示',remotion:'Remotion 动画',maintenance:'个人网站维护',debugging:'从反馈定位问题',interaction:'交互与信息呈现','ai-collaboration':'与 AI 一起做项目',workflow:'从想法到上线',decisions:'做取舍的原则',timeline:'更新与成长记录',now:'我最近在做什么',contact:'去找地瓜丸→'};
  let data;
  try{const response=await fetch('data.json');if(!response.ok)throw new Error('Graph data unavailable');data=await response.json();}catch(error){document.getElementById('graph-error').hidden=false;document.getElementById('count').textContent='可从档案首页继续阅读';return;}
  const groups=data.groups,notes=data.notes;
