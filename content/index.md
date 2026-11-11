@@ -2,7 +2,7 @@
 title: 地瓜丸的 FPGA 教学平台
 description: 免费在线 FPGA 教学平台：写代码、接约束、看波形、转动 3D 板卡。
 date: 2026-11-07
-modified: 2026-11-09
+modified: 2026-11-11
 tags:
   - 产品与教学
 publish: true
@@ -44,6 +44,8 @@ publish: true
 ## 这座实验室里，还有一个小伙伴
 
 <section class="mascot-intro"><img src="assets/mascot/mascot-celebrating.png" alt="举手庆祝的地瓜丸吉祥物" width="200" height="200"><div><span class="product-kicker">MEET OUR MASCOT</span><h3>圆眼镜、小显示器，陪你把电路想明白。</h3><p>它会讲解、会思考，也会在排查故障时拿起扳手。贯穿平台、教程和这个介绍站的小角色，让每次练习都有熟悉的陪伴。</p><a href="mascot.html">认识吉祥物与整套表情 →</a></div></section>
+
+<section class="owner-teaser"><div><span class="product-kicker">平台维护 · 已接入</span><h3>运行可追踪，备份可核对。</h3><p>学员控制台显示本次运行编号，站主可在独立管理端查询请求、区分学习问题与平台故障，并核对备份状态。</p><a href="maintenance.html">看看管理台与维护实践 →</a></div><a class="case-image-link" href="assets/owner-ops-20261111/owner-overview.png"><img src="assets/owner-ops-20261111/owner-overview.png" alt="站主管理台公开截图，运行数据已隐藏" width="1440" height="1202" loading="lazy" decoding="async"></a></section>
 
 ## 围绕平台，继续认识地瓜丸
 

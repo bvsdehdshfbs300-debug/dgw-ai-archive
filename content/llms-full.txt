@@ -628,7 +628,7 @@ publish: true
 title: 地瓜丸的 FPGA 教学平台
 description: 免费在线 FPGA 教学平台：写代码、接约束、看波形、转动 3D 板卡。
 date: 2026-11-07
-modified: 2026-11-09
+modified: 2026-11-11
 tags:
   - 产品与教学
 publish: true
@@ -671,6 +671,8 @@ publish: true
 
 <section class="mascot-intro"><img src="assets/mascot/mascot-celebrating.png" alt="举手庆祝的地瓜丸吉祥物" width="200" height="200"><div><span class="product-kicker">MEET OUR MASCOT</span><h3>圆眼镜、小显示器，陪你把电路想明白。</h3><p>它会讲解、会思考，也会在排查故障时拿起扳手。贯穿平台、教程和这个介绍站的小角色，让每次练习都有熟悉的陪伴。</p><a href="mascot.html">认识吉祥物与整套表情 →</a></div></section>
 
+<section class="owner-teaser"><div><span class="product-kicker">平台维护 · 已接入</span><h3>运行可追踪，备份可核对。</h3><p>学员控制台显示本次运行编号，站主可在独立管理端查询请求、区分学习问题与平台故障，并核对备份状态。</p><a href="maintenance.html">看看管理台与维护实践 →</a></div><a class="case-image-link" href="assets/owner-ops-20261111/owner-overview.png"><img src="assets/owner-ops-20261111/owner-overview.png" alt="站主管理台公开截图，运行数据已隐藏" width="1440" height="1202" loading="lazy" decoding="async"></a></section>
+
 ## 围绕平台，继续认识地瓜丸
 
 <div class="home-paths"><a href="about.html"><strong>为什么做这个教学平台</strong><span>我的方向、取舍与持续迭代</span></a><a href="skills.html"><strong>从作品看实践能力</strong><span>教学、FPGA、交互与维护</span></a><a href="projects.html"><strong>工作室的其他项目</strong><span>潮汐作曲家、柔性感知、控制、工具与游戏</span></a><a href="contact.html"><strong>去找地瓜丸→</strong><span>抖音、B站与 FPGA 学习交流群</span></a></div>
@@ -701,9 +703,9 @@ publish: true
 
 ---
 title: 个人网站的维护实践
-description: 从本机服务、微信通知到云部署，记录具体问题与处理过程。
+description: 站主管理台、运行编号追踪、故障分类与备份校验，以及网站从本机到云端的维护过程。
 date: 2026-11-07
-modified: 2026-11-08
+modified: 2026-11-11
 tags:
   - 问题与迭代
   - 网站维护
@@ -712,9 +714,29 @@ publish: true
 
 <div class="case-intro"><span class="case-kicker">CASE 03 · 产品维护与故障排查</span><p class="case-lead">网站上线之后，<br>把“打不开”追到具体环节。</p><p>这个平台先在个人电脑上运行，再提供外网访问，后来迁移到云服务器。维护过程包括发现故障、通知、软件拉起、备份与发布后的验证。</p><div class="case-facts"><div><strong>本机 → 云端</strong><span>随使用需求调整部署方式</span></div><div><strong>发现 → 处理 → 复查</strong><span>把恢复结果重新验证</span></div><div><strong>备份 → 更新 → 验收</strong><span>每次变更有可追溯记录</span></div></div></div>
 
-<figure class="case-figure "><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="正在维护的 FPGA 教学产品实际功能截图" loading="lazy" decoding="async"></a><figcaption>维护对象是一个持续迭代的在线教学产品，包含练习、波形、外设和资料查阅。<span>点击查看大图 ↗</span></figcaption></figure>
+
+
+## 站主管理台：把维护放进一个界面
+
+<div class="owner-intro"><div><span class="product-kicker">OWNER OPERATIONS · 已上线</span><h3>一边让学员顺畅练习，<br>一边让问题有处可查。</h3><p>平台已有独立登录的只读管理端，将访问概况、运行请求、排队和服务状态集中呈现。维护时可以顺着一个运行编号查记录，核对问题发生的关卡、分类与耗时。</p></div><img src="assets/mascot/mascot-explaining.png" alt="地瓜丸吉祥物介绍站主管理功能" width="110" height="110" loading="lazy"></div>
+
+<figure class="case-figure owner-public-image"><a class="case-image-link" href="assets/owner-ops-20261111/owner-overview.png"><img src="assets/owner-ops-20261111/owner-overview.png" alt="站主管理台实际界面：访问、运行、排队与服务概况，运行数值已隐藏" width="1440" height="1202" loading="lazy" decoding="async"></a><figcaption>正式站管理页面的公开截图：运行数值、记录和服务指标均已隐藏，保留实际布局与功能入口。<span>点击查看大图 ↗</span></figcaption></figure>
+
+<div class="owner-capabilities"><section><span>01 / 看清情况</span><h3>运行总览</h3><p>访问、运行、活动访客、排队、服务与磁盘信息放在同一页；七天趋势帮助回看变化。</p></section><section><span>02 / 找到记录</span><h3>故障与学习问题分开</h3><p>编译错误、约束与答案问题单独归类；服务异常和排队超时归入平台故障，支持编号检索。</p></section><section><span>03 / 确认备份</span><h3>有时间，也有校验结果</h3><p>查看最近尝试、最近成功与数据库完整性检查；超过预设时间没有成功备份时提醒检查。</p></section></div>
+
+<div class="owner-image-pair"><figure class="case-figure owner-public-image"><a class="case-image-link" href="assets/owner-ops-20261111/owner-requests.png"><img src="assets/owner-ops-20261111/owner-requests.png" alt="按时间、关卡、分类和运行编号查询，明细已隐藏" width="1440" height="1080" loading="lazy" decoding="async"></a><figcaption>同一问题可以沿运行编号检索；公开截图隐藏记录明细。<span>点击查看大图 ↗</span></figcaption></figure><figure class="case-figure owner-public-image"><a class="case-image-link" href="assets/owner-ops-20261111/owner-backups.png"><img src="assets/owner-ops-20261111/owner-backups.png" alt="数据库备份状态与完整性检查界面，时间与文件信息已隐藏" width="1440" height="1080" loading="lazy" decoding="async"></a><figcaption>备份页显示成功与校验状态；公开截图隐藏具体时间、文件名称和大小。<span>点击查看大图 ↗</span></figcaption></figure></div>
+
+## 一个运行编号，怎样帮助排查
+
+<ol class="case-flow"><li><span>01</span><strong>学员提供编号</strong><p>在控制台或错误提示中复制本次运行编号。</p></li><li><span>02</span><strong>站主检索</strong><p>按编号、关卡和时间找到相应请求。</p></li><li><span>03</span><strong>区分问题</strong><p>确认是学习过程中的错误，还是运行服务异常。</p></li><li><span>04</span><strong>复查结果</strong><p>结合复现步骤处理，并重新验证。</p></li></ol>
+
+<div class="comparison-grid"><section><span>数据管理</span><h3>诊断摘要与临时产物各有用途</h3><p>管理记录保留请求时间、关卡、状态和耗时，不收集学员源码与原始运行日志。请求明细设置保留期限与数量上限，临时波形仍由原有策略回收。</p></section><section><span>访问与备份</span><h3>管理入口独立保护</h3><p>只读后台需要独立登录，包含登录保护与操作留痕。社区和管理记录分别生成一致性备份，再核验数据库完整性；当前展示的是服务器本地每日备份。</p></section></div>
+
+<aside class="mascot-note"><img src="assets/mascot.png" alt="地瓜丸吉祥物" width="64" height="64" loading="lazy"><div><strong>学习方式保持轻便</strong><p>站主管理账号用于维护平台；学员继续免注册练习，草稿与进度仍保存在当前浏览器。账号云同步不属于本次功能。</p></div></aside>
 
 ## 网站怎样提供一次练习
+
+<figure class="case-figure "><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="正在维护的 FPGA 教学产品实际功能截图" loading="lazy" decoding="async"></a><figcaption>维护对象是一个持续迭代的在线教学产品，包含练习、波形、外设和资料查阅。<span>点击查看大图 ↗</span></figcaption></figure>
 
 <ol class="case-flow"><li><span>01</span><strong>浏览器访问</strong><p>加载页面与必要资源。</p></li><li><span>02</span><strong>网站入口</strong><p>把页面请求与 API 请求送到对应服务。</p></li><li><span>03</span><strong>练习服务</strong><p>接收任务，运行仿真并整理结果。</p></li><li><span>04</span><strong>回到页面</strong><p>显示结果和波形，供学习者继续分析。</p></li></ol>
 
@@ -722,7 +744,7 @@ publish: true
 
 ## 我推进的维护工作
 
-<div class="role-grid"><section><span>我推进的工作</span><p>提出微信通知、自动拉起和简要回执的需求；反馈弹窗干扰与跨网络访问问题；选择云部署并审查更新结果。</p></section><section><span>AI 辅助的工作</span><p>协助监控与启动脚本、后台启动方式、部署配置、日志检查和维护教程实现。</p></section><section><span>工程基础与协作</span><p>监测、通知、本机脚本和云端服务承担不同工作；每次检查保留范围与结果，避免把一次启动当成全部恢复。</p></section></div>
+<div class="role-grid"><section><span>我推进的工作</span><p>提出微信通知、自动拉起和简要回执的需求；反馈弹窗干扰与跨网络访问问题；选择云部署并审查更新结果。</p></section><section><span>AI 辅助的工作</span><p>协助监控与启动脚本、部署配置、管理台页面、运行诊断记录、备份校验和维护教程实现。</p></section><section><span>工程基础与协作</span><p>监测、通知、本机脚本和云端服务承担不同工作；每次检查保留范围与结果，避免把一次启动当成全部恢复。</p></section></div>
 
 ## 三个真实问题，三种处理方式
 
@@ -992,7 +1014,7 @@ publish: true
 title: 我的 FPGA 教学平台
 description: 把代码、约束、波形与硬件观察放进一次完整练习。
 date: 2026-11-07
-modified: 2026-11-09
+modified: 2026-11-11
 tags:
   - 代表作品
   - 产品与教学
@@ -1004,6 +1026,8 @@ publish: true
 <figure class="case-figure "><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="FPGA 教学平台外设桌面与逐针手册的真实截图" loading="lazy" decoding="async"></a><figcaption>4.1 功能截图：外设桌面与逐针手册一起呈现。<span>点击查看大图 ↗</span></figcaption></figure>
 
 <div class="archive-actions"><a href="https://dgwfpga.cn/practice/">进入练习平台 ↗</a><a href="https://dgwfpga.cn/">打开产品首页 ↗</a></div>
+
+<section class="owner-teaser"><div><span class="product-kicker">平台维护 · 已接入</span><h3>运行可追踪，备份可核对。</h3><p>学员控制台显示本次运行编号，站主可在独立管理端查询请求、区分学习问题与平台故障，并核对备份状态。</p><a href="maintenance.html">看看管理台与维护实践 →</a></div><a class="case-image-link" href="assets/owner-ops-20261111/owner-overview.png"><img src="assets/owner-ops-20261111/owner-overview.png" alt="站主管理台公开截图，运行数据已隐藏" width="1440" height="1202" loading="lazy" decoding="async"></a></section>
 
 ## 一次练习怎样完成
 

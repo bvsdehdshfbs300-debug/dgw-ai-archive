@@ -2,7 +2,7 @@
 title: 我的 FPGA 教学平台
 description: 把代码、约束、波形与硬件观察放进一次完整练习。
 date: 2026-11-07
-modified: 2026-11-09
+modified: 2026-11-11
 tags:
   - 代表作品
   - 产品与教学
@@ -14,6 +14,8 @@ publish: true
 <figure class="case-figure "><a class="case-image-link" href="assets/hardware.png"><img src="assets/hardware.png" alt="FPGA 教学平台外设桌面与逐针手册的真实截图" loading="lazy" decoding="async"></a><figcaption>4.1 功能截图：外设桌面与逐针手册一起呈现。<span>点击查看大图 ↗</span></figcaption></figure>
 
 <div class="archive-actions"><a href="https://dgwfpga.cn/practice/">进入练习平台 ↗</a><a href="https://dgwfpga.cn/">打开产品首页 ↗</a></div>
+
+<section class="owner-teaser"><div><span class="product-kicker">平台维护 · 已接入</span><h3>运行可追踪，备份可核对。</h3><p>学员控制台显示本次运行编号，站主可在独立管理端查询请求、区分学习问题与平台故障，并核对备份状态。</p><a href="maintenance.html">看看管理台与维护实践 →</a></div><a class="case-image-link" href="assets/owner-ops-20261111/owner-overview.png"><img src="assets/owner-ops-20261111/owner-overview.png" alt="站主管理台公开截图，运行数据已隐藏" width="1440" height="1202" loading="lazy" decoding="async"></a></section>
 
 ## 一次练习怎样完成
 

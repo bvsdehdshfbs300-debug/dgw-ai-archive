@@ -1,7 +1,7 @@
 {
   "name": "地瓜丸",
   "display_name": "dgw",
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "language": "zh-CN",
   "description": "独立开发者，以FPGA教学平台为主线，开展FPGA音画、嵌入式视觉、闭环控制与Web产品开发，组织AI协作工程交付。",
   "projects": [
@@ -236,5 +236,16 @@
       "发布、备份和交接"
     ],
     "ownership": "地瓜丸确定目标、取舍与验收；AI辅助实现、分析和检查。"
+  },
+  "platform_operations": {
+    "status": "已上线的站主只读管理端",
+    "features": [
+      "运行总览",
+      "故障分类与运行编号检索",
+      "每日数据库备份及完整性校验"
+    ],
+    "case_url": "https://dgwfpga.cn/showcase/maintenance.html",
+    "public_screenshots": "实际界面；运行数值、明细与备份文件信息已隐藏",
+    "student_cloud_sync": false
   }
 }
